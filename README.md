@@ -35,6 +35,8 @@ What the low-bit work clearly bought is size: the same scores in half the megaby
 
 ## Running it
 
+The model files are not in the repository. Download them from the [v1 release](https://github.com/dctxv/small-smart/releases/tag/v1) and put them in a folder named `final` next to the code.
+
 ```
 python chat.py final/small-smart-4bit.bin
 python chat.py final/small-smart-4bit.bin --tools --notes final/example_notes.txt
