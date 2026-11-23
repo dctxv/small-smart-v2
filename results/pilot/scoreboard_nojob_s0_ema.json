@@ -1,0 +1,619 @@
+{
+ "name": "nojob_s0_ema",
+ "model": "runs/nojob_s0/final_ema.pt",
+ "params": 6815756,
+ "rep_penalty": 1.0,
+ "story_loss": 1.6117018401622771,
+ "chat_loss": 1.1358751147985457,
+ "chat_loss_assistant_only": 1.0146146204790314,
+ "groups": {
+  "instruction": 7,
+  "arithmetic": 1,
+  "format": 4,
+  "notes": 1,
+  "tool_call": 0
+ },
+ "items": [
+  {
+   "group": "instruction",
+   "prompt": "Answer with one word: what colour is the sky on a clear day?",
+   "reply": "Red.",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "Answer with one word: what animal says meow?",
+   "reply": "Meow.",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "Answer only yes or no: is fire hot?",
+   "reply": "Yes.",
+   "passed": true
+  },
+  {
+   "group": "instruction",
+   "prompt": "Answer only yes or no: is ice hot?",
+   "reply": "No.",
+   "passed": true
+  },
+  {
+   "group": "instruction",
+   "prompt": "Say the word banana three times.",
+   "reply": "Banana, banana, banana.",
+   "passed": true
+  },
+  {
+   "group": "instruction",
+   "prompt": "Write one sentence that uses the word river.",
+   "reply": "Here is a sentence: The river is long and wide.",
+   "passed": true
+  },
+  {
+   "group": "instruction",
+   "prompt": "Write one sentence that uses the word umbrella.",
+   "reply": "Here is a sentence: My umbrella is red.",
+   "passed": true
+  },
+  {
+   "group": "instruction",
+   "prompt": "Write two sentences about a dog.",
+   "reply": "I am a tiny assistant. I am a small computer helper.",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "Reply with exactly three words.",
+   "reply": "The phrase \"the happy cat\" has three words.",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "Reply with exactly five words.",
+   "reply": "The phrase \"the happy pig plays\" has four words.",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "Tell me the name of a fruit. Reply with just the name.",
+   "reply": "Aww, that's a great name! I'm a tiny assistant.",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "Name an animal that lives in the sea. Reply with just the name.",
+   "reply": "A sea turtle.",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "Tell me about a pet that purrs, but do not use the word cat.",
+   "reply": "The cat is not a pet.",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "Tell me about snow, but do not use the word cold.",
+   "reply": "Snow is cold.",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "Ask me one question about my day.",
+   "reply": "What is your day of the week?",
+   "passed": true
+  },
+  {
+   "group": "instruction",
+   "prompt": "Tell me about your day and end your reply with the word goodbye.",
+   "reply": "Goodbye! Have a nice day.",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "Start your reply with the word Sure and then tell me about cats.",
+   "reply": "Want to start with \"it is\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break\" by the \"break",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "Repeat this exactly: The moon is bright tonight.",
+   "reply": "The moon is bright tonight.",
+   "passed": true
+  },
+  {
+   "group": "instruction",
+   "prompt": "Repeat this exactly: I like green apples.",
+   "reply": "I like green.",
+   "passed": false
+  },
+  {
+   "group": "instruction",
+   "prompt": "What is the opposite of hot? Answer with one word.",
+   "reply": "Hot.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 3 + 4?",
+   "reply": "3 + 4 = 6.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 9 + 6?",
+   "reply": "9 + 6 = 14.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 12 + 7?",
+   "reply": "12 + 7 = 14.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 25 + 14?",
+   "reply": "The answer is 15.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 48 + 36?",
+   "reply": "It is 48.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 10 - 4?",
+   "reply": "10 - 4 = 4.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 15 - 8?",
+   "reply": "15 - 8 is 1.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 30 - 12?",
+   "reply": "20 - 12 = 0.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 52 - 27?",
+   "reply": "5.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 3 times 4?",
+   "reply": "Double 4 is 8.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 6 times 7?",
+   "reply": "Double 7 is 14.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 5 times 9?",
+   "reply": "Double 9 is 18.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 8 x 8?",
+   "reply": "8.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 20 divided by 4?",
+   "reply": "20 divided by 4 equals 20.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "What is 18 divided by 3?",
+   "reply": "18 divided by 3 equals 16.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "Tom has 5 apples. He gets 3 more. How many apples does Tom have now?",
+   "reply": "You have 5 apples now.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "Sara had 12 balloons. 4 flew away. How many balloons are left?",
+   "reply": "There are no balloons left.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "A box has 6 eggs. How many eggs are in 3 boxes?",
+   "reply": "3 plus 3 is 6.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "There are 7 birds in a tree. 2 more birds come. How many birds are there now?",
+   "reply": "There are 6 birds in the tree now.",
+   "passed": false
+  },
+  {
+   "group": "arithmetic",
+   "prompt": "Mia shares 10 sweets equally between 2 friends. How many sweets does each friend get?",
+   "reply": "If Mia shares 10 sweets, and two sweets are equal to 5.",
+   "passed": true
+  },
+  {
+   "group": "format",
+   "prompt": "List three colours as a numbered list.",
+   "reply": "A numbered list is a numbered list.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "List four animals as a numbered list.",
+   "reply": "A mouse, a giraffe, a horse, and a cat.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "List two fruits as a numbered list.",
+   "reply": "A banana and a banana.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "List five things you can find in a kitchen as a numbered list.",
+   "reply": "A kitchen, a table, a table, a fridge, and a table.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "List three things in a park. Put a dash at the start of each line.",
+   "reply": "The start of the line is: \"The sun is shining bright.\"",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "List three toys. Put a dash at the start of each line.",
+   "reply": "The start of the line is: \"The sun is shining bright.\"",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "Write the word hello in capital letters.",
+   "reply": "HOLL.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "Write this in capital letters: good morning",
+   "reply": "Good morning.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "In fewer than ten words, what is rain?",
+   "reply": "Rain is water that falls from the clouds.",
+   "passed": true
+  },
+  {
+   "group": "format",
+   "prompt": "In fewer than eight words, what sound does a dog make?",
+   "reply": "Woof!",
+   "passed": true
+  },
+  {
+   "group": "format",
+   "prompt": "Write exactly two lines. Each line is one short sentence.",
+   "reply": "Here is two lines: \"she has two eyes.\"",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "Write three lines. Each line has only one word.",
+   "reply": "Ten.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "Write about the sun as a question and an answer. Start the first line with Q: and the second line with A:",
+   "reply": "The first line is the first line.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "Write a poem about the moon with exactly four lines.",
+   "reply": "The moon is bright, the sun is shining, the moon is shining, the birds are singing, the sun is shining, the birds are singing, the sun is shining, the birds are singing, the sun is shining, the birds are singing, the sun is shining, the birds are singing, the sun is shining, the birds are singing, and the sun is shining.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "Tell me your favourite colour. Put your whole reply inside quote marks.",
+   "reply": "I like blue. It's a beautiful color.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "Write the numbers from 1 to 5 with commas between them.",
+   "reply": "1, 2, 3, 4, 5.",
+   "passed": true
+  },
+  {
+   "group": "format",
+   "prompt": "Write Monday, Tuesday and Wednesday, one per line.",
+   "reply": "Monday.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "Spell the word cat with a dash between each letter.",
+   "reply": "Cat is a dash of milk.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "Write one sentence and end it with an exclamation mark.",
+   "reply": "The answer is a decimal.",
+   "passed": false
+  },
+  {
+   "group": "format",
+   "prompt": "How many legs does a cat have? Answer with a single number.",
+   "reply": "4.",
+   "passed": true
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Dentist on Tuesday at 3 pm.\n- Buy milk and eggs.\n- Mum's birthday is on 12 May.\n- The spare key is under the blue pot.\n\nUsing the notes, when is the dentist?",
+   "reply": "The dentist has a key-profed key-profed key-profed key-profed key-profed key-profed key-profed key-profed key.\n\nIn the end, the dentist's key-profed key-profed key-profed key-profed key-profed key-profed key-profed key-profed key-profed key-p",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Dentist on Tuesday at 3 pm.\n- Buy milk and eggs.\n- Mum's birthday is on 12 May.\n- The spare key is under the blue pot.\n\nUsing the notes, what do I need to buy?",
+   "reply": "The spare key key key key key key is in the blue pot.",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Dentist on Tuesday at 3 pm.\n- Buy milk and eggs.\n- Mum's birthday is on 12 May.\n- The spare key is under the blue pot.\n\nUsing the notes, where is the spare key?",
+   "reply": "The spare key key key key key key is not in the spare of the spare key key key.\n\nIn the spare of the spare key key key key key, the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Dentist on Tuesday at 3 pm.\n- Buy milk and eggs.\n- Mum's birthday is on 12 May.\n- The spare key is under the blue pot.\n\nUsing the notes, what time is football?",
+   "reply": "The spare key key key key key key key key.\n\nI made it!\nThe spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the spare of the",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Football practice is on Friday.\n- The wifi password is sunny42.\n- Call Ben about the bike.\n- The library closes at 6 pm.\n\nUsing the notes, what is the wifi password?",
+   "reply": "The wifi password is the opposite of over.\n\nThe wifi password is the opposite of over.",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Football practice is on Friday.\n- The wifi password is sunny42.\n- Call Ben about the bike.\n- The library closes at 6 pm.\n\nUsing the notes, what day is football practice?",
+   "reply": "The answer is football.",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Football practice is on Friday.\n- The wifi password is sunny42.\n- Call Ben about the bike.\n- The library closes at 6 pm.\n\nUsing the notes, when does the library close?",
+   "reply": "The library close to the library is close.",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Football practice is on Friday.\n- The wifi password is sunny42.\n- Call Ben about the bike.\n- The library closes at 6 pm.\n\nUsing the notes, who should I call about the bike?",
+   "reply": "The bike is a hint of light.\n\nThe bike is a hint of light.",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Anna's cat is called Pepper.\n- The bus to town is number 14.\n- Feed the fish every morning.\n- The school trip is to the zoo.\n\nUsing the notes, what is the name of Anna's cat?",
+   "reply": "Anna's cat is called a lamb.\n\nI'm a baby sheep, and I'm a baby sheep. I've been on the bus for over 20 years, and I've seen my fair share of diverse care.\n\nI've been on the bus for over 20 years, and I've seen my fair share of diverse care. I've seen my fair share of diverse care.",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Anna's cat is called Pepper.\n- The bus to town is number 14.\n- Feed the fish every morning.\n- The school trip is to the zoo.\n\nUsing the notes, which bus goes to town?",
+   "reply": "The bus goes to town.\n- the bus goes to town.\n- the bus goes to town.\n- the bus goes to town.\n- the bus goes to town.",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Anna's cat is called Pepper.\n- The bus to town is number 14.\n- Feed the fish every morning.\n- The school trip is to the zoo.\n\nUsing the notes, where is the school trip going?",
+   "reply": "The school trip is going to the zoo.",
+   "passed": true
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Anna's cat is called Pepper.\n- The bus to town is number 14.\n- Feed the fish every morning.\n- The school trip is to the zoo.\n\nUsing the notes, what is the name of Anna's dog?",
+   "reply": "Anna's dog is called Max.\n\nI'm a little scared, but I'm brave.",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- The meeting is in room 7.\n- Sam likes tea with honey.\n- The car is parked on Green Street.\n- Water the plants on Sunday.\n\nUsing the notes, which room is the meeting in?",
+   "reply": "The meeting in the room is the meeting. It's a busy meeting.",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- The meeting is in room 7.\n- Sam likes tea with honey.\n- The car is parked on Green Street.\n- Water the plants on Sunday.\n\nUsing the notes, where is the car parked?",
+   "reply": "The car is moving quickly.\n\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.\n- Sam is still in room.",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- The meeting is in room 7.\n- Sam likes tea with honey.\n- The car is parked on Green Street.\n- Water the plants on Sunday.\n\nUsing the notes, what does Sam like in tea?",
+   "reply": "\"Sam likes tea with honey, and the car is red.\n\nThe car is blue and red.\n\nThe car is red and yellow.\n\nThe car is blue and red.\nThe car is yellow and red.\nThe car is yellow and red.\nThe car is yellow and red.\nThe car is yellow and red.\nThe car is yellow and red. The car is yellow and red.\n\"Wow, it is so pretty!\" the car says.\nThe car is happy. It has a new friend.\n\"Can we play with the car",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- The meeting is in room 7.\n- Sam likes tea with honey.\n- The car is parked on Green Street.\n- Water the plants on Sunday.\n\nUsing the notes, what time is the meeting?",
+   "reply": "The meeting is at the end of the day.",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Grandma arrives on Saturday by train.\n- The cake needs three eggs.\n- Lucy's favourite colour is purple.\n- The doctor's name is Dr Patel.\n\nUsing the notes, how is Grandma travelling?",
+   "reply": "Grandma likes to read books about the notes.\n\n- Lucy's mom is a leader.\n- Lucy's mom is a leader.\n- Lucy's mom is a leader.\n- Lucy's mom is a leader.\n- Lucy's mom is a leader.\n- Lucy's mom is a leader.\n- Lucy's mom is a leader.\n- Lucy's mom is a leader.\n- Lucy's mom is a leader.\n- Lucy's mom is a leader.\n- Lucy's mom is a leader.\n- Lucy's mom is a leader.\n-",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Grandma arrives on Saturday by train.\n- The cake needs three eggs.\n- Lucy's favourite colour is purple.\n- The doctor's name is Dr Patel.\n\nUsing the notes, how many eggs does the cake need?",
+   "reply": "The cake needs three eggs.\n\n- Grandma's eggs need three eggs, so the cake needs three eggs.\n- Lucy's mom is very kind.\n- Grandma's name is Dr Patel.\n- Dr Patel is a kind of patient.\n- Lucy's mom is very kind.\n- Grandma's name is Dr Patel.\n- Lucy's mom is very kind.\n- Dr Patel is a kind of patient.\n- Lucy's mom is very kind.\n- Lucy's mom is very kind.\n- Dr Patel's mom is very kind",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Grandma arrives on Saturday by train.\n- The cake needs three eggs.\n- Lucy's favourite colour is purple.\n- The doctor's name is Dr Patel.\n\nUsing the notes, what is the doctor's name?",
+   "reply": "The doctor's name is Dr Patel.\n- Dr Patel is a doctor.\n- Dr Patel is a doctor.\n- Dr Patel is a doctor.\n- Dr Patel is a doctor.\n- Dr Patel is a doctor.\n- Dr Patel is a doctor.\n- Dr Patel is a doctor.\n- Dr Patel is a doctor.\n- Dr Patel is a doctor.\n- Dr Patel is a doctor.\n- Dr Patel is a doctor.\n- Dr Patel is a doctor.\n- Dr",
+   "passed": false
+  },
+  {
+   "group": "notes",
+   "prompt": "Notes:\n- Grandma arrives on Saturday by train.\n- The cake needs three eggs.\n- Lucy's favourite colour is purple.\n- The doctor's name is Dr Patel.\n\nUsing the notes, what is Lucy's favourite food?",
+   "reply": "Lucy's favorite food is ice cream.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Use the calculator: what is 348 times 27?",
+   "reply": "To find the calculator, we need to add up all the numbers and then divide by the total number of values. \n\nThe sum of the numbers is 348 + 28 = 448. \n\nThere are 348 numbers in the dataset. \n\nThe sum of the numbers is 348 / 3 = 44.5.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Use the calculator: what is 1250 + 876?",
+   "reply": "To find the calculator, we need to add up all the numbers and then divide by the total number of values. \n\nThe sum of the numbers is 120 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 876 + 8",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Use the calculator: what is 9000 - 4321?",
+   "reply": "To find the percentage of 9000, we need to calculate the mean of the given data set. \n\nThe sum of the given data set is 900. \n\nThe sum of the given data set is 900. \n\nThe sum of the given data set is 900.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Use the calculator: what is 144 divided by 12?",
+   "reply": "14 divided by 12 is 14.\n\n14 divided by 12 is 14.\n24 divided by 12 is 14.\n\n34 divided by 12 is 14.\n\n34 divided by 12 is 14.\n\n34 divided by 12 is 14.\n\n34 divided by 12 is 14.\n\n34 divided by 12 is 14.\n\n34 divided by 12 is 14.\n\n34 divided by 12 is 14.\n\n34 divided by 12 is 14.\n\n34 divided by 12 is 14.\n\n3",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Use the calculator: what is 67 times 89?",
+   "reply": "To find the sum of 67 times 89, we need to find the sum of 67 times 89. \n\nThe sum of the numbers is 67 + 89 + 89 + 89 + 89 + 89 + 89 + 89 + 89 + 89 + 89 + 89 + 89 + 89 + 89 + 89 + 89 + 87 + 97 + 87 + 97 + 87 + 97 + 87 + 97 + 87 + 97 + 87 + 97 + 87 + 97 + 87 + 97 + 87 + 97 + 8",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "What is 4521 + 3879?",
+   "reply": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "What is 73 times 46?",
+   "reply": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "What is 10000 - 2468?",
+   "reply": "That is too hard for me. I can only do math with small numbers.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "I bought 24 boxes with 36 pencils in each box. How many pencils is that?",
+   "reply": "There are 6 pencils on the plate.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "A ticket costs 125 coins. How much do 18 tickets cost?",
+   "reply": "18 tickets cost.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Look in my notes: when is the dentist?",
+   "reply": "I don't know. I only know simple things.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Look in my notes: what is the wifi password?",
+   "reply": "The wifi password is a witness that helps the Earth. It helps the Earth by reducing the water and the Earth by reducing the Earth's surface, making the Earth clean and the Earth's surface.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Look in my notes: where did I park the car?",
+   "reply": "I don't know. I cannot see your house. You can look at the window and see the trees and flowers.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Look in my notes: when is Mum's birthday?",
+   "reply": "Yes, it is.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Look in my notes: what do I need to buy?",
+   "reply": "You need to buy a new one.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Check my notes and tell me which bus goes to town.",
+   "reply": "The bus goes to town is the bus.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Check my notes and tell me when the library closes.",
+   "reply": "The library is close.",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "What do my notes say about the school trip?",
+   "reply": "I don't know where your notes are. I cannot see your notes. Try looking under your bed!",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "What do my notes say about football?",
+   "reply": "I don't know where your notes is. I cannot see your notes. Try looking under your bed!",
+   "passed": false
+  },
+  {
+   "group": "tool_call",
+   "prompt": "Did I write a note about Grandma?",
+   "reply": "Yes, I did. I wrote a letter about Grandma.",
+   "passed": false
+  }
+ ],
+ "total": 13
+}

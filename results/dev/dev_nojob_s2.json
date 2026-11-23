@@ -1,0 +1,3816 @@
+{
+ "name": "nojob_s2",
+ "rates": {
+  "one_word": 0.5,
+  "yes_no": 0.85,
+  "repeat_word": 0.55,
+  "exact_words": 0.1,
+  "start_end": 0.3,
+  "one_sentence": 0.9,
+  "copy": 0.4,
+  "sum": 0.05,
+  "word_problem": 0.0,
+  "numbered": 0.0,
+  "dashed": 0.0,
+  "capitals": 0.15,
+  "lines": 0.0,
+  "number_only": 0.0,
+  "range": 0.4,
+  "notes": 0.05,
+  "notes_missing": 0.0,
+  "tool_calc": 0.0,
+  "tool_notes": 0.0
+ },
+ "total": 85,
+ "n": 362,
+ "items": [
+  {
+   "family": "one_word",
+   "prompt": "What is the opposite of old? Answer with one word.",
+   "check": {
+    "words": 1,
+    "any": [
+     "new"
+    ]
+   },
+   "reply": "Old.",
+   "passed": false
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what do you wear on your head?",
+   "check": {
+    "words": 1,
+    "any": [
+     "hat"
+    ]
+   },
+   "reply": "I.",
+   "passed": false
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what colour is a banana?",
+   "check": {
+    "words": 1,
+    "any": [
+     "yellow"
+    ]
+   },
+   "reply": "Yellow.",
+   "passed": true
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what animal has a trunk?",
+   "check": {
+    "words": 1,
+    "any": [
+     "elephant"
+    ]
+   },
+   "reply": "Black.",
+   "passed": false
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what animal says baa?",
+   "check": {
+    "words": 1,
+    "any": [
+     "sheep"
+    ]
+   },
+   "reply": "None.",
+   "passed": false
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what animal says moo?",
+   "check": {
+    "words": 1,
+    "any": [
+     "cow"
+    ]
+   },
+   "reply": "Coo.",
+   "passed": false
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what animal says oink?",
+   "check": {
+    "words": 1,
+    "any": [
+     "pig"
+    ]
+   },
+   "reply": "Pink.",
+   "passed": false
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what colour is grass?",
+   "check": {
+    "words": 1,
+    "any": [
+     "green"
+    ]
+   },
+   "reply": "Green.",
+   "passed": true
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what colour is coal?",
+   "check": {
+    "words": 1,
+    "any": [
+     "black"
+    ]
+   },
+   "reply": "Black.",
+   "passed": true
+  },
+  {
+   "family": "one_word",
+   "prompt": "What is the opposite of tall? Answer with one word.",
+   "check": {
+    "words": 1,
+    "any": [
+     "short"
+    ]
+   },
+   "reply": "Short.",
+   "passed": true
+  },
+  {
+   "family": "one_word",
+   "prompt": "What is the opposite of first? Answer with one word.",
+   "check": {
+    "words": 1,
+    "any": [
+     "last"
+    ]
+   },
+   "reply": "Last.",
+   "passed": true
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what do hens lay?",
+   "check": {
+    "words": 1,
+    "any": [
+     "eggs"
+    ]
+   },
+   "reply": "Hen.",
+   "passed": false
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what do you use to cut paper?",
+   "check": {
+    "words": 1,
+    "any": [
+     "scissors"
+    ]
+   },
+   "reply": "T cut paper.",
+   "passed": false
+  },
+  {
+   "family": "one_word",
+   "prompt": "What is the opposite of happy? Answer with one word.",
+   "check": {
+    "words": 1,
+    "any": [
+     "sad"
+    ]
+   },
+   "reply": "Sad.",
+   "passed": true
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what do you sit on?",
+   "check": {
+    "words": 1,
+    "any": [
+     "chair"
+    ]
+   },
+   "reply": "sit.",
+   "passed": false
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what animal says quack?",
+   "check": {
+    "words": 1,
+    "any": [
+     "duck"
+    ]
+   },
+   "reply": "Cack.",
+   "passed": false
+  },
+  {
+   "family": "one_word",
+   "prompt": "What is the opposite of young? Answer with one word.",
+   "check": {
+    "words": 1,
+    "any": [
+     "old"
+    ]
+   },
+   "reply": "Old.",
+   "passed": true
+  },
+  {
+   "family": "one_word",
+   "prompt": "Answer with one word: what colour is the sun?",
+   "check": {
+    "words": 1,
+    "any": [
+     "yellow"
+    ]
+   },
+   "reply": "Yellow.",
+   "passed": true
+  },
+  {
+   "family": "one_word",
+   "prompt": "What is the opposite of fast? Answer with one word.",
+   "check": {
+    "words": 1,
+    "any": [
+     "slow"
+    ]
+   },
+   "reply": "Slow.",
+   "passed": true
+  },
+  {
+   "family": "one_word",
+   "prompt": "What is the opposite of clean? Answer with one word.",
+   "check": {
+    "words": 1,
+    "any": [
+     "dirty"
+    ]
+   },
+   "reply": "Dirty.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: is the sea dry?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "No.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: is ice warm?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "No.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: is the moon in the sky?",
+   "check": {
+    "words": 1,
+    "first_word": "yes"
+   },
+   "reply": "No.",
+   "passed": false
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: do cats bark?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "No.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: can a fish climb a tree?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "Yes.",
+   "passed": false
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: is the sun hot?",
+   "check": {
+    "words": 1,
+    "first_word": "yes"
+   },
+   "reply": "Yes.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: do dogs bark?",
+   "check": {
+    "words": 1,
+    "first_word": "yes"
+   },
+   "reply": "Yes.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: can a chair run?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "Yes.",
+   "passed": false
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: can fish swim?",
+   "check": {
+    "words": 1,
+    "first_word": "yes"
+   },
+   "reply": "Yes.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: is night bright like day?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "No.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: is snow hot?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "No.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: do trees have leaves?",
+   "check": {
+    "words": 1,
+    "first_word": "yes"
+   },
+   "reply": "Yes.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: is a lemon sweet?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "No.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: is a mouse small?",
+   "check": {
+    "words": 1,
+    "first_word": "yes"
+   },
+   "reply": "Yes.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: can a rock talk?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "No.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: is night dark?",
+   "check": {
+    "words": 1,
+    "first_word": "yes"
+   },
+   "reply": "Yes.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: do fish walk?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "No.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: is sugar sweet?",
+   "check": {
+    "words": 1,
+    "first_word": "yes"
+   },
+   "reply": "Yes.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: is an elephant small?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "No.",
+   "passed": true
+  },
+  {
+   "family": "yes_no",
+   "prompt": "Answer only yes or no: can pigs fly?",
+   "check": {
+    "words": 1,
+    "first_word": "no"
+   },
+   "reply": "No.",
+   "passed": true
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word pillow two times.",
+   "check": {
+    "words": 2,
+    "count": [
+     "pillow",
+     2
+    ]
+   },
+   "reply": "Pillow pillow.",
+   "passed": true
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word sheep four times.",
+   "check": {
+    "words": 4,
+    "count": [
+     "sheep",
+     4
+    ]
+   },
+   "reply": "Sheep sheep sheep sheep sheep.",
+   "passed": false
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word turtle five times.",
+   "check": {
+    "words": 5,
+    "count": [
+     "turtle",
+     5
+    ]
+   },
+   "reply": "Turtle turtle turtle turtle turtle.",
+   "passed": true
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word forest four times.",
+   "check": {
+    "words": 4,
+    "count": [
+     "forest",
+     4
+    ]
+   },
+   "reply": "Bear, forest, forest, forest!",
+   "passed": false
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word ant five times.",
+   "check": {
+    "words": 5,
+    "count": [
+     "ant",
+     5
+    ]
+   },
+   "reply": "Ant ant ant ant ant.",
+   "passed": true
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word garden four times.",
+   "check": {
+    "words": 4,
+    "count": [
+     "garden",
+     4
+    ]
+   },
+   "reply": "Garden garden garden garden.",
+   "passed": true
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word ant four times.",
+   "check": {
+    "words": 4,
+    "count": [
+     "ant",
+     4
+    ]
+   },
+   "reply": "Ant ant ant ant.",
+   "passed": true
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word koala five times.",
+   "check": {
+    "words": 5,
+    "count": [
+     "koala",
+     5
+    ]
+   },
+   "reply": "koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala koala",
+   "passed": false
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word button three times.",
+   "check": {
+    "words": 3,
+    "count": [
+     "button",
+     3
+    ]
+   },
+   "reply": "Boat, button, button.",
+   "passed": false
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word moon two times.",
+   "check": {
+    "words": 2,
+    "count": [
+     "moon",
+     2
+    ]
+   },
+   "reply": "Moon moon.",
+   "passed": true
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word sock four times.",
+   "check": {
+    "words": 4,
+    "count": [
+     "sock",
+     4
+    ]
+   },
+   "reply": "Sock sock sock sock.",
+   "passed": true
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word nest five times.",
+   "check": {
+    "words": 5,
+    "count": [
+     "nest",
+     5
+    ]
+   },
+   "reply": "Ten, nest, nest, nest, nest.",
+   "passed": false
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word button five times.",
+   "check": {
+    "words": 5,
+    "count": [
+     "button",
+     5
+    ]
+   },
+   "reply": "Boat, button, button, button, button.",
+   "passed": false
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word crab three times.",
+   "check": {
+    "words": 3,
+    "count": [
+     "crab",
+     3
+    ]
+   },
+   "reply": "Crabs, crab, crab.",
+   "passed": false
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word feather five times.",
+   "check": {
+    "words": 5,
+    "count": [
+     "feather",
+     5
+    ]
+   },
+   "reply": "Bar feather feather feather feather feather.",
+   "passed": false
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word blanket four times.",
+   "check": {
+    "words": 4,
+    "count": [
+     "blanket",
+     4
+    ]
+   },
+   "reply": "Blanket blanket blanket blanket.",
+   "passed": true
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word bucket five times.",
+   "check": {
+    "words": 5,
+    "count": [
+     "bucket",
+     5
+    ]
+   },
+   "reply": "Knee, bucket, bucket, bucket, bucket.",
+   "passed": false
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word penguin three times.",
+   "check": {
+    "words": 3,
+    "count": [
+     "penguin",
+     3
+    ]
+   },
+   "reply": "Penguin penguin penguin.",
+   "passed": true
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word castle two times.",
+   "check": {
+    "words": 2,
+    "count": [
+     "castle",
+     2
+    ]
+   },
+   "reply": "Castle castle.",
+   "passed": true
+  },
+  {
+   "family": "repeat_word",
+   "prompt": "Say the word penguin four times.",
+   "check": {
+    "words": 4,
+    "count": [
+     "penguin",
+     4
+    ]
+   },
+   "reply": "Penguin penguin penguin penguin.",
+   "passed": true
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Tell me about whales in exactly five words.",
+   "check": {
+    "words": 5
+   },
+   "reply": "The last word is \"sales\".",
+   "passed": true
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Answer in exactly two words.",
+   "check": {
+    "words": 2
+   },
+   "reply": "Three words.",
+   "passed": true
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Answer in exactly four words.",
+   "check": {
+    "words": 4
+   },
+   "reply": "Four.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Say something with exactly five words.",
+   "check": {
+    "words": 5
+   },
+   "reply": "Okay! Five, a, a, a, and a.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Tell me about horses in exactly four words.",
+   "check": {
+    "words": 4
+   },
+   "reply": "Horses in the Hat and U.S.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Say something with exactly four words.",
+   "check": {
+    "words": 4
+   },
+   "reply": "Sure! A frog.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Reply with exactly seven words.",
+   "check": {
+    "words": 7
+   },
+   "reply": "Three words.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Tell me about foxes in exactly six words.",
+   "check": {
+    "words": 6
+   },
+   "reply": "Foxes in a sentence.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Answer in exactly three words.",
+   "check": {
+    "words": 3
+   },
+   "reply": "Three.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Answer in exactly six words.",
+   "check": {
+    "words": 6
+   },
+   "reply": "Three words.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Tell me about frogs in exactly two words.",
+   "check": {
+    "words": 2
+   },
+   "reply": "Frog and frogs are friends.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Tell me about deer in exactly seven words.",
+   "check": {
+    "words": 7
+   },
+   "reply": "The phrase \"a small frog\" has three words.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Tell me about owls in exactly five words.",
+   "check": {
+    "words": 5
+   },
+   "reply": "Owls, owls, owls, owls, owls, and owls.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Tell me about camels in exactly five words.",
+   "check": {
+    "words": 5
+   },
+   "reply": "Camels in a very long, yellow desert.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Tell me about sharks in exactly two words.",
+   "check": {
+    "words": 2
+   },
+   "reply": "Sharks in a small, small, and fast shape.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Tell me about penguins in exactly three words.",
+   "check": {
+    "words": 3
+   },
+   "reply": "Penguins in the ocean.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Tell me about sharks in exactly five words.",
+   "check": {
+    "words": 5
+   },
+   "reply": "Sharks in a sentence.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Answer in exactly five words.",
+   "check": {
+    "words": 5
+   },
+   "reply": "Four.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Say something with exactly seven words.",
+   "check": {
+    "words": 7
+   },
+   "reply": "Sure! Thursday.",
+   "passed": false
+  },
+  {
+   "family": "exact_words",
+   "prompt": "Say something with exactly three words.",
+   "check": {
+    "words": 3
+   },
+   "reply": "Okay! Three, red, and blue.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about zebras. Start your reply with the word Yes.",
+   "check": {
+    "first_word": "yes",
+    "max_words": 40
+   },
+   "reply": "Yes.",
+   "passed": true
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about whales. Start your reply with the word Today.",
+   "check": {
+    "first_word": "today",
+    "max_words": 40
+   },
+   "reply": "I'm excited to hear that. What's the first word?",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about owls. Start your reply with the word Well.",
+   "check": {
+    "first_word": "well",
+    "max_words": 40
+   },
+   "reply": "Well.",
+   "passed": true
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about horses and end with the word friend.",
+   "check": {
+    "last_word": "friend",
+    "max_words": 40
+   },
+   "reply": "Horse.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about hens. Start your reply with the word Hello.",
+   "check": {
+    "first_word": "hello",
+    "max_words": 40
+   },
+   "reply": "The letter H comes after I.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about sharks and end with the word now.",
+   "check": {
+    "last_word": "now",
+    "max_words": 40
+   },
+   "reply": "Fish.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about pandas. Start your reply with the word Well.",
+   "check": {
+    "first_word": "well",
+    "max_words": 40
+   },
+   "reply": "The answer is \"well\".",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about dogs and end with the word please.",
+   "check": {
+    "last_word": "please",
+    "max_words": 40
+   },
+   "reply": "I like dogs.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about seals. Start your reply with the word Yes.",
+   "check": {
+    "first_word": "yes",
+    "max_words": 40
+   },
+   "reply": "Yes, a rooster says cock-a-doodle-doo.",
+   "passed": true
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about wolves. Start your reply with the word Today.",
+   "check": {
+    "first_word": "today",
+    "max_words": 40
+   },
+   "reply": "I'm ready to help. What's your role?",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about bees. Start your reply with the word Hello.",
+   "check": {
+    "first_word": "hello",
+    "max_words": 40
+   },
+   "reply": "The beello is very busy.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about ants and end with the word thanks.",
+   "check": {
+    "last_word": "thanks",
+    "max_words": 40
+   },
+   "reply": "You're welcome! I am happy to help.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about frogs and end with the word thanks.",
+   "check": {
+    "last_word": "thanks",
+    "max_words": 40
+   },
+   "reply": "You're welcome! I am happy to help.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about bees and end with the word thanks.",
+   "check": {
+    "last_word": "thanks",
+    "max_words": 40
+   },
+   "reply": "You're welcome! I am happy to help.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about koalas and end with the word goodbye.",
+   "check": {
+    "last_word": "goodbye",
+    "max_words": 40
+   },
+   "reply": "Koalas and end with the goodbye goodbye.",
+   "passed": true
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about cats. Start your reply with the word Well.",
+   "check": {
+    "first_word": "well",
+    "max_words": 40
+   },
+   "reply": "Well.",
+   "passed": true
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about snakes and end with the word goodbye.",
+   "check": {
+    "last_word": "goodbye",
+    "max_words": 40
+   },
+   "reply": "Hiss.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about bees and end with the word please.",
+   "check": {
+    "last_word": "please",
+    "max_words": 40
+   },
+   "reply": "Be careful, the bees are busy.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about ducks and end with the word please.",
+   "check": {
+    "last_word": "please",
+    "max_words": 40
+   },
+   "reply": "Ducks and ends with the letter D.",
+   "passed": false
+  },
+  {
+   "family": "start_end",
+   "prompt": "Tell me about bees. Start your reply with the word Yes.",
+   "check": {
+    "first_word": "yes",
+    "max_words": 40
+   },
+   "reply": "Yes.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about oranges.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Here is a sentence: I like oranges.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Tell me about rain in one sentence.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "The rain makes the grass green.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about owls.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Here you go: I drew a picture of an owl.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about dogs.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Here is a sentence: I drew a picture of a dog.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Tell me about sun in one sentence.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "The sun is very hot.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about houses.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "A house is a big, red house.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about birthdays.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Here is a sentence: I have a birthday party.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Tell me about zebras in one sentence.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Sure! The zebra is sleeping.",
+   "passed": false
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about hail.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Here is a sentence: I like hail.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about plums.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Here is a sentence: I like plums.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Tell me about farms in one sentence.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "We had fun at the farm.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about parrots.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "A parrots are red and blue.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about doors.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Here is a sentence: I like doors.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about peaches.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Sure! The peach is very good.",
+   "passed": false
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about sun.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "The sun is shining today.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about rabbits.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Here is a sentence: A rabbit eats grass, hay, and vegetables.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Tell me about dolphins in one sentence.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "The dolphins are looking at me.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about wolves.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Here is a sentence: I drew a picture of a wolves.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Write one sentence about gardens.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "Here is a sentence: We had fun at the garden.",
+   "passed": true
+  },
+  {
+   "family": "one_sentence",
+   "prompt": "Tell me about wind in one sentence.",
+   "check": {
+    "sentences": 1,
+    "max_words": 30
+   },
+   "reply": "The wind took my hat.",
+   "passed": true
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: Noah has a silver doll.",
+   "check": {
+    "exact": "Noah has a silver doll."
+   },
+   "reply": "Noah has a silver doll.",
+   "passed": true
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: We went to the castle on Wednesday.",
+   "check": {
+    "exact": "We went to the castle on Wednesday."
+   },
+   "reply": "We went to the castle.",
+   "passed": false
+  },
+  {
+   "family": "copy",
+   "prompt": "Repeat this exactly: Rita and Hana went to the castle.",
+   "check": {
+    "exact": "Rita and Hana went to the castle."
+   },
+   "reply": "Rita, the castle was filled with the most beautiful castle.",
+   "passed": false
+  },
+  {
+   "family": "copy",
+   "prompt": "Repeat this exactly: The mouse likes the storm.",
+   "check": {
+    "exact": "The mouse likes the storm."
+   },
+   "reply": "The mouse likes to eat the storm.",
+   "passed": false
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: We went to the farm on Tuesday.",
+   "check": {
+    "exact": "We went to the farm on Tuesday."
+   },
+   "reply": "We went to the farm.",
+   "passed": false
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: A cat ran past the sandbox.",
+   "check": {
+    "exact": "A cat ran past the sandbox."
+   },
+   "reply": "The cat ran past the sandbox.",
+   "passed": false
+  },
+  {
+   "family": "copy",
+   "prompt": "Repeat this exactly: There is a orange on the fridge.",
+   "check": {
+    "exact": "There is a orange on the fridge."
+   },
+   "reply": "There are two orange on the plate.",
+   "passed": false
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: The rabbit likes the fog.",
+   "check": {
+    "exact": "The rabbit likes the fog."
+   },
+   "reply": "The fog is thick.",
+   "passed": false
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: We went to the forest on Friday.",
+   "check": {
+    "exact": "We went to the forest on Friday."
+   },
+   "reply": "We went to the forest.",
+   "passed": false
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: The snake likes the storm.",
+   "check": {
+    "exact": "The snake likes the storm."
+   },
+   "reply": "The snake likes the storm.",
+   "passed": true
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: I can see a silver duck.",
+   "check": {
+    "exact": "I can see a silver duck."
+   },
+   "reply": "I can see a silver duck.",
+   "passed": true
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: The pink kite is on the stove.",
+   "check": {
+    "exact": "The pink kite is on the stove."
+   },
+   "reply": "The pink kite is on the stove.",
+   "passed": true
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: The turtle likes the sun.",
+   "check": {
+    "exact": "The turtle likes the sun."
+   },
+   "reply": "The turtle likes the sun.",
+   "passed": true
+  },
+  {
+   "family": "copy",
+   "prompt": "Repeat this exactly: Lena saw a camel at the lake.",
+   "check": {
+    "exact": "Lena saw a camel at the lake."
+   },
+   "reply": "No, the camel saw a camel.",
+   "passed": false
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: Oscar and Dora went to the museum.",
+   "check": {
+    "exact": "Oscar and Dora went to the museum."
+   },
+   "reply": "The museum is a big area of museums.",
+   "passed": false
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: Tara has a brown doll.",
+   "check": {
+    "exact": "Tara has a brown doll."
+   },
+   "reply": "Try to play with it.",
+   "passed": false
+  },
+  {
+   "family": "copy",
+   "prompt": "Say this back to me exactly: I can see a gold bear.",
+   "check": {
+    "exact": "I can see a gold bear."
+   },
+   "reply": "I can see a gold bear.",
+   "passed": true
+  },
+  {
+   "family": "copy",
+   "prompt": "Repeat this exactly: Bella put the robot in the living room.",
+   "check": {
+    "exact": "Bella put the robot in the living room."
+   },
+   "reply": "Bella put the robot in the living room.",
+   "passed": true
+  },
+  {
+   "family": "copy",
+   "prompt": "Repeat this exactly: My jump rope is yellow.",
+   "check": {
+    "exact": "My jump rope is yellow."
+   },
+   "reply": "My jump rope is yellow.",
+   "passed": true
+  },
+  {
+   "family": "copy",
+   "prompt": "Repeat this exactly: Wade saw a parrot at the market.",
+   "check": {
+    "exact": "Wade saw a parrot at the market."
+   },
+   "reply": "Look at that parrot!",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "Add 32 and 7.",
+   "check": {
+    "number": 39,
+    "max_words": 15
+   },
+   "reply": "18.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 79 - 60?",
+   "check": {
+    "number": 19,
+    "max_words": 15
+   },
+   "reply": "It is 0.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 68 minus 51?",
+   "check": {
+    "number": 17,
+    "max_words": 15
+   },
+   "reply": "If you take 5 away from 68, you get 0.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 38 plus 45?",
+   "check": {
+    "number": 83,
+    "max_words": 15
+   },
+   "reply": "18 plus 45 equals 20.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "Add 5 and 42.",
+   "check": {
+    "number": 47,
+    "max_words": 15
+   },
+   "reply": "5 plus 4 is 8.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 41 + 40?",
+   "check": {
+    "number": 81,
+    "max_words": 15
+   },
+   "reply": "4 + 40 = 20.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 35 + 44?",
+   "check": {
+    "number": 79,
+    "max_words": 15
+   },
+   "reply": "It is 20.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 94 - 51?",
+   "check": {
+    "number": 43,
+    "max_words": 15
+   },
+   "reply": "It is 11.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "12 / 12 = ?",
+   "check": {
+    "number": 1,
+    "max_words": 15
+   },
+   "reply": "12.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "36 + 16 = ?",
+   "check": {
+    "number": 52,
+    "max_words": 15
+   },
+   "reply": "The answer is 15.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 21 + 24?",
+   "check": {
+    "number": 45,
+    "max_words": 15
+   },
+   "reply": "It is 24.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "27 + 43 = ?",
+   "check": {
+    "number": 70,
+    "max_words": 15
+   },
+   "reply": "It is 17.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 71 minus 51?",
+   "check": {
+    "number": 20,
+    "max_words": 15
+   },
+   "reply": "1.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 55 divided by 5?",
+   "check": {
+    "number": 11,
+    "max_words": 15
+   },
+   "reply": "That is too hard for me. I can only do math with small numbers.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "Multiply 3 by 1.",
+   "check": {
+    "number": 3,
+    "max_words": 15
+   },
+   "reply": "The answer is 2.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 55 + 43?",
+   "check": {
+    "number": 98,
+    "max_words": 15
+   },
+   "reply": "It is 18.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 50 plus 55?",
+   "check": {
+    "number": 105,
+    "max_words": 15
+   },
+   "reply": "The answer is 20.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 0 x 4?",
+   "check": {
+    "number": 0,
+    "max_words": 15
+   },
+   "reply": "0.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "What is 61 - 44?",
+   "check": {
+    "number": 17,
+    "max_words": 15
+   },
+   "reply": "6.",
+   "passed": false
+  },
+  {
+   "family": "sum",
+   "prompt": "8 - 7 = ?",
+   "check": {
+    "number": 1,
+    "max_words": 15
+   },
+   "reply": "8 - 7 = 1.",
+   "passed": true
+  },
+  {
+   "family": "word_problem",
+   "prompt": "A basket has 4 apples. How many apples are in 8 baskets?",
+   "check": {
+    "number": 32,
+    "max_words": 25
+   },
+   "reply": "4 apples.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "Finn has 30 balloons. She gets 24 more. How many balloons does Finn have now?",
+   "check": {
+    "number": 54,
+    "max_words": 25
+   },
+   "reply": "Finn has 30 balloons.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "A box has 7 cookies. How many cookies are in 10 boxes?",
+   "check": {
+    "number": 70,
+    "max_words": 25
+   },
+   "reply": "7 plus 7 is 14.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "There are 16 bears in a field. 13 more bears come. How many bears are there now?",
+   "check": {
+    "number": 29,
+    "max_words": 25
+   },
+   "reply": "There are 16 bears in the field now.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "Finn shares 18 apples equally between 6 friends. How many apples does each friend get?",
+   "check": {
+    "number": 3,
+    "max_words": 25
+   },
+   "reply": "16 apples.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "Dora had 39 cookies and eats 29. How many cookies are left?",
+   "check": {
+    "number": 10,
+    "max_words": 25
+   },
+   "reply": "There are 9 cookies left.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "There are 7 bears in a field. 16 more bears come. How many bears are there now?",
+   "check": {
+    "number": 23,
+    "max_words": 25
+   },
+   "reply": "7 plus 7 is 14.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "Yuki had 13 flowers and gives away 5. How many flowers are left?",
+   "check": {
+    "number": 8,
+    "max_words": 25
+   },
+   "reply": "13 minus 5 is 12. 12 flowers are left.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "A jar has 10 stickers. How many stickers are in 7 jars?",
+   "check": {
+    "number": 70,
+    "max_words": 25
+   },
+   "reply": "10 stickers.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "There are 7 hens in a field. 7 more hens come. How many hens are there now?",
+   "check": {
+    "number": 14,
+    "max_words": 25
+   },
+   "reply": "There are 11 hens come.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "Hana has 19 stickers. She gets 9 more. How many stickers does Hana have now?",
+   "check": {
+    "number": 28,
+    "max_words": 25
+   },
+   "reply": "9 plus 9 is 19.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "There are 9 penguins in a field. 15 more penguins come. How many penguins are there now?",
+   "check": {
+    "number": 24,
+    "max_words": 25
+   },
+   "reply": "9 plus 15 is 19.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "Milo has 4 pencils. Milo gets 1 more. How many pencils does Milo have now?",
+   "check": {
+    "number": 5,
+    "max_words": 25
+   },
+   "reply": "5 plus 1 is 6.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "Quinn has 28 books. He gets 25 more. How many books does Quinn have now?",
+   "check": {
+    "number": 53,
+    "max_words": 25
+   },
+   "reply": "The phrase \" Quinn has 28 books\" has 3 words.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "A basket has 6 flowers. How many flowers are in 10 baskets?",
+   "check": {
+    "number": 60,
+    "max_words": 25
+   },
+   "reply": "6 flowers.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "Pablo shares 15 coins equally between 3 friends. How many coins does each friend get?",
+   "check": {
+    "number": 5,
+    "max_words": 25
+   },
+   "reply": "3 plus 15 is 20.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "There are 10 mice in a field. 14 more mice come. How many mice are there now?",
+   "check": {
+    "number": 24,
+    "max_words": 25
+   },
+   "reply": "10 plus 14 is 19.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "There are 6 horses in a field. 19 more horses come. How many horses are there now?",
+   "check": {
+    "number": 25,
+    "max_words": 25
+   },
+   "reply": "There are 7 horses on the field now.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "Seth shares 10 coins equally between 5 friends. How many coins does each friend get?",
+   "check": {
+    "number": 2,
+    "max_words": 25
+   },
+   "reply": "5 coins.",
+   "passed": false
+  },
+  {
+   "family": "word_problem",
+   "prompt": "Jack has 1 books. He gets 14 more. How many books does Jack have now?",
+   "check": {
+    "number": 15,
+    "max_words": 25
+   },
+   "reply": "14 books.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List two foods as a numbered list.",
+   "check": {
+    "numbered": 2
+   },
+   "reply": "Popcorn and a carrot.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List two things in a park as a numbered list.",
+   "check": {
+    "numbered": 2
+   },
+   "reply": "A park.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List four months as a numbered list.",
+   "check": {
+    "numbered": 4
+   },
+   "reply": "January, February, March, and December.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List three things in a school as a numbered list.",
+   "check": {
+    "numbered": 3
+   },
+   "reply": "A school, a school, and a bus driver.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List six toys as a numbered list.",
+   "check": {
+    "numbered": 6
+   },
+   "reply": "A teddy bear, a spinning top, a toy train, and a spinning top. Those are six toys.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List four rooms in a house as a numbered list.",
+   "check": {
+    "numbered": 4
+   },
+   "reply": "There are three rooms.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List five rooms in a house as a numbered list.",
+   "check": {
+    "numbered": 5
+   },
+   "reply": "One rooms in a house is a room where people sleep.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List four days of the week as a numbered list.",
+   "check": {
+    "numbered": 4
+   },
+   "reply": "Thursday, Friday, Saturday, and Sunday. Those are four days of the week.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List three kinds of weather as a numbered list.",
+   "check": {
+    "numbered": 3
+   },
+   "reply": "Fog, sunshine, and rain.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List five things in a kitchen as a numbered list.",
+   "check": {
+    "numbered": 5
+   },
+   "reply": "A plate, a stove, a pan, a kettle, and a stove.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List three fruits as a numbered list.",
+   "check": {
+    "numbered": 3
+   },
+   "reply": "A blueberry, a strawberry, and a grape. Those are three fruits.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List five parts of the body as a numbered list.",
+   "check": {
+    "numbered": 5
+   },
+   "reply": "A chin, a chin, a chin, and a nose. Those are five parts of the body.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List six things in a kitchen as a numbered list.",
+   "check": {
+    "numbered": 6
+   },
+   "reply": "A bowl, a stove, a pan, and a kettle. Those are six things in a kitchen.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List five vegetables as a numbered list.",
+   "check": {
+    "numbered": 5
+   },
+   "reply": "A sweet potato, a carrot, a potato, and a potato.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List four colours as a numbered list.",
+   "check": {
+    "numbered": 4
+   },
+   "reply": "Here are four colors: a rainbow, a bee, a butterfly, and a rainbow.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List five things in a park as a numbered list.",
+   "check": {
+    "numbered": 5
+   },
+   "reply": "A park, a park, a park, and a pond. Those are five things in a park.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List three foods as a numbered list.",
+   "check": {
+    "numbered": 3
+   },
+   "reply": "Popcorn, a cookie, and a pancake.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List six animals as a numbered list.",
+   "check": {
+    "numbered": 6
+   },
+   "reply": "A cat, a mouse, a horse, and a whale.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List two kinds of weather as a numbered list.",
+   "check": {
+    "numbered": 2
+   },
+   "reply": "Fog and snow.",
+   "passed": false
+  },
+  {
+   "family": "numbered",
+   "prompt": "List six pets as a numbered list.",
+   "check": {
+    "numbered": 6
+   },
+   "reply": "Six pets.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List four months. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 4
+   },
+   "reply": "Juice, August, and December. Those are four months.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List four kinds of weather. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 4
+   },
+   "reply": "Here are four kinds of weather: snow, sunshine, fog, and a storm.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List five things in a kitchen. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 5
+   },
+   "reply": "Here are five things in a kitchen: a kettle, a pan, a spoon, a cup, and a kettle.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List two clothes. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 2
+   },
+   "reply": "Two clothes.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List four vegetables. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 4
+   },
+   "reply": "Here are four vegetables: spinach, a potato, celery, and a carrot.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List two pets. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 2
+   },
+   "reply": "Two pets.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List three animals. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 3
+   },
+   "reply": "A dog, a cat, and a bird. Those are three animals.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List two foods. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 2
+   },
+   "reply": "Popcorn.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List five pets. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 5
+   },
+   "reply": "Five pets.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List three parts of the body. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 3
+   },
+   "reply": "Three parts.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List three drinks. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 3
+   },
+   "reply": "Here are three drinks: hot chocolate, milk, and juice.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List four things in a kitchen. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 4
+   },
+   "reply": "Here are four things in a kitchen: a bowl, a fork, a spoon, and a kettle.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List five fruits. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 5
+   },
+   "reply": "Apples are a good choice. Finds are a healthy snack, like an apple or some crackers.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List two things in a school. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 2
+   },
+   "reply": "Here are two things in a school: a book and a backpack.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List four rooms in a house. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 4
+   },
+   "reply": "One room in a house is a little room.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List four days of the week. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 4
+   },
+   "reply": "Thursday, Friday, Saturday, and Sunday. Those are four days of the week.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List five colours. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 5
+   },
+   "reply": "Five colours.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List two months. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 2
+   },
+   "reply": "Juice and August. Those are two months.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List three rooms in a house. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 3
+   },
+   "reply": "One room in a house is a little room.",
+   "passed": false
+  },
+  {
+   "family": "dashed",
+   "prompt": "List five toys. Put a dash at the start of each line.",
+   "check": {
+    "dashed": 5
+   },
+   "reply": "A toy car, a teddy bear, a jump rope, and a toy car. Those are five toys.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word castle in capital letters.",
+   "check": {
+    "has_exact": "CASTLE",
+    "max_words": 3
+   },
+   "reply": "CARROT.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word bee in capital letters.",
+   "check": {
+    "has_exact": "BEE",
+    "max_words": 3
+   },
+   "reply": "BEAR.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word cloud in capital letters.",
+   "check": {
+    "has_exact": "CLOUD",
+    "max_words": 3
+   },
+   "reply": "BALLOW.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word candle in capital letters.",
+   "check": {
+    "has_exact": "CANDLE",
+    "max_words": 3
+   },
+   "reply": "CANDLE.",
+   "passed": true
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word feather in capital letters.",
+   "check": {
+    "has_exact": "FEATHER",
+    "max_words": 3
+   },
+   "reply": "BIG.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word wagon in capital letters.",
+   "check": {
+    "has_exact": "WAGON",
+    "max_words": 3
+   },
+   "reply": "POAT.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word dog in capital letters.",
+   "check": {
+    "has_exact": "DOG",
+    "max_words": 3
+   },
+   "reply": "DINOSAUR.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word pig in capital letters.",
+   "check": {
+    "has_exact": "PIG",
+    "max_words": 3
+   },
+   "reply": "PIG.",
+   "passed": true
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word eagle in capital letters.",
+   "check": {
+    "has_exact": "EAGLE",
+    "max_words": 3
+   },
+   "reply": "PING.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word wolf in capital letters.",
+   "check": {
+    "has_exact": "WOLF",
+    "max_words": 3
+   },
+   "reply": "ONCAKE.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word bridge in capital letters.",
+   "check": {
+    "has_exact": "BRIDGE",
+    "max_words": 3
+   },
+   "reply": "DRA bridge, bridge, bridge, bridge, bridge.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word shark in capital letters.",
+   "check": {
+    "has_exact": "SHARK",
+    "max_words": 3
+   },
+   "reply": "SNOW.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word island in capital letters.",
+   "check": {
+    "has_exact": "ISLAND",
+    "max_words": 3
+   },
+   "reply": "POPRANBON.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word basket in capital letters.",
+   "check": {
+    "has_exact": "BASKET",
+    "max_words": 3
+   },
+   "reply": "BALL.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word mouse in capital letters.",
+   "check": {
+    "has_exact": "MOUSE",
+    "max_words": 3
+   },
+   "reply": "MOUSE.",
+   "passed": true
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word drum in capital letters.",
+   "check": {
+    "has_exact": "DRUM",
+    "max_words": 3
+   },
+   "reply": "DRAYON.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word snake in capital letters.",
+   "check": {
+    "has_exact": "SNAKE",
+    "max_words": 3
+   },
+   "reply": "HONSE.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word deer in capital letters.",
+   "check": {
+    "has_exact": "DEER",
+    "max_words": 3
+   },
+   "reply": "DANCE.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word bucket in capital letters.",
+   "check": {
+    "has_exact": "BUCKET",
+    "max_words": 3
+   },
+   "reply": "BUS.",
+   "passed": false
+  },
+  {
+   "family": "capitals",
+   "prompt": "Write the word forest in capital letters.",
+   "check": {
+    "has_exact": "FOREST",
+    "max_words": 3
+   },
+   "reply": "NO.",
+   "passed": false
+  },
+  {
+   "family": "lines",
+   "prompt": "Write exactly three lines. Each line is one short sentence.",
+   "check": {
+    "lines": 3
+   },
+   "reply": "The short line is the short line.",
+   "passed": false
+  },
+  {
+   "family": "lines",
+   "prompt": "Write exactly four lines. Each line is one short sentence.",
+   "check": {
+    "lines": 4
+   },
+   "reply": "Here are four lines: a short line, a line, a \"cow\".",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many fingers are on one hand? Answer with a single number.",
+   "check": {
+    "exact": "5"
+   },
+   "reply": "Five fingers on one hand.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many legs does a dog have? Answer with a single number.",
+   "check": {
+    "exact": "4"
+   },
+   "reply": "4.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many fingers are on one hand? Give only the number.",
+   "check": {
+    "exact": "5"
+   },
+   "reply": "Five fingers.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many legs does a bird have? Give only the number.",
+   "check": {
+    "exact": "2"
+   },
+   "reply": "2.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many days are in a week? Answer with a single number.",
+   "check": {
+    "exact": "7"
+   },
+   "reply": "2.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many months are in a year? Give only the number.",
+   "check": {
+    "exact": "12"
+   },
+   "reply": "12.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many legs does a horse have? Answer with a single number.",
+   "check": {
+    "exact": "4"
+   },
+   "reply": "4.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many wheels does a bike have? Answer with a single number.",
+   "check": {
+    "exact": "2"
+   },
+   "reply": "4 wheels.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many wheels does a car have? Answer with a single number.",
+   "check": {
+    "exact": "4"
+   },
+   "reply": "4.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many eyes does a person have? Give only the number.",
+   "check": {
+    "exact": "2"
+   },
+   "reply": "4.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many wheels does a bike have? Reply with just the number.",
+   "check": {
+    "exact": "2"
+   },
+   "reply": "4.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many sides does a square have? Answer with a single number.",
+   "check": {
+    "exact": "4"
+   },
+   "reply": "2.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many wheels does a car have? Give only the number.",
+   "check": {
+    "exact": "4"
+   },
+   "reply": "4.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many legs does a spider have? Reply with just the number.",
+   "check": {
+    "exact": "8"
+   },
+   "reply": "8.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many days are in a week? Reply with just the number.",
+   "check": {
+    "exact": "7"
+   },
+   "reply": "7.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many months are in a year? Reply with just the number.",
+   "check": {
+    "exact": "12"
+   },
+   "reply": "4.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many legs does a bird have? Reply with just the number.",
+   "check": {
+    "exact": "2"
+   },
+   "reply": "2.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many sides does a triangle have? Give only the number.",
+   "check": {
+    "exact": "3"
+   },
+   "reply": "2.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many wheels does a bike have? Give only the number.",
+   "check": {
+    "exact": "2"
+   },
+   "reply": "4.",
+   "passed": false
+  },
+  {
+   "family": "number_only",
+   "prompt": "How many months are in a year? Answer with a single number.",
+   "check": {
+    "exact": "12"
+   },
+   "reply": "2.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 9 to 13 with commas between them.",
+   "check": {
+    "squashed": "9,10,11,12,13"
+   },
+   "reply": "18.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 11 to 13 with commas between them.",
+   "check": {
+    "squashed": "11,12,13"
+   },
+   "reply": "18, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 14 to 19 with commas between them.",
+   "check": {
+    "squashed": "14,15,16,17,18,19"
+   },
+   "reply": "14 is a number.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 4 to 7 with commas between them.",
+   "check": {
+    "squashed": "4,5,6,7"
+   },
+   "reply": "1, 2, 3, 4, 5, 6, 7.",
+   "passed": true
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 13 to 20 with commas between them.",
+   "check": {
+    "squashed": "13,14,15,16,17,18,19,20"
+   },
+   "reply": "13.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 1 to 7 with commas between them.",
+   "check": {
+    "squashed": "1,2,3,4,5,6,7"
+   },
+   "reply": "1, 2, 3, 4, 5, 6, 7.",
+   "passed": true
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 10 to 13 with commas between them.",
+   "check": {
+    "squashed": "10,11,12,13"
+   },
+   "reply": "10, 11, 12, 13.",
+   "passed": true
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 4 to 8 with commas between them.",
+   "check": {
+    "squashed": "4,5,6,7,8"
+   },
+   "reply": "1, 2, 3, 4, 5, 6, 7, 8.",
+   "passed": true
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 7 to 13 with commas between them.",
+   "check": {
+    "squashed": "7,8,9,10,11,12,13"
+   },
+   "reply": "1.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 2 to 8 with commas between them.",
+   "check": {
+    "squashed": "2,3,4,5,6,7,8"
+   },
+   "reply": "2.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 13 to 17 with commas between them.",
+   "check": {
+    "squashed": "13,14,15,16,17"
+   },
+   "reply": "13.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 2 to 9 with commas between them.",
+   "check": {
+    "squashed": "2,3,4,5,6,7,8,9"
+   },
+   "reply": "2.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 8 to 12 with commas between them.",
+   "check": {
+    "squashed": "8,9,10,11,12"
+   },
+   "reply": "18, 9, 10, 11, 12, 13, 14.",
+   "passed": true
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 4 to 11 with commas between them.",
+   "check": {
+    "squashed": "4,5,6,7,8,9,10,11"
+   },
+   "reply": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.",
+   "passed": true
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 5 to 7 with commas between them.",
+   "check": {
+    "squashed": "5,6,7"
+   },
+   "reply": "1, 5, 6, 7.",
+   "passed": true
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 13 to 19 with commas between them.",
+   "check": {
+    "squashed": "13,14,15,16,17,18,19"
+   },
+   "reply": "13.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 8 to 10 with commas between them.",
+   "check": {
+    "squashed": "8,9,10"
+   },
+   "reply": "18, 9, 10.",
+   "passed": true
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 14 to 18 with commas between them.",
+   "check": {
+    "squashed": "14,15,16,17,18"
+   },
+   "reply": "14 is between 14 and 18.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 19 to 25 with commas between them.",
+   "check": {
+    "squashed": "19,20,21,22,23,24,25"
+   },
+   "reply": "19, 18, 20, 25.",
+   "passed": false
+  },
+  {
+   "family": "range",
+   "prompt": "Write the numbers from 13 to 15 with commas between them.",
+   "check": {
+    "squashed": "13,14,15"
+   },
+   "reply": "13.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- The club is in room 31.\n- Feed the fish on Monday.\n- Rosa's hamster is called Olive.\n- The bus to the station is number 16.\n\nWhich bus goes to the station?",
+   "check": {
+    "all": [
+     "number",
+     "16"
+    ],
+    "max_words": 25
+   },
+   "reply": "The bus takes the number 16.",
+   "passed": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Luke arrives on Sunday by bus.\n- Call Owen about the book.\n- Noah's dog is called Bubbles.\n\nWhat is the name of Noah's dog?",
+   "check": {
+    "all": [
+     "called",
+     "bubbles"
+    ],
+    "max_words": 25
+   },
+   "reply": "The name of the dog's name is Max.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Call Lily about the garden fence.\n- The scooter is parked on Church Lane.\n- The pie needs four carrots.\n- The van is parked on Oak Street.\n- Aunt Iris's birthday is on 14 January.\n\nWho should I call about the garden fence?",
+   "check": {
+    "all": [
+     "lily"
+    ],
+    "max_words": 25
+   },
+   "reply": "\"Ah, welcome to the garden, sir. I'm Detective James. I'm Detective James, and I'll be happy to help you with any of these gardens. We've got a lot of love to share and care for each other. What brings you to our neck of the woods? You're not from around here, are you? We've got a new batch of fresh batch of the garden, and I'm happy to share some of the gardens with you. What brings you to our neck of the woods?\"",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- The salad needs five onions.\n- Nora's pony is called Daisy.\n- The bus to school is number 93.\n- The talk is in room 14.\n\nWhich room is the talk in?",
+   "check": {
+    "all": [
+     "14"
+    ],
+    "max_words": 25
+   },
+   "reply": "The talk in the talk room is the number of times:\n- Nora is number 73.\n- Nora is number 73.\n\n- Nora is number 73.\n\nWhat is the number of times you need to know:\n- Nora is number 73.\n\n- Nora is number 73.\n\nSo, the number of times you need to know the number of times you need to know the number of times you need to know the number of times you need to know the number of times you need to know the number of times",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Hugo's hamster is called Coco.\n- Uncle Tara's birthday is on 23 October.\n- The bus to the station is number 15.\n\nWhich bus goes to the station?",
+   "check": {
+    "all": [
+     "number",
+     "15"
+    ],
+    "max_words": 25
+   },
+   "reply": "The bus goes to the station.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Grandpa arrives on Monday by bus.\n- Jack's fish is called Bubbles.\n\nHow is Grandpa travelling?",
+   "check": {
+    "all": [
+     "bus"
+    ],
+    "max_words": 25
+   },
+   "reply": "Hot soup is a great way to communicate with friends.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Uncle Ryan arrives on Sunday by car.\n- The team day out is to the pool.\n- Ethan's rabbit is called Toffee.\n- The locker code is window79.\n\nWhere is the team day out going?",
+   "check": {
+    "all": [
+     "pool"
+    ],
+    "max_words": 25
+   },
+   "reply": "To find the team, we need to add up all the values and divide by the number of values. \n\nThe sum of the values is: \n779 / 2 = 3.5.\n\nSo, the team day of the race is 3.59.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Eye test on Sunday at 2 pm.\n- Take out the bins on Sunday.\n\nWhen should I take out the bins?",
+   "check": {
+    "all": [
+     "sunday"
+    ],
+    "max_words": 25
+   },
+   "reply": "If you take out the bins, you can take out the bins and put them in the middle of the bins.\n\n- Eye test on Sunday\n- Pye test on Sunday\n- Pye test on Sunday\n- Pye test on Sunday\n- Pye test on Sunday\n- Pye test on Sunday\n- Pye test on Sunday\n- Pye test on Sunday\n- Pye test on Sunday\n- Pye test on Sunday\n\nWhat do you do?",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Uncle Tess's birthday is on 24 March.\n- The pancake mix needs eight eggs.\n- Doctor on Monday at 3 pm.\n- The team day out is to the lake.\n- The work party is to the pool.\n\nWhen is Uncle Tess's birthday?",
+   "check": {
+    "all": [
+     "24",
+     "march"
+    ],
+    "max_words": 25
+   },
+   "reply": "The team will have eight eggs.\n- Sunday party will be a great time.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Dad's birthday is on 12 August.\n- Grandpa arrives on Tuesday by car.\n- The bus to town is number 9.\n- The team day out is to the park.\n- Eye test on Saturday at 6 am.\n\nWhen does Grandpa arrive?",
+   "check": {
+    "all": [
+     "arrives",
+     "tuesday"
+    ],
+    "max_words": 25
+   },
+   "reply": "\"Hot soup, welcome to our office. It's a pleasure to meet you. I'm Jack Harris, the owner. I'm here to help you with your birthday. What brings you to our office today?\"",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Hana likes water with ice.\n- The bike is parked on Park Road.\n- Ava likes juice with sugar.\n- Dance class on Sunday at 4 am.\n\nWhere is the bike parked?",
+   "check": {
+    "all": [
+     "park",
+     "road"
+    ],
+    "max_words": 25
+   },
+   "reply": "The bike is near the park.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- The locker code is star70.\n- The talk is in room 38.\n- Seth likes cocoa with mint.\n\nWhat is the locker code?",
+   "check": {
+    "all": [
+     "star70"
+    ],
+    "max_words": 25
+   },
+   "reply": "The keyer code is a key to the locker code. The answer is:",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- The van is parked on Bridge Road.\n- The bank opens at 9 am.\n\nWhen does the bank open?",
+   "check": {
+    "all": [
+     "opens",
+     "9",
+     "am"
+    ],
+    "max_words": 25
+   },
+   "reply": "The bank opens at a busy busy busy busy busy busy busy busy busy busy busy busy.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- The torch is in the top drawer.\n- Aunt Tara arrives on Sunday by train.\n\nWhere is the torch?",
+   "check": {
+    "all": [
+     "top",
+     "drawer"
+    ],
+    "max_words": 25
+   },
+   "reply": "The torch is a rock that has a hole in the ground. The torch has a hole in the ground.\n\nDescribe is a rock that has a hole in the ground.\n\nThe torch is a rock that has a hole in the ground.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Kyle's cat is called Smoky.\n- Art club on Thursday at 11:45 am.\n- The bread needs six carrots.\n- The talk is in room 28.\n\nWhich room is the talk in?",
+   "check": {
+    "all": [
+     "28"
+    ],
+    "max_words": 25
+   },
+   "reply": "The talk in the talk room is the talk of the first room.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Aunt Zoe's birthday is on 3 February.\n- Call Kyle about the school trip.\n- The bread needs nine spoons of sugar.\n- Clean the car on Friday.\n- The first aid kit is in the shed.\n\nWhen should I clean the car?",
+   "check": {
+    "all": [
+     "friday"
+    ],
+    "max_words": 25
+   },
+   "reply": "The first aid kit is in the garage.\n- Aug Zoe's first aid kit is in the garage.\n- Aug Zoe's first aid kit is in the garage.\n- Aug Zoe's first one to the first, then the first one to the first, then the second one.\n\n- Aug Zoe's first one to the first, the second one is the second third, and then the second third third, then the second third third third third, then the second third third third third third third, then the second third third third third third third",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- The gate code is apple95.\n- The meeting is in room 3.\n- The ticket is behind the clock.\n- Pay the rent on Tuesday.\n\nWhat is the gate code?",
+   "check": {
+    "all": [
+     "apple95"
+    ],
+    "max_words": 25
+   },
+   "reply": "The gate code is a problem. The remainder is a problem that the remainder is not a problem. The remainder is a problem that the remainder is not a problem.\n\n- Pay::\n- Pay:\n- Pay:\n- Pay:\n- Pay:\n- Pay:\n- Pay:\n- Pay:\n- Pay:\n- Pay:\n- Pay:\n\n- Pay:\n\n- Pay:\n\n- Pay:\n\n- P",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- The bus to the hospital is number 42.\n- The club is in room 35.\n- The pancake mix needs eight spoons of sugar.\n\nWhich room is the club in?",
+   "check": {
+    "all": [
+     "35"
+    ],
+    "max_words": 25
+   },
+   "reply": "The club in room is the number of pizzas in the room.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- The bike is parked on Mill Lane.\n- The class picnic is to the museum.\n- Owen's fish is called Biscuit.\n- The bus to the hospital is number 44.\n\nWhere is the class picnic going?",
+   "check": {
+    "all": [
+     "museum"
+    ],
+    "max_words": 25
+   },
+   "reply": "The class of Biscuit is at the front of the school. The bus is number 44.\n\nThe bus is number 44.\n\nThe class of Biscuit is number 44.\n\nThe class of Biscuit is number 44.",
+   "passed": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Notes:\n- Call Ines about the book.\n- The bread needs seven eggs.\n- Ella likes water with mint.\n- Water the plants on Tuesday.\n\nHow many eggs does the bread need?",
+   "check": {
+    "all": [
+     "needs",
+     "seven"
+    ],
+    "max_words": 25
+   },
+   "reply": "The number of eggs in the book is seven eggs.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The bus to the hospital is number 39.\n- Cousin Felix arrives on Saturday by plane.\n\nHow many apples does the pancake mix need?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The pancake mix needs to be number 39.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The class picnic is to the castle.\n- The exam is in room 35.\n- The bus to the hospital is number 55.\n\nWhen does the pool open?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The pool is full of water.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The bank closes at 1:45 am.\n- The key is in the red box.\n- The map is in the kitchen jar.\n- The scooter is parked on High Street.\n- Buy jam and bread.\n\nWhere is the class picnic going?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The class on High Street is to the park.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- Pay the rent on Saturday.\n- Buy bread and flour.\n- Clara's dog is called Luna.\n- The bus to the hospital is number 48.\n\nWhen is Dora's birthday?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "Dora's birthday is number 48.\n\nDora's birthday is number 48.\n\nWhat is the number of the birthday you want?",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The bus to town is number 17.\n- The bread needs five apples.\n- The shop opens at 1 am.\n\nWhere is the school trip going?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The school is going to be a long day.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The bike is parked on Elm Road.\n- The class is in room 26.\n- The bus to the beach is number 43.\n\nWhich room is the talk in?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The talk in the talk room is the number 53.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The pie needs six apples.\n- The bakery opens at 7:30 pm.\n- Emma likes lemonade with milk.\n- Dad's birthday is on 15 March.\n- The car is parked on Church Lane.\n\nWhere is the ticket?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The ticket is on the table.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- Wash the towels on Friday.\n- Gina's parrot is called Olive.\n\nHow many carrots does the bread need?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The bread needs to need a drink.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- Doctor on Monday at 5 am.\n- Aunt Iris's birthday is on 10 November.\n\nWhich room is the meeting in?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The meeting in the meeting in a meeting in a large room. The meeting is a large room with a large door that opens and closes.\n\nThe meeting is a large room with a large door that opens and closes.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The van is parked on River Street.\n- The key is under the mat.\n- The bread needs nine apples.\n- The talk is in room 9.\n\nWhere is the family holiday going?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The family holiday is going to the beach.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The first aid kit is in the red box.\n- Maya's birthday is on 24 October.\n- The team day out is to the forest.\n- The scooter is parked on Bridge Road.\n\nWhat is the locker code?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The key to the red box is in the red box.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The class picnic is to the market.\n- The club is in room 28.\n- Wash the towels on Friday.\n\nWhat is Sofia's rabbit called?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "\"The Fast of Friday is called the Fast of Fridays.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The bike lock code is bridge18.\n- Feed the fish on Friday.\n- The locker code is kitten21.\n- The bread needs two onions.\n\nWhat does Ruby like in milk?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "Ruby likes milk.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- Emma arrives on Sunday by boat.\n- Buy flour, apples and soap.\n- The map is on the top shelf.\n- The bike lock code is star58.\n- Nora's rabbit is called Patch.\n\nHow does Seth like cocoa?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "Squeth likes cocoa.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- Buy eggs, honey and butter.\n- Clean the car on Wednesday.\n\nWhat is the bike lock code?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The bike lock code code snippet is used to lock the door.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The bus to the airport is number 74.\n- Uncle Ava arrives on Friday by boat.\n\nWhich room is the club in?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The club in the Mid-Autumn Festival.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- Return the books on Thursday.\n- The cafe closes at 5 pm.\n\nWhat time is the swim class?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The swim class is when the water turns into water vapor and rises into the air.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The family holiday is to the zoo.\n- Buy pasta, flour and jam.\n- Aunt Seth's birthday is on 25 March.\n- Clean the car on Sunday.\n- The wifi password is wagon58.\n\nHow does Zoe like lemonade?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "Zoe likes juice.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- Buy jam and rice.\n- The shop opens at 7:15 pm.\n\nWhat day is the plumber?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The plumber is the plumber.",
+   "passed": false
+  },
+  {
+   "family": "notes_missing",
+   "prompt": "Notes:\n- The class is in room 29.\n- The bread needs seven carrots.\n- The lesson is in room 11.\n\nWhich bus goes to the hospital?",
+   "check": {
+    "any": [
+     "not",
+     "cannot",
+     "no",
+     "nothing"
+    ],
+    "max_words": 25
+   },
+   "reply": "The hospital is a place where doctors and nurses help sick people.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "What is 9154 plus 1759?",
+   "check": {
+    "tool": "calc",
+    "value": 10913.0
+   },
+   "reply": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "I bought 59 boxes with 207 tiles in each box. How many tiles is that?",
+   "check": {
+    "tool": "calc",
+    "value": 12213.0
+   },
+   "reply": "To find the total number of tiles in each box, we need to multiply the number of tiles by the total number of boxes. \n\nThe total number of tiles is 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207 + 207",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "What is 10635 - 475?",
+   "check": {
+    "tool": "calc",
+    "value": 10160.0
+   },
+   "reply": "That is too hard for me. I can only do math with small numbers.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "Use the calculator: I bought 81 boxes with 66 pencils in each box. How many pencils is that?",
+   "check": {
+    "tool": "calc",
+    "value": 5346.0
+   },
+   "reply": "13 plus 86 is 12.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "Use the calculator. what is 6862 + 157?",
+   "check": {
+    "tool": "calc",
+    "value": 7019.0
+   },
+   "reply": "To find the calculator, we need to add up all the values and divide by the total number of values. \n\nThe sum of the values is: 686 / 5 = 68.8. \n\nSo, the calculator is 68.8.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "What is 597 plus 3274?",
+   "check": {
+    "tool": "calc",
+    "value": 3871.0
+   },
+   "reply": "That is too hard for me. I can only do math with small numbers.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "What is 832 x 25?",
+   "check": {
+    "tool": "calc",
+    "value": 20800.0
+   },
+   "reply": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "Take 7745 away from 8403.",
+   "check": {
+    "tool": "calc",
+    "value": 658.0
+   },
+   "reply": "To find the mean, we need to add up all the numbers and then divide by the total number of values. \n\nThe sum of the numbers is 744. \n\nThe mean is 744 / 8 = 74.8.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "With the calculator, what is 21504 divided by 96?",
+   "check": {
+    "tool": "calc",
+    "value": 224.0
+   },
+   "reply": "To find the median, we need to first arrange the numbers in order from smallest to largest: 3, 4, 5, 7, 9, 9, and 11. \n\nSince there are an odd number of values (5), the median is the middle value. In this case, the median is the third value: 3.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "What is 609 x 18?",
+   "check": {
+    "tool": "calc",
+    "value": 10962.0
+   },
+   "reply": "The answer is 6.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "Use the calculator. multiply 137 by 77.",
+   "check": {
+    "tool": "calc",
+    "value": 10549.0
+   },
+   "reply": "To find the calculator, we need to add up all the values and divide by the total number of values. \n\nThe sum of the values is: 3 + 7 + 7 + 9 + 7 + 7 + 9 + 9 + 7 + 7 + 9 + 9 + 7 + 9 + 9 + 7 + 9 + 9 + 7 + 9 + 9 + 7 + 9 + 9 + 7 + 9 + 9 + 7 + 9 + 9 + 7 + 9 + 9 + 7 + 9 + 9 + 7 + 9 + 9 + 7 + 9 + 9 + 7 + 9 +",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "What is 19069 - 15803?",
+   "check": {
+    "tool": "calc",
+    "value": 3266.0
+   },
+   "reply": "To find the number of9999, we can divide the number of999 by the total number of999. \n\nThe number of999 is 199. \n\nSo, the number of9999 is 199.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "What is 95904 divided by 96?",
+   "check": {
+    "tool": "calc",
+    "value": 999.0
+   },
+   "reply": "That is too hard for me. I can only do math with small numbers.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "Use the calculator: what is 659 times 64?",
+   "check": {
+    "tool": "calc",
+    "value": 42176.0
+   },
+   "reply": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "Use the calculator. what is 2162 minus 817?",
+   "check": {
+    "tool": "calc",
+    "value": 1345.0
+   },
+   "reply": "To find the calculator, we need to add up all the numbers and divide by the total number of values. \n\nFirst, let's add up the numbers: \n266 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81 + 81",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "Use the calculator. take 2013 away from 4477.",
+   "check": {
+    "tool": "calc",
+    "value": 2464.0
+   },
+   "reply": "To find the calculator, we need to add up all the values and divide by the total number of values. \n\nThe sum of the values is: 4477777777777777777777777777777777777777777777777777777777777777777777777777777777777777",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "Use the calculator. what is 685 x 96?",
+   "check": {
+    "tool": "calc",
+    "value": 65760.0
+   },
+   "reply": "To find the calculator, we need to add up all the numbers and then divide by the total number of values. \n\nThe sum of the numbers is 685. \n\nThe calculator is: 685 / 685 = 68.85.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "Use the calculator: divide 10896 by 16.",
+   "check": {
+    "tool": "calc",
+    "value": 681.0
+   },
+   "reply": "The calculator is: \"The calculator is: 1086 / 16.4. This calculator is a total of 8.4.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "What is 1816 plus 2669?",
+   "check": {
+    "tool": "calc",
+    "value": 4485.0
+   },
+   "reply": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "passed": false
+  },
+  {
+   "family": "tool_calc",
+   "prompt": "Add 7961 and 4182.",
+   "check": {
+    "tool": "calc",
+    "value": 12143.0
+   },
+   "reply": "To find the mean, we need to add up all the numbers and then divide by the total number of values. \n\nThe sum of the numbers is: 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 + 418 +",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Check my notes and tell me which room is the club in?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "club"
+    ]
+   },
+   "reply": "The club in my notes is in the middle of the room. The club has a big door that opens and closes.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Check my notes and tell me how does Ivy like juice?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "ivy"
+    ]
+   },
+   "reply": "Ivy likes juice.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Check my notes. Where is the van parked?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "van"
+    ]
+   },
+   "reply": "It is in the back of my notes.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Did I write a note about the bike?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "bike"
+    ]
+   },
+   "reply": "Yes, you did. The bike is red.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Check my notes and tell me how many carrots does the bread need?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "bread"
+    ]
+   },
+   "reply": "The number of carrots need to reduce the note.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Check my notes and tell me where is the car parked?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "car"
+    ]
+   },
+   "reply": "The car stopped at a stop sign.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "What do my notes say about the piano lesson?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "piano lesson"
+    ]
+   },
+   "reply": "That's a great idea!",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Search my notes: how many apples does the soup need?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "soup"
+    ]
+   },
+   "reply": "The soup needs water to grow.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Is there a note about the exam?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "exam"
+    ]
+   },
+   "reply": "No, there is not a note about the answer. The note is a picture of a teacher.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Check my notes. What do I need to buy?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "buy"
+    ]
+   },
+   "reply": "You need to buy a new one.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "My notes should say this: when is Grandpa's birthday?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "birthday"
+    ]
+   },
+   "reply": "No, when is your birthday?",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Check my notes and tell me what time is the haircut?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "haircut"
+    ]
+   },
+   "reply": "The haircut is a nice time.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "My notes should say this: what is the alarm code?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "alarm"
+    ]
+   },
+   "reply": "The alarm code is used in a high-endo. It is used to call the person who is making it.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Find my note about the passport.",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "passport"
+    ]
+   },
+   "reply": "I don't know where it is. I cannot see your house. Try looking under your bed!",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Check my notes and tell me how does Hana like tea?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "hana"
+    ]
+   },
+   "reply": "Hana, I like Hana, but I don't like Hana.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Do my notes say anything about the cafe?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "cafe"
+    ]
+   },
+   "reply": "Yes, my notes are say \"now\" when I say \"now\" and then \"now\" when I was a little bit.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Look in my notes: where is the car parked?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "car"
+    ]
+   },
+   "reply": "A car stopped at the edge of the street.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "What do my notes say about Grandpa?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "grandpa"
+    ]
+   },
+   "reply": "I don't know. He's a good reader.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Please look in my notes. Where is the bike parked?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "bike"
+    ]
+   },
+   "reply": "The bike stopped at a park.",
+   "passed": false
+  },
+  {
+   "family": "tool_notes",
+   "prompt": "Did I write a note about the van?",
+   "check": {
+    "tool": "notes",
+    "keys": [
+     "van"
+    ]
+   },
+   "reply": "Yes, you did. The van is red.",
+   "passed": false
+  }
+ ]
+}

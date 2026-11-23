@@ -1,0 +1,2606 @@
+{
+ "free": [
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 15811 - 2064?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"15811 - 2064\"}",
+   "final": "15811 - 2064 = 13747.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "With the calculator, what is 185 x 79?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"185 * 79\"}",
+   "final": "185 times 79 is 14615.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. divide 8760 by 24.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"8760 / 24\"}",
+   "final": "8760 divided by 24 is 365.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. what is 183 x 49?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"183 * 49\"}",
+   "final": "183 times 49 is 8967.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 30752 divided by 62?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"30752 / 62\"}",
+   "final": "30752 divided by 62 is 496.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 13794 minus 9012?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"13794 - 9012\"}",
+   "final": "13794 - 9012 = 4782.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Take 1090 away from 10343.",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"10343 - 1090\"}",
+   "final": "10343 - 1090 = 9253.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 484 plus 9194?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"484 + 9194\"}",
+   "final": "484 + 9194 = 9678.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 14225 - 8069?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"14225 - 8069\"}",
+   "final": "14225 - 8069 = 6156.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: multiply 857 by 67.",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"857 * 67\"}",
+   "final": "857 times 67 is 57419.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3747 plus 7734?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"3747 + 7734\"}",
+   "final": "3747 plus 7734 is 11481.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2586 + 503?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"2586 + 503\"}",
+   "final": "2586 + 503 = 3089.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3501 plus 3757?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"3501 + 3757\"}",
+   "final": "3501 + 3757 = 7258.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: take 7595 away from 15282.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"15282 - 7595\"}",
+   "final": "15282 minus 7595 is 7687.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3336 - 2837?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"3336 - 2837\"}",
+   "final": "3336 - 2837 = 499.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 726 away from 5240.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"5240 - 726\"}",
+   "final": "5240 - 726 = 4514.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 37 boxes with 116 bricks in each box. How many bricks is that?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"116 * 37\"}",
+   "final": "That is 4292 bricks.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "A toy costs 134 coins. How much do 24 of them cost?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"134 * 24\"}",
+   "final": "That is 3216 coins.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Divide 39144 by 42.",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"39144 / 42\"}",
+   "final": "39144 divided by 42 is 932.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 27685 divided by 35?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"27685 / 35\"}",
+   "final": "27685 divided by 35 is 791.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 9245 + 6663?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"9245 + 6663\"}",
+   "final": "9245 + 6663 = 15908.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Divide 20793 by 87.",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"20793 / 87\"}",
+   "final": "The answer is 239.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. add 4004 and 3662.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"4004 + 3662\"}",
+   "final": "4004 + 3662 = 7666.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Take 7105 away from 15245.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"15245 - 7105\"}",
+   "final": "15245 minus 7105 is 8140.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 605 times 76?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"605 * 76\"}",
+   "final": "605 times 76 is 45980.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 31 boxes with 229 stamps in each box. How many stamps is that?",
+   "first": "Let me work that out with the calculator.\n{\"tool\": \"calc\", \"input\": \"229 * 31\"}",
+   "final": "That is 7099 stamps.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 14 boxes with 126 coins in each box. How many coins is that?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"126 * 14\"}",
+   "final": "That is 1764 coins.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. what is 471 x 19?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"471 * 19\"}",
+   "final": "471 times 19 is 8949.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 2693 away from 3117.",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"3117 - 2693\"}",
+   "final": "3117 - 2693 = 424.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 2326 away from 5943.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"5943 - 2326\"}",
+   "final": "5943 - 2326 = 3617.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 80 boxes with 224 pencils in each box. How many pencils is that?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"224 * 80\"}",
+   "final": "That is 17920 pencils.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 9405 minus 6576?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"9405 - 6576\"}",
+   "final": "9405 - 6576 = 2829.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 8253 - 3856?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"8253 - 3856\"}",
+   "final": "8253 - 3856 = 4397.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 334 times 25?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"334 * 25\"}",
+   "final": "334 times 25 is 8350.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Add 2061 and 263.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"2061 + 263\"}",
+   "final": "2061 plus 263 is 2324.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2904 divided by 6?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"2904 / 6\"}",
+   "final": "2904 divided by 6 is 484.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 278 x 93?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"278 * 93\"}",
+   "final": "278 times 93 is 25854.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 28 boxes with 169 pages in each box. How many pages is that?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"169 * 28\"}",
+   "final": "That is 4732 pages.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 458 times 71?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"458 * 71\"}",
+   "final": "458 times 71 is 32518.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2837 plus 8056?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"2837 + 8056\"}",
+   "final": "2837 + 8056 = 10893.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 4286 and 88 together?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"4286 + 88\"}",
+   "final": "4286 + 88 = 4374.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "1084 multiplied by 58 please.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"1084 * 58\"}",
+   "final": "1084 times 58 is 62872.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 1900 take away 30?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"1900 - 30\"}",
+   "final": "1900 minus 30 is 1870.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 6121 * 76.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"6121 * 76\"}",
+   "final": "6121 times 76 is 465196.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 3944 to 89 for me.",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"89 + 3944\"}",
+   "final": "89 + 3944 = 4033.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 352032 into 48 equal parts?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"352032 / 352032\"}",
+   "final": "352032 divided by 352032.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 76 children and each one needs 7007 sheets of paper. How many sheets is that?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"76 * 700\"}",
+   "final": "That is 53200.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 2044 coins and I spent 89. How many coins are left?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"2044 - 89\"}",
+   "final": "The answer is 1955 coins.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 1735 + 97.",
+   "first": "Let me work that out with the calculator.\n{\"tool\": \"calc\", \"input\": \"1735 + 97\"}",
+   "final": "1735 + 97 = 1832.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 4390 and 16?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"4390 + 16\"}",
+   "final": "4390 + 16 = 4406.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 5228 and 81 together?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"5228 + 81\"}",
+   "final": "5228 + 81 = 5309.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "6669 multiplied by 66 please.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"6669 * 66\"}",
+   "final": "6669 times 66 is 440154.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 4576 take away 95?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"4576 - 95\"}",
+   "final": "4576 - 95 = 4481.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 5238 * 59.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"5238 * 59\"}",
+   "final": "5238 times 59 is 309042.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 8613 to 74 for me.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"7413 + 86\"}",
+   "final": "7413 plus 86 is 7499.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 277344 into 81 equal parts?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"277344 / 277734\"}",
+   "final": "277344 divided by 27774.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 25 children and each one needs 7380 sheets of paper. How many sheets is that?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"25 + 25\"}",
+   "final": "25 + 25 = 50. That is 50.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 964 coins and I spent 63. How many coins are left?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"964 - 63\"}",
+   "final": "The answer is 901 coins.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 184 + 23.",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"184 + 23\"}",
+   "final": "184 + 23 = 207.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 749 and 76?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"749 + 76\"}",
+   "final": "749 + 76 = 825.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 3698 and 57 together?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"3698 + 57\"}",
+   "final": "3698 + 57 = 3755.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "3859 multiplied by 34 please.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"3859 * 34\"}",
+   "final": "3859 times 34 is 131206.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 7054 take away 21?",
+   "first": "Let me work that out with the calculator.\n{\"tool\": \"calc\", \"input\": \"7054 - 21\"}",
+   "final": "7054 minus 21 is 7033.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 4194 * 17.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"4194 * 17\"}",
+   "final": "4194 times 17 is 71298.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 2805 to 57 for me.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"5705 + 2805\"}",
+   "final": "5705 + 2805 = 8510.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 315054 into 46 equal parts?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"315054 / 46\"}",
+   "final": "315054 divided by 46 is 6849.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 53 children and each one needs 8753 sheets of paper. How many sheets is that?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"53 + 8753\"}",
+   "final": "That is 8806.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 8361 coins and I spent 23. How many coins are left?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"8361 - 83\"}",
+   "final": "8361 - 83 = 8278. That is 8278 coins.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 4700 + 74.",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"4700 + 74\"}",
+   "final": "4700 plus 74 is 4774.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 3771 and 77?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"3771 + 77\"}",
+   "final": "3771 + 77 = 3848.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which bus goes to the airport?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 92 goes to the airport.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the key?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"key\"}",
+   "final": "The key is under the mat.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which bus goes to the airport?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 40 goes to the airport.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: how many spoons of sugar does the bread need?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bread\"}",
+   "final": "The bread needs seven spoons of sugar.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When should I pay the rent?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"rent\"}",
+   "final": "You should pay the rent on Saturday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: what is the name of Nora's dog?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"dog\"}",
+   "final": "Nora's dog is called Luna.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the car parked?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"car\"}",
+   "final": "The car is parked on Bridge Road.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me how many spoons of sugar does the salad need?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"salad\"}",
+   "final": "The salad needs five spoons of sugar.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when is Grandpa's birthday?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Grandpa's birthday is on 24 June.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which room is the club in?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"club\"}",
+   "final": "The club is in room 36.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me who should I call about the party?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"party\"}",
+   "final": "You should call Gina.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me where is the bike parked?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bike\"}",
+   "final": "The bike is parked on River Street.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: what is Yuki's cat called?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"cat\"}",
+   "final": "It is called Smoky.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me where is the school trip going?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"trip\"}",
+   "final": "The school trip is going to the forest.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which room is the club in?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"club\"}",
+   "final": "The club is in room 1.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: how is Aunt Tess travelling?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"tess\"}",
+   "final": "Aunt Tess is travelling by car.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: when does the shop close?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"shop\"}",
+   "final": "The shop closes at 8 am.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. What is Wade's pony called?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"pony\"}",
+   "final": "It is called Bruno.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When does the bakery open?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bakery\"}",
+   "final": "The bakery opens at 11:30 pm.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which room is the lesson in?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"lesson\"}",
+   "final": "The lesson is in room 19.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. When does the pool open?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"pool\"}",
+   "final": "The pool opens at 3 pm.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when does the bakery open?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bakery\"}",
+   "final": "The bakery opens at 1 am.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me what is the name of Quinn's fish?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"fish\"}",
+   "final": "Quinn's fish is called Olive.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When is Dad's birthday?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Dad's birthday is on 6 May.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when should I wash the towels?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"towels\"}",
+   "final": "You should wash the towels on Thursday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes. Where is the van parked?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"van\"}",
+   "final": "The van is parked on High Street.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which bus goes to school?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 72 goes to school.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me what day is the teacher?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"teacher\"}",
+   "final": "The teacher is on Thursday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. Where is the class picnic going?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"picnic\"}",
+   "final": "The class picnic is going to the market.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. Which bus goes to the hospital?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 29 goes to the hospital.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: which room is the club in?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"club\"}",
+   "final": "The club is in room 9.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. What does Olive like in lemonade?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"olive\"}",
+   "final": "Olive likes lemon in lemonade.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: which bus goes to school?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 52 goes to school.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. When is Vera's birthday?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Vera's birthday is on 5 March.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me when does the library open?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"library\"}",
+   "final": "The library opens at 11 pm.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes. How is Grandpa travelling?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"grandpa\"}",
+   "final": "Grandpa is travelling by plane.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when does Cousin Kyle arrive?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"kyle\"}",
+   "final": "Cousin Kyle arrives on Saturday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: what is on my shopping list?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"buy\"}",
+   "final": "Your list has salt, batteries and milk.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the team day out going?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"out\"}",
+   "final": "The team day out is going to the pool.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: how many apples does the bread need?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bread\"}",
+   "final": "The bread needs four apples.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me how is Cousin Aisha travelling?",
+   "first": "Let me check your notes.\n{\"tool\": \"notes\", \"input\": \"aisha\"}",
+   "final": "Cousin Aisha is travelling by bus.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Please search the notes for me. Where is the class picnic going?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"picnic\"}",
+   "final": "The class picnic is going to the lake.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Please search the notes for me. How many apples does the pancake mix need?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"pancake\"}",
+   "final": "The pancake mix needs two apples.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. When should I wash the towels?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"towels\"}",
+   "final": "You should wash the towels on Monday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes where is the class picnic going?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"picnic\"}",
+   "final": "The class picnic is going to the beach.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. When is Grandpa's birthday?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Grandpa's birthday is on 25 October.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. Where is the work party going?",
+   "first": "That's a big sum, so I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"23 + going\"}",
+   "final": "23 + going going to the party.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes what is the name of Rita's rabbit?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"rabbit\"}",
+   "final": "Rita's rabbit is called Olive.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. Where is the passport?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"passport\"}",
+   "final": "The passport is in the top drawer.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. What day is the doctor?",
+   "first": "The doctor is a person who helps sick people get better.",
+   "final": "The doctor is a person who helps sick people get better.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes when is Uncle Yuki's birthday?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Uncle Yuki's birthday is on 7 October.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. When is Grace's birthday?",
+   "first": "Grace's birthday is in a special place. It is in the morning or morning. Do you like it?",
+   "final": "Grace's birthday is in a special place. It is in the morning or morning. Do you like it?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. How does Omar like juice?",
+   "first": "Omar likes juice because it's sweet and juicy. Do you like juice?",
+   "final": "Omar likes juice because it's sweet and juicy. Do you like juice?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. What is the name of Ava's hamster?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"hamster\"}",
+   "final": "Ava's hamster is called Bubbles.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me where is the bike parked?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bike\"}",
+   "final": "The bike is parked on Church Lane.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. Which room is the class in?",
+   "first": "The class in a class is in the middle of the room. It has a big door and a door. It helps you see the class.",
+   "final": "The class in a class is in the middle of the room. It has a big door and a door. It helps you see the class.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. What is on my shopping list?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"buy\"}",
+   "final": "Your list has milk, pasta and paper.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes when is the barber?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"barber\"}",
+   "final": "The barber is on Friday at 3:30 pm.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me how many onions does the soup need?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"soup\"}",
+   "final": "The soup needs seven onions.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me what day is the eye test?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"eye test\"}",
+   "final": "The eye test is on Wednesday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  }
+ ],
+ "constrained": [
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 15811 - 2064?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"15811 - 2064\"}",
+   "final": "15811 - 2064 = 13747.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "With the calculator, what is 185 x 79?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"185 * 79\"}",
+   "final": "185 times 79 is 14615.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. divide 8760 by 24.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"8760 / 24\"}",
+   "final": "8760 divided by 24 is 365.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. what is 183 x 49?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"183 * 49\"}",
+   "final": "183 times 49 is 8967.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 30752 divided by 62?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"30752 / 62\"}",
+   "final": "30752 divided by 62 is 496.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 13794 minus 9012?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"13794 - 9012\"}",
+   "final": "13794 - 9012 = 4782.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Take 1090 away from 10343.",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"10343 - 1090\"}",
+   "final": "10343 - 1090 = 9253.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 484 plus 9194?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"484 + 9194\"}",
+   "final": "484 + 9194 = 9678.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 14225 - 8069?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"14225 - 8069\"}",
+   "final": "14225 - 8069 = 6156.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: multiply 857 by 67.",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"857 * 67\"}",
+   "final": "857 times 67 is 57419.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3747 plus 7734?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"3747 + 7734\"}",
+   "final": "3747 plus 7734 is 11481.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2586 + 503?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"2586 + 503\"}",
+   "final": "2586 + 503 = 3089.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3501 plus 3757?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"3501 + 3757\"}",
+   "final": "3501 + 3757 = 7258.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: take 7595 away from 15282.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"15282 - 7595\"}",
+   "final": "15282 minus 7595 is 7687.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3336 - 2837?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"3336 - 2837\"}",
+   "final": "3336 - 2837 = 499.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 726 away from 5240.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"5240 - 726\"}",
+   "final": "5240 - 726 = 4514.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 37 boxes with 116 bricks in each box. How many bricks is that?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"116 * 37\"}",
+   "final": "That is 4292 bricks.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "A toy costs 134 coins. How much do 24 of them cost?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"134 * 24\"}",
+   "final": "That is 3216 coins.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Divide 39144 by 42.",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"39144 / 42\"}",
+   "final": "39144 divided by 42 is 932.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 27685 divided by 35?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"27685 / 35\"}",
+   "final": "27685 divided by 35 is 791.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 9245 + 6663?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"9245 + 6663\"}",
+   "final": "9245 + 6663 = 15908.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Divide 20793 by 87.",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"20793 / 87\"}",
+   "final": "The answer is 239.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. add 4004 and 3662.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"4004 + 3662\"}",
+   "final": "4004 + 3662 = 7666.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Take 7105 away from 15245.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"15245 - 7105\"}",
+   "final": "15245 minus 7105 is 8140.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 605 times 76?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"605 * 76\"}",
+   "final": "605 times 76 is 45980.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 31 boxes with 229 stamps in each box. How many stamps is that?",
+   "first": "Let me work that out with the calculator.\n{\"tool\": \"calc\", \"input\": \"229 * 31\"}",
+   "final": "That is 7099 stamps.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 14 boxes with 126 coins in each box. How many coins is that?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"126 * 14\"}",
+   "final": "That is 1764 coins.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. what is 471 x 19?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"471 * 19\"}",
+   "final": "471 times 19 is 8949.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 2693 away from 3117.",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"3117 - 2693\"}",
+   "final": "3117 - 2693 = 424.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 2326 away from 5943.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"5943 - 2326\"}",
+   "final": "5943 - 2326 = 3617.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 80 boxes with 224 pencils in each box. How many pencils is that?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"224 * 80\"}",
+   "final": "That is 17920 pencils.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 9405 minus 6576?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"9405 - 6576\"}",
+   "final": "9405 - 6576 = 2829.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 8253 - 3856?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"8253 - 3856\"}",
+   "final": "8253 - 3856 = 4397.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 334 times 25?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"334 * 25\"}",
+   "final": "334 times 25 is 8350.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "Add 2061 and 263.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"2061 + 263\"}",
+   "final": "2061 plus 263 is 2324.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2904 divided by 6?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"2904 / 6\"}",
+   "final": "2904 divided by 6 is 484.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 278 x 93?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"278 * 93\"}",
+   "final": "278 times 93 is 25854.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 28 boxes with 169 pages in each box. How many pages is that?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"169 * 28\"}",
+   "final": "That is 4732 pages.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 458 times 71?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"458 * 71\"}",
+   "final": "458 times 71 is 32518.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2837 plus 8056?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"2837 + 8056\"}",
+   "final": "2837 + 8056 = 10893.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 4286 and 88 together?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"4286 + 88\"}",
+   "final": "4286 + 88 = 4374.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "1084 multiplied by 58 please.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"1084 * 58\"}",
+   "final": "1084 times 58 is 62872.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 1900 take away 30?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"1900 - 30\"}",
+   "final": "1900 minus 30 is 1870.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 6121 * 76.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"6121 * 76\"}",
+   "final": "6121 times 76 is 465196.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 3944 to 89 for me.",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"89 + 3944\"}",
+   "final": "89 + 3944 = 4033.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 352032 into 48 equal parts?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"352032 / 352032\"}",
+   "final": "352032 divided by 352032.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 76 children and each one needs 7007 sheets of paper. How many sheets is that?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"76 * 700\"}",
+   "final": "That is 53200.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 2044 coins and I spent 89. How many coins are left?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"2044 - 89\"}",
+   "final": "The answer is 1955 coins.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 1735 + 97.",
+   "first": "Let me work that out with the calculator.\n{\"tool\": \"calc\", \"input\": \"1735 + 97\"}",
+   "final": "1735 + 97 = 1832.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 4390 and 16?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"4390 + 16\"}",
+   "final": "4390 + 16 = 4406.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 5228 and 81 together?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"5228 + 81\"}",
+   "final": "5228 + 81 = 5309.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "6669 multiplied by 66 please.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"6669 * 66\"}",
+   "final": "6669 times 66 is 440154.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 4576 take away 95?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"4576 - 95\"}",
+   "final": "4576 - 95 = 4481.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 5238 * 59.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"5238 * 59\"}",
+   "final": "5238 times 59 is 309042.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 8613 to 74 for me.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"7413 + 86\"}",
+   "final": "7413 plus 86 is 7499.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 277344 into 81 equal parts?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"277344 / 277734\"}",
+   "final": "277344 divided by 27774.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 25 children and each one needs 7380 sheets of paper. How many sheets is that?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"25 + 25\"}",
+   "final": "25 + 25 = 50. That is 50.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 964 coins and I spent 63. How many coins are left?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"964 - 63\"}",
+   "final": "The answer is 901 coins.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 184 + 23.",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"184 + 23\"}",
+   "final": "184 + 23 = 207.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 749 and 76?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"749 + 76\"}",
+   "final": "749 + 76 = 825.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 3698 and 57 together?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"3698 + 57\"}",
+   "final": "3698 + 57 = 3755.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "3859 multiplied by 34 please.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"3859 * 34\"}",
+   "final": "3859 times 34 is 131206.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 7054 take away 21?",
+   "first": "Let me work that out with the calculator.\n{\"tool\": \"calc\", \"input\": \"7054 - 21\"}",
+   "final": "7054 minus 21 is 7033.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 4194 * 17.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"4194 * 17\"}",
+   "final": "4194 times 17 is 71298.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 2805 to 57 for me.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"5705 + 2805\"}",
+   "final": "5705 + 2805 = 8510.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 315054 into 46 equal parts?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"315054 / 46\"}",
+   "final": "315054 divided by 46 is 6849.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 53 children and each one needs 8753 sheets of paper. How many sheets is that?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"53 + 8753\"}",
+   "final": "That is 8806.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 8361 coins and I spent 23. How many coins are left?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"8361 - 83\"}",
+   "final": "8361 - 83 = 8278. That is 8278 coins.",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 4700 + 74.",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"4700 + 74\"}",
+   "final": "4700 plus 74 is 4774.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 3771 and 77?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"3771 + 77\"}",
+   "final": "3771 + 77 = 3848.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which bus goes to the airport?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 92 goes to the airport.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the key?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"key\"}",
+   "final": "The key is under the mat.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which bus goes to the airport?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 40 goes to the airport.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: how many spoons of sugar does the bread need?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bread\"}",
+   "final": "The bread needs seven spoons of sugar.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When should I pay the rent?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"rent\"}",
+   "final": "You should pay the rent on Saturday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: what is the name of Nora's dog?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"dog\"}",
+   "final": "Nora's dog is called Luna.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the car parked?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"car\"}",
+   "final": "The car is parked on Bridge Road.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me how many spoons of sugar does the salad need?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"salad\"}",
+   "final": "The salad needs five spoons of sugar.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when is Grandpa's birthday?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Grandpa's birthday is on 24 June.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which room is the club in?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"club\"}",
+   "final": "The club is in room 36.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me who should I call about the party?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"party\"}",
+   "final": "You should call Gina.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me where is the bike parked?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bike\"}",
+   "final": "The bike is parked on River Street.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: what is Yuki's cat called?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"cat\"}",
+   "final": "It is called Smoky.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me where is the school trip going?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"trip\"}",
+   "final": "The school trip is going to the forest.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which room is the club in?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"club\"}",
+   "final": "The club is in room 1.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: how is Aunt Tess travelling?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"tess\"}",
+   "final": "Aunt Tess is travelling by car.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: when does the shop close?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"shop\"}",
+   "final": "The shop closes at 8 am.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. What is Wade's pony called?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"pony\"}",
+   "final": "It is called Bruno.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When does the bakery open?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bakery\"}",
+   "final": "The bakery opens at 11:30 pm.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which room is the lesson in?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"lesson\"}",
+   "final": "The lesson is in room 19.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. When does the pool open?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"pool\"}",
+   "final": "The pool opens at 3 pm.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when does the bakery open?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bakery\"}",
+   "final": "The bakery opens at 1 am.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me what is the name of Quinn's fish?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"fish\"}",
+   "final": "Quinn's fish is called Olive.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When is Dad's birthday?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Dad's birthday is on 6 May.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when should I wash the towels?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"towels\"}",
+   "final": "You should wash the towels on Thursday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes. Where is the van parked?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"van\"}",
+   "final": "The van is parked on High Street.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which bus goes to school?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 72 goes to school.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me what day is the teacher?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"teacher\"}",
+   "final": "The teacher is on Thursday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. Where is the class picnic going?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"picnic\"}",
+   "final": "The class picnic is going to the market.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. Which bus goes to the hospital?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 29 goes to the hospital.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: which room is the club in?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"club\"}",
+   "final": "The club is in room 9.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. What does Olive like in lemonade?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"olive\"}",
+   "final": "Olive likes lemon in lemonade.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: which bus goes to school?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 52 goes to school.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. When is Vera's birthday?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Vera's birthday is on 5 March.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me when does the library open?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"library\"}",
+   "final": "The library opens at 11 pm.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes. How is Grandpa travelling?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"grandpa\"}",
+   "final": "Grandpa is travelling by plane.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when does Cousin Kyle arrive?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"kyle\"}",
+   "final": "Cousin Kyle arrives on Saturday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: what is on my shopping list?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"buy\"}",
+   "final": "Your list has salt, batteries and milk.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the team day out going?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"out\"}",
+   "final": "The team day out is going to the pool.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: how many apples does the bread need?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bread\"}",
+   "final": "The bread needs four apples.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me how is Cousin Aisha travelling?",
+   "first": "Let me check your notes.\n{\"tool\": \"notes\", \"input\": \"aisha\"}",
+   "final": "Cousin Aisha is travelling by bus.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Please search the notes for me. Where is the class picnic going?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"picnic\"}",
+   "final": "The class picnic is going to the lake.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Please search the notes for me. How many apples does the pancake mix need?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"pancake\"}",
+   "final": "The pancake mix needs two apples.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. When should I wash the towels?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"towels\"}",
+   "final": "You should wash the towels on Monday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes where is the class picnic going?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"picnic\"}",
+   "final": "The class picnic is going to the beach.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. When is Grandpa's birthday?",
+   "first": "Let me look that up in your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Grandpa's birthday is on 25 October.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. Where is the work party going?",
+   "first": "That's a big sum, so I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"23 +\"}",
+   "final": "23 + \"23 +\"}",
+   "valid": true,
+   "right": false,
+   "good": false,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes what is the name of Rita's rabbit?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"rabbit\"}",
+   "final": "Rita's rabbit is called Olive.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. Where is the passport?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"passport\"}",
+   "final": "The passport is in the top drawer.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. What day is the doctor?",
+   "first": "The doctor is a person who helps sick people get better.",
+   "final": "The doctor is a person who helps sick people get better.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes when is Uncle Yuki's birthday?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Uncle Yuki's birthday is on 7 October.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. When is Grace's birthday?",
+   "first": "Grace's birthday is in a special place. It is in the morning or morning. Do you like it?",
+   "final": "Grace's birthday is in a special place. It is in the morning or morning. Do you like it?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. How does Omar like juice?",
+   "first": "Omar likes juice because it's sweet and juicy. Do you like juice?",
+   "final": "Omar likes juice because it's sweet and juicy. Do you like juice?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. What is the name of Ava's hamster?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"hamster\"}",
+   "final": "Ava's hamster is called Bubbles.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me where is the bike parked?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"bike\"}",
+   "final": "The bike is parked on Church Lane.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. Which room is the class in?",
+   "first": "The class in a class is in the middle of the room. It has a big door and a door. It helps you see the class.",
+   "final": "The class in a class is in the middle of the room. It has a big door and a door. It helps you see the class.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. What is on my shopping list?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"buy\"}",
+   "final": "Your list has milk, pasta and paper.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes when is the barber?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"barber\"}",
+   "final": "The barber is on Friday at 3:30 pm.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me how many onions does the soup need?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"soup\"}",
+   "final": "The soup needs seven onions.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me what day is the eye test?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"eye test\"}",
+   "final": "The eye test is on Wednesday.",
+   "valid": true,
+   "right": true,
+   "good": true,
+   "draft": true
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "tinychat": {
+  "conversations": 99998,
+  "val_tokens": 239322,
+  "train_tokens": 11740824
+ },
+ "smol": {
+  "conversations": 12449,
+  "val_tokens": 34732,
+  "train_tokens": 1807066
+ },
+ "everyday": {
+  "conversations": 2160,
+  "val_tokens": 19163,
+  "train_tokens": 399705
+ },
+ "storyreq": {
+  "conversations": 50920,
+  "val_tokens": 200008,
+  "train_tokens": 9714901
+ },
+ "synth": {
+  "conversations": 250000,
+  "val_tokens": 68783,
+  "train_tokens": 8750614
+ }
+}

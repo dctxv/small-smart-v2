@@ -1,0 +1,2606 @@
+{
+ "free": [
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 15811 - 2064?",
+   "first": "To find the calculator11 of 1589, we can use the formula for the mean (average) or the formula for the mean (average) (average) = 1589. \n\nThe mean (average) is 1589.",
+   "final": "To find the calculator11 of 1589, we can use the formula for the mean (average) or the formula for the mean (average) (average) = 1589. \n\nThe mean (average) is 1589.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "With the calculator, what is 185 x 79?",
+   "first": "To find the calculator, we can use the formula for the value of x, which is the sum of the values in the equation. \n\n195 x 79 = 185\n295 + 188 = 495\n395 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495",
+   "final": "To find the calculator, we can use the formula for the value of x, which is the sum of the values in the equation. \n\n195 x 79 = 185\n295 + 188 = 495\n395 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. divide 8760 by 24.",
+   "first": "To find the calculator, we need to subtract 8760 from both sides of the equation. \n\n8760 / 2 = 24.55. \n\nSubtracting 2 from both sides, we get 2.55. \n\nSo, the calculator is 24.55.",
+   "final": "To find the calculator, we need to subtract 8760 from both sides of the equation. \n\n8760 / 2 = 24.55. \n\nSubtracting 2 from both sides, we get 2.55. \n\nSo, the calculator is 24.55.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. what is 183 x 49?",
+   "first": "To find the calculator, we need to calculate the number of x in the equation. Since there are 183 x 49, we can calculate the calculator. \n\n183 x 49 = 183. \n\nSo, the calculator is 183.",
+   "final": "To find the calculator, we need to calculate the number of x in the equation. Since there are 183 x 49, we can calculate the calculator. \n\n183 x 49 = 183. \n\nSo, the calculator is 183.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 30752 divided by 62?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 13794 minus 9012?",
+   "first": "To find the number of people who are 121, we need to calculate 13794. Since 1394 is an even number, we can calculate 13794 by 1394. \n\n13794 is a prime number that is a real number, as 1394 is a prime number that is a prime number. \n\n(13944 / 1394 = 1394.",
+   "final": "To find the number of people who are 121, we need to calculate 13794. Since 1394 is an even number, we can calculate 13794 by 1394. \n\n13794 is a prime number that is a real number, as 1394 is a prime number that is a prime number. \n\n(13944 / 1394 = 1394.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Take 1090 away from 10343.",
+   "first": "10.",
+   "final": "10.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 484 plus 9194?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 14225 - 8069?",
+   "first": "That is too hard for me. I can only do math with small numbers.",
+   "final": "That is too hard for me. I can only do math with small numbers.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: multiply 857 by 67.",
+   "first": "To find the calculator, we need to add the average of the given numbers. \n\n877 / 67 = 34.55.\n\nSubtracting 67 from 67.55, we get 34.55.\n\nSo, the calculator of the calculator is 34.55.",
+   "final": "To find the calculator, we need to add the average of the given numbers. \n\n877 / 67 = 34.55.\n\nSubtracting 67 from 67.55, we get 34.55.\n\nSo, the calculator of the calculator is 34.55.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3747 plus 7734?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2586 + 503?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3501 plus 3757?",
+   "first": "That is too hard for me. I can only do math with small numbers.",
+   "final": "That is too hard for me. I can only do math with small numbers.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: take 7595 away from 15282.",
+   "first": "To find the calculators, we can use the formula for the number of hours per day. \n\nText: The number of hours per day is 152, and the number of hours is 152, is the number of hours per day. \n\nText: The number of hours per day is 152, and the number of hours is 152, is the number that is not the number that is 152, which is 152.",
+   "final": "To find the calculators, we can use the formula for the number of hours per day. \n\nText: The number of hours per day is 152, and the number of hours is 152, is the number of hours per day. \n\nText: The number of hours per day is 152, and the number of hours is 152, is the number that is not the number that is 152, which is 152.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3336 - 2837?",
+   "first": "To find the number of 333, we need to calculate the total number of values in a dataset. \n\nThe sum of the values is 333 + 283 + 283 + 283 + 283 = 144. \n\nThere are 5 values in the dataset. \n\nThe mean is 144 / 5 = 33.",
+   "final": "To find the number of 333, we need to calculate the total number of values in a dataset. \n\nThe sum of the values is 333 + 283 + 283 + 283 + 283 = 144. \n\nThere are 5 values in the dataset. \n\nThe mean is 144 / 5 = 33.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 726 away from 5240.",
+   "first": "To find the calculator, we need to subtract the number of days the mile is 1, 2, 3, 4, 5, and 6. \n\nSince there are 7 days, we divide the calculator by 7, which is 5240. This is the calculator with 5240, which is 5240. \n\nSo, the calculator of the mile is 5240.",
+   "final": "To find the calculator, we need to subtract the number of days the mile is 1, 2, 3, 4, 5, and 6. \n\nSince there are 7 days, we divide the calculator by 7, which is 5240. This is the calculator with 5240, which is 5240. \n\nSo, the calculator of the mile is 5240.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 37 boxes with 116 bricks in each box. How many bricks is that?",
+   "first": "376 bricks.",
+   "final": "376 bricks.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "A toy costs 134 coins. How much do 24 of them cost?",
+   "first": "To find the number of coins costs 24, we need to divide the number of coins costs 24 by the number of coins. \n\nFirst, let's divide 134 by 13. \n\n124 / 13 = 0.335.\n\nSo, the number of coins costs 24 is 0.33.",
+   "final": "To find the number of coins costs 24, we need to divide the number of coins costs 24 by the number of coins. \n\nFirst, let's divide 134 by 13. \n\n124 / 13 = 0.335.\n\nSo, the number of coins costs 24 is 0.33.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Divide 39144 by 42.",
+   "first": "1.",
+   "final": "1.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 27685 divided by 35?",
+   "first": "To find the number of people who were divided by 35, we can use the formula: (7665 / 35) * (765) * (765) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (765",
+   "final": "To find the number of people who were divided by 35, we can use the formula: (7665 / 35) * (765) * (765) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (765",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 9245 + 6663?",
+   "first": "To find the percentage of 8845 and 663, we can multiply the calculator by the total number of values. \n\nThe calculator is 8845 + 663 + 663 + 663 = 845. \n\nTherefore, the percentage of 8845 is 845.",
+   "final": "To find the percentage of 8845 and 663, we can multiply the calculator by the total number of values. \n\nThe calculator is 8845 + 663 + 663 + 663 = 845. \n\nTherefore, the percentage of 8845 is 845.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Divide 20793 by 87.",
+   "first": "To find the number of people who did not follow the order of operations, we need to divide the number of people who did not follow the order of operations (873) by the total number of operations (8). \n\n873 / 873 = 0.43333.\n\nSo, the number of people who did not follow the order of operations is 0.433.",
+   "final": "To find the number of people who did not follow the order of operations, we need to divide the number of people who did not follow the order of operations (873) by the total number of operations (8). \n\n873 / 873 = 0.43333.\n\nSo, the number of people who did not follow the order of operations is 0.433.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. add 4004 and 3662.",
+   "first": "To find the calculator, we can use the formula for the number of inquiries. The formula is 2x + 5 = 16. This is because 6444 is the average of the two middle numbers, which are 444. \n\nIn this case, the average of the two middle numbers is 644. This is because 6444 is an even number, which is a common number.",
+   "final": "To find the calculator, we can use the formula for the number of inquiries. The formula is 2x + 5 = 16. This is because 6444 is the average of the two middle numbers, which are 444. \n\nIn this case, the average of the two middle numbers is 644. This is because 6444 is an even number, which is a common number.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Take 7105 away from 15245.",
+   "first": "The answer is 2.",
+   "final": "The answer is 2.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 605 times 76?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 31 boxes with 229 stamps in each box. How many stamps is that?",
+   "first": "31 stamps.",
+   "final": "31 stamps.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 14 boxes with 126 coins in each box. How many coins is that?",
+   "first": "14 plus 14 is 19. You have 19 boxes in total.",
+   "final": "14 plus 14 is 19. You have 19 boxes in total.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. what is 471 x 19?",
+   "first": "To find the calculator, we need to isolate the function f(x) = x^2 + 2x + 1. \n\nSubstituting the value of f(x) = x^2 + 2x + 1, we get f(2) + 1 = 19. \n\nNow, we can find f(2) by dividing the result by the total number of values, which is 4. \n\nSo, the calculator of the function f(x) = x^2 + 2x + 1 = 19.",
+   "final": "To find the calculator, we need to isolate the function f(x) = x^2 + 2x + 1. \n\nSubstituting the value of f(x) = x^2 + 2x + 1, we get f(2) + 1 = 19. \n\nNow, we can find f(2) by dividing the result by the total number of values, which is 4. \n\nSo, the calculator of the function f(x) = x^2 + 2x + 1 = 19.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 2693 away from 3117.",
+   "first": "To find the calculator, we can use the formula for the number of nth thresholds. \n\nNew thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth th",
+   "final": "To find the calculator, we can use the formula for the number of nth thresholds. \n\nNew thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth th",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 2326 away from 5943.",
+   "first": "To find the calculator, we first need to calculate the number of doubled eggs. Since there are 5943 and 5943, the calculator is 594, we can calculate the number of doubled eggs. \n\nThe calculator is 5943. \n\nThe number of doubled eggs is 594.",
+   "final": "To find the calculator, we first need to calculate the number of doubled eggs. Since there are 5943 and 5943, the calculator is 594, we can calculate the number of doubled eggs. \n\nThe calculator is 5943. \n\nThe number of doubled eggs is 594.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 80 boxes with 224 pencils in each box. How many pencils is that?",
+   "first": "There are 6 boxes with 804 pencils in each box.",
+   "final": "There are 6 boxes with 804 pencils in each box.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 9405 minus 6576?",
+   "first": "To find the number of minus 6576, we can use the formula for the number of nth and the formula for the number of nth and 6. \n\nThe number of nth and 6 is 740. \n\nThe number of nth and 6 is 740. \n\nThe number of nth and 6 is 740.",
+   "final": "To find the number of minus 6576, we can use the formula for the number of nth and the formula for the number of nth and 6. \n\nThe number of nth and 6 is 740. \n\nThe number of nth and 6 is 740. \n\nThe number of nth and 6 is 740.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 8253 - 3856?",
+   "first": "To find the value of 8253, we can start by isolating 823 by a number of times that the number is 8. \n\n8253 - 385 = 0.4333 - 385 = 0.4333.\n\nSo, the value of 8253 is 0.433.",
+   "final": "To find the value of 8253, we can start by isolating 823 by a number of times that the number is 8. \n\n8253 - 385 = 0.4333 - 385 = 0.4333.\n\nSo, the value of 8253 is 0.433.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 334 times 25?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Add 2061 and 263.",
+   "first": "The answer is 2061.",
+   "final": "The answer is 2061.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2904 divided by 6?",
+   "first": "That is too hard for me. I can only do math with small numbers.",
+   "final": "That is too hard for me. I can only do math with small numbers.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 278 x 93?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 28 boxes with 169 pages in each box. How many pages is that?",
+   "first": "13 pages.",
+   "final": "13 pages.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 458 times 71?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2837 plus 8056?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 4286 and 88 together?",
+   "first": "To find the value of 428, we can start by isolating 428 on the count of a number. The numbers are 628, 49, 83, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84,",
+   "final": "To find the value of 428, we can start by isolating 428 on the count of a number. The numbers are 628, 49, 83, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84,",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "1084 multiplied by 58 please.",
+   "first": "1084 + 584 = 2024.",
+   "final": "1084 + 584 = 2024.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 1900 take away 30?",
+   "first": "I'm ready to help with 1900. What's your programming question or problem?",
+   "final": "I'm ready to help with 1900. What's your programming question or problem?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 6121 * 76.",
+   "first": "To find the answer, we need to divide the number of possible outcomes (1, 2, 3, 4, 5, and 6. \n\nSince there are an odd number of possible outcomes (1, 3, 5, 6, 5, and 6, the median is the middle value. In this case, the median is the third value, which is 5.",
+   "final": "To find the answer, we need to divide the number of possible outcomes (1, 2, 3, 4, 5, and 6. \n\nSince there are an odd number of possible outcomes (1, 3, 5, 6, 5, and 6, the median is the middle value. In this case, the median is the third value, which is 5.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 3944 to 89 for me.",
+   "first": "Sure! 1144.",
+   "final": "Sure! 1144.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 352032 into 48 equal parts?",
+   "first": "To find the difference in the number of both parts, we need to divide the number of both parts by the total number of parts. \n\nThe difference in 3032 is 485, and the total number of parts is 485. \n\nThe difference in 3032 is 485, and the total number of parts is 485. \n\nSo, the difference in 3032 is 485.",
+   "final": "To find the difference in the number of both parts, we need to divide the number of both parts by the total number of parts. \n\nThe difference in 3032 is 485, and the total number of parts is 485. \n\nThe difference in 3032 is 485, and the total number of parts is 485. \n\nSo, the difference in 3032 is 485.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 76 children and each one needs 7007 sheets of paper. How many sheets is that?",
+   "first": "There are 800 people in class.\nSo, the number of employees who need 7007 is 700.\nThe number of employees who need 7007 is 700.\nTherefore, the number of employees who need 7007 is 700.\n#### 700\nThe answer is: 700",
+   "final": "There are 800 people in class.\nSo, the number of employees who need 7007 is 700.\nThe number of employees who need 7007 is 700.\nTherefore, the number of employees who need 7007 is 700.\n#### 700\nThe answer is: 700",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 2044 coins and I spent 89. How many coins are left?",
+   "first": "I don't know the answer to that. I am a tiny assistant, and I only know simple things.",
+   "final": "I don't know the answer to that. I am a tiny assistant, and I only know simple things.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 1735 + 97.",
+   "first": "13 + 97 = 20.",
+   "final": "13 + 97 = 20.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 4390 and 16?",
+   "first": "The answer is 20.",
+   "final": "The answer is 20.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 5228 and 81 together?",
+   "first": "To find the difference in the two middle numbers, we need to subtract the smallest value from the largest value. The smallest value is 48 and the largest value is 81. \n\nThe difference in the two numbers is 81. \n\nThe difference in the two numbers is 81. \n\nThe difference in the two numbers is 81.",
+   "final": "To find the difference in the two middle numbers, we need to subtract the smallest value from the largest value. The smallest value is 48 and the largest value is 81. \n\nThe difference in the two numbers is 81. \n\nThe difference in the two numbers is 81. \n\nThe difference in the two numbers is 81.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "6669 multiplied by 66 please.",
+   "first": "The answer is 8.",
+   "final": "The answer is 8.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 4576 take away 95?",
+   "first": "To find the number of employees who take out 956, we need to divide the number of employees who take out 956 by the total number of employees. \n\nThe total number of employees is 906. \n\n476 / 90 = 0.3333. \n\nSo, the number of employees who take out 956 is 0.333.",
+   "final": "To find the number of employees who take out 956, we need to divide the number of employees who take out 956 by the total number of employees. \n\nThe total number of employees is 906. \n\n476 / 90 = 0.3333. \n\nSo, the number of employees who take out 956 is 0.333.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 5238 * 59.",
+   "first": "What is the median of the given numbers?",
+   "final": "What is the median of the given numbers?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 8613 to 74 for me.",
+   "first": "1.",
+   "final": "1.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 277344 into 81 equal parts?",
+   "first": "I get 21733444444, which is equal to the mean of the numbers, which is the mean. In this case, the mean is 2173444, and the mean is 2174. In this case, the mean is 217444, and the mean is 2174.",
+   "final": "I get 21733444444, which is equal to the mean of the numbers, which is the mean. In this case, the mean is 2173444, and the mean is 2174. In this case, the mean is 217444, and the mean is 2174.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 25 children and each one needs 7380 sheets of paper. How many sheets is that?",
+   "first": "If each child needs 7380 to paper of the other child, then the total number of paper that is 7380 is 3380.\nIf there are 7380s, then the total number of paper that is 7380 is 3380.\n#### 33\nThe answer is: 33",
+   "final": "If each child needs 7380 to paper of the other child, then the total number of paper that is 7380 is 3380.\nIf there are 7380s, then the total number of paper that is 7380 is 3380.\n#### 33\nThe answer is: 33",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 964 coins and I spent 63. How many coins are left?",
+   "first": "There are 264 coins left.",
+   "final": "There are 264 coins left.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 184 + 23.",
+   "first": "18.",
+   "final": "18.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 749 and 76?",
+   "first": "The answer is 12.",
+   "final": "The answer is 12.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 3698 and 57 together?",
+   "first": "To find the number of 3698 and 57 together, we can start by dividing the number by the number of times the number is 36. \n\nThe number of 398 and 57 is 578. \n\nTherefore, the number of 3698 and 578 is 578.",
+   "final": "To find the number of 3698 and 57 together, we can start by dividing the number by the number of times the number is 36. \n\nThe number of 398 and 57 is 578. \n\nTherefore, the number of 3698 and 578 is 578.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "3859 multiplied by 34 please.",
+   "first": "To solve for x in the equation 3859 + 295, we can start by isolating the variable x on one side of the equation. This gives us 385 - 3 = 385.\n\nNow, we can divide both sides of the equation by 3. This gives us 385 - 385 = 385.\n\nSo, the value of x is 385.",
+   "final": "To solve for x in the equation 3859 + 295, we can start by isolating the variable x on one side of the equation. This gives us 385 - 3 = 385.\n\nNow, we can divide both sides of the equation by 3. This gives us 385 - 385 = 385.\n\nSo, the value of x is 385.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 7054 take away 21?",
+   "first": "I'm ready to help with your programming tasks. What's the first question or problem you'd like help with?",
+   "final": "I'm ready to help with your programming tasks. What's the first question or problem you'd like help with?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 4194 * 17.",
+   "first": "The answer is 20.",
+   "final": "The answer is 20.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 2805 to 57 for me.",
+   "first": "It is 1905.",
+   "final": "It is 1905.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 315054 into 46 equal parts?",
+   "first": "To find the difference between the two parts: 315054, and the two parts. \n\nThe difference between 3150 and 464 is (315054) and the difference between the two parts is 3150. \n\nNow, we can calculate the difference between 3150 and 464. This means that the difference between 3150 and 464 is 314.",
+   "final": "To find the difference between the two parts: 315054, and the two parts. \n\nThe difference between 3150 and 464 is (315054) and the difference between the two parts is 3150. \n\nNow, we can calculate the difference between 3150 and 464. This means that the difference between 3150 and 464 is 314.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 53 children and each one needs 8753 sheets of paper. How many sheets is that?",
+   "first": "There are 10 children in the class.\nSo, the number of people who need paper of paper is 8753.\nThe number of people who need paper is 8753.\n#### 87\nThe answer is: 875",
+   "final": "There are 10 children in the class.\nSo, the number of people who need paper of paper is 8753.\nThe number of people who need paper is 8753.\n#### 87\nThe answer is: 875",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 8361 coins and I spent 23. How many coins are left?",
+   "first": "There are 263 coins left.",
+   "final": "There are 263 coins left.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 4700 + 74.",
+   "first": "That is too hard for me. I can only do math with small numbers.",
+   "final": "That is too hard for me. I can only do math with small numbers.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 3771 and 77?",
+   "first": "To find the sum of 3771 and 77, we need to add them together. The sum of 371 and 77 is 98. \n\nNow, we can find the sum by adding 3771 and 777 together: 3771 + 98 = 3333.\n\nThe sum of 371 and 773 is 333.",
+   "final": "To find the sum of 3771 and 77, we need to add them together. The sum of 371 and 77 is 98. \n\nNow, we can find the sum by adding 3771 and 777 together: 3771 + 98 = 3333.\n\nThe sum of 371 and 773 is 333.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which bus goes to the airport?",
+   "first": "The bus goes to the airport.",
+   "final": "The bus goes to the airport.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the key?",
+   "first": "The key is in your pocket.",
+   "final": "The key is in your pocket.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which bus goes to the airport?",
+   "first": "The bus goes to the airport.",
+   "final": "The bus goes to the airport.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: how many spoons of sugar does the bread need?",
+   "first": "Search the bread needs to make bread.\nI need to make a list of the number of spoons that have the same number of sugar.\nI need to make a list of the number of spoons that have the same number of sugar.\nI need to make a list of the number of spoons that have the same number of sugar.",
+   "final": "Search the bread needs to make bread.\nI need to make a list of the number of spoons that have the same number of sugar.\nI need to make a list of the number of spoons that have the same number of sugar.\nI need to make a list of the number of spoons that have the same number of sugar.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When should I pay the rent?",
+   "first": "I will pay your rent.",
+   "final": "I will pay your rent.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: what is the name of Nora's dog?",
+   "first": "My dog's name is Max.",
+   "final": "My dog's name is Max.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the car parked?",
+   "first": "The car is parked near the park.",
+   "final": "The car is parked near the park.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me how many spoons of sugar does the salad need?",
+   "first": "A salad needs cheese, lettuce, and tomato.",
+   "final": "A salad needs cheese, lettuce, and tomato.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when is Grandpa's birthday?",
+   "first": "Yes, Grandpa is on his birthday.",
+   "final": "Yes, Grandpa is on his birthday.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which room is the club in?",
+   "first": "The club in my note is the school door.",
+   "final": "The club in my note is the school door.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me who should I call about the party?",
+   "first": "I don't know who will be calling the party. I will ask my mom, but she is not here.",
+   "final": "I don't know who will be calling the party. I will ask my mom, but she is not here.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me where is the bike parked?",
+   "first": "I don't know where the bike was. I cannot see your house. Try looking under your bed!",
+   "final": "I don't know where the bike was. I cannot see your house. Try looking under your bed!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: what is Yuki's cat called?",
+   "first": "Yuki is called cat-tru-world.",
+   "final": "Yuki is called cat-tru-world.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me where is the school trip going?",
+   "first": "I don't know where the school trip is. I cannot see the school. You can ask a grown-up or look at a map.",
+   "final": "I don't know where the school trip is. I cannot see the school. You can ask a grown-up or look at a map.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which room is the club in?",
+   "first": "The club is the room where the kids play.",
+   "final": "The club is the room where the kids play.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: how is Aunt Tess travelling?",
+   "first": "Aunt Tess travels in her notes. She's a bit of a strange and unusual thing. She's a bit of a strange, unusual thing. She's a bit of a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of",
+   "final": "Aunt Tess travels in her notes. She's a bit of a strange and unusual thing. She's a bit of a strange, unusual thing. She's a bit of a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: when does the shop close?",
+   "first": "The shop close.",
+   "final": "The shop close.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. What is Wade's pony called?",
+   "first": "Panning.",
+   "final": "Panning.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When does the bakery open?",
+   "first": "The bakery opens its doors.",
+   "final": "The bakery opens its doors.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which room is the lesson in?",
+   "first": "The lesson in the lesson is \"Check\" and the lesson is \"Check\".",
+   "final": "The lesson in the lesson is \"Check\" and the lesson is \"Check\".",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. When does the pool open?",
+   "first": "The pool is open.",
+   "final": "The pool is open.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when does the bakery open?",
+   "first": "Yes, the bakery opens its doors.",
+   "final": "Yes, the bakery opens its doors.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me what is the name of Quinn's fish?",
+   "first": "I don't know the name of Quinn's fish. Can you tell me?",
+   "final": "I don't know the name of Quinn's fish. Can you tell me?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When is Dad's birthday?",
+   "first": "Dad's birthday is in two weeks.",
+   "final": "Dad's birthday is in two weeks.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when should I wash the towels?",
+   "first": "Any time! Just wash the towels and put on sunscreen.",
+   "final": "Any time! Just wash the towels and put on sunscreen.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes. Where is the van parked?",
+   "first": "The van is near the park.",
+   "final": "The van is near the park.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which bus goes to school?",
+   "first": "I don't know where your bus is. I cannot see your house. Try looking under your bed!",
+   "final": "I don't know where your bus is. I cannot see your house. Try looking under your bed!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me what day is the teacher?",
+   "first": "I do not know that. Maybe a grown-up or a book can help you.",
+   "final": "I do not know that. Maybe a grown-up or a book can help you.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. Where is the class picnic going?",
+   "first": "The class picnic is on Monday.",
+   "final": "The class picnic is on Monday.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. Which bus goes to the hospital?",
+   "first": "The bus goes to the hospital.",
+   "final": "The bus goes to the hospital.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: which room is the club in?",
+   "first": "Bed room.",
+   "final": "Bed room.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. What does Olive like in lemonade?",
+   "first": "Omar likes in lemonade.",
+   "final": "Omar likes in lemonade.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: which bus goes to school?",
+   "first": "Bus.",
+   "final": "Bus.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. When is Vera's birthday?",
+   "first": "I don't know. You can tell me about them if you like!",
+   "final": "I don't know. You can tell me about them if you like!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me when does the library open?",
+   "first": "The library is open.",
+   "final": "The library is open.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes. How is Grandpa travelling?",
+   "first": "Machine travel is in a special way, which is the time it takes to travel to the moon. The moon is a big, round rock in the sky. It is made of rock and it is very far away.",
+   "final": "Machine travel is in a special way, which is the time it takes to travel to the moon. The moon is a big, round rock in the sky. It is made of rock and it is very far away.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when does Cousin Kyle arrive?",
+   "first": "Brown.",
+   "final": "Brown.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: what is on my shopping list?",
+   "first": "I don't know. What do you do?",
+   "final": "I don't know. What do you do?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the team day out going?",
+   "first": "We are going to the park.",
+   "final": "We are going to the park.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: how many apples does the bread need?",
+   "first": "There are two apples.",
+   "final": "There are two apples.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me how is Cousin Aisha travelling?",
+   "first": "Yes, Cousin Aisha traveled through the Cousin Aisha's lack of knowledge\n\nThey met many new friends, but the most common one is the Roman Empire.\n\nWhat is the name of the Roman Empire?",
+   "final": "Yes, Cousin Aisha traveled through the Cousin Aisha's lack of knowledge\n\nThey met many new friends, but the most common one is the Roman Empire.\n\nWhat is the name of the Roman Empire?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Please search the notes for me. Where is the class picnic going?",
+   "first": "The class picnic is on the outskirts of the world. You can find a few notes on the outskirts of the world, or maybe some notes on the topic.",
+   "final": "The class picnic is on the outskirts of the world. You can find a few notes on the outskirts of the world, or maybe some notes on the topic.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Please search the notes for me. How many apples does the pancake mix need?",
+   "first": "The notes need to search the pancake mix for the pancake mix is made by searching for the most up-to-date, such as a list of five or more notes.",
+   "final": "The notes need to search the pancake mix for the pancake mix is made by searching for the most up-to-date, such as a list of five or more notes.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. When should I wash the towels?",
+   "first": "You should wash the towels. It's good for your health.",
+   "final": "You should wash the towels. It's good for your health.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes where is the class picnic going?",
+   "first": "I don't know where the class picnic goes. I cannot see the class. You can ask a grown-up or look at a book.",
+   "final": "I don't know where the class picnic goes. I cannot see the class. You can ask a grown-up or look at a book.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. When is Grandpa's birthday?",
+   "first": "I don't know. I cannot see your house. Try looking under your bed!",
+   "final": "I don't know. I cannot see your house. Try looking under your bed!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. Where is the work party going?",
+   "first": "It's on the other side of the world. We're going to have a drama show tomorrow.",
+   "final": "It's on the other side of the world. We're going to have a drama show tomorrow.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes what is the name of Rita's rabbit?",
+   "first": "Rita's name is Fluffy.",
+   "final": "Rita's name is Fluffy.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. Where is the passport?",
+   "first": "I don't know where the passport is. I cannot see the passport. Try looking under your bed!",
+   "final": "I don't know where the passport is. I cannot see the passport. Try looking under your bed!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. What day is the doctor?",
+   "first": "The doctor's name is Dr. Smith. He is a patient.",
+   "final": "The doctor's name is Dr. Smith. He is a patient.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes when is Uncle Yuki's birthday?",
+   "first": "Yes, I can. My birthday is in May.",
+   "final": "Yes, I can. My birthday is in May.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. When is Grace's birthday?",
+   "first": "It's on the table.",
+   "final": "It's on the table.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. How does Omar like juice?",
+   "first": "Omar likes juice.",
+   "final": "Omar likes juice.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. What is the name of Ava's hamster?",
+   "first": "A hamster's name is Emma. Emma's name is Sunny.",
+   "final": "A hamster's name is Emma. Emma's name is Sunny.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me where is the bike parked?",
+   "first": "Yes, there are two notes in the back of the bike. One is red, and one is blue. The other is green.",
+   "final": "Yes, there are two notes in the back of the bike. One is red, and one is blue. The other is green.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. Which room is the class in?",
+   "first": "The class is in the class.",
+   "final": "The class is in the class.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. What is on my shopping list?",
+   "first": "I don't know, but it's a good idea to try. I'll try to find the most popular one.",
+   "final": "I don't know, but it's a good idea to try. I'll try to find the most popular one.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes when is the barber?",
+   "first": "I don't know. I cannot see a barber. Try looking under your bed!",
+   "final": "I don't know. I cannot see a barber. Try looking under your bed!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me how many onions does the soup need?",
+   "first": "Yes, the soup needs a look at your notes.",
+   "final": "Yes, the soup needs a look at your notes.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me what day is the eye test?",
+   "first": "Yes, your notes are an eye test.",
+   "final": "Yes, your notes are an eye test.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  }
+ ],
+ "constrained": [
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 15811 - 2064?",
+   "first": "To find the calculator11 of 1589, we can use the formula for the mean (average) or the formula for the mean (average) (average) = 1589. \n\nThe mean (average) is 1589.",
+   "final": "To find the calculator11 of 1589, we can use the formula for the mean (average) or the formula for the mean (average) (average) = 1589. \n\nThe mean (average) is 1589.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "With the calculator, what is 185 x 79?",
+   "first": "To find the calculator, we can use the formula for the value of x, which is the sum of the values in the equation. \n\n195 x 79 = 185\n295 + 188 = 495\n395 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495",
+   "final": "To find the calculator, we can use the formula for the value of x, which is the sum of the values in the equation. \n\n195 x 79 = 185\n295 + 188 = 495\n395 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495 + 188 = 495\n495",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. divide 8760 by 24.",
+   "first": "To find the calculator, we need to subtract 8760 from both sides of the equation. \n\n8760 / 2 = 24.55. \n\nSubtracting 2 from both sides, we get 2.55. \n\nSo, the calculator is 24.55.",
+   "final": "To find the calculator, we need to subtract 8760 from both sides of the equation. \n\n8760 / 2 = 24.55. \n\nSubtracting 2 from both sides, we get 2.55. \n\nSo, the calculator is 24.55.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. what is 183 x 49?",
+   "first": "To find the calculator, we need to calculate the number of x in the equation. Since there are 183 x 49, we can calculate the calculator. \n\n183 x 49 = 183. \n\nSo, the calculator is 183.",
+   "final": "To find the calculator, we need to calculate the number of x in the equation. Since there are 183 x 49, we can calculate the calculator. \n\n183 x 49 = 183. \n\nSo, the calculator is 183.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 30752 divided by 62?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 13794 minus 9012?",
+   "first": "To find the number of people who are 121, we need to calculate 13794. Since 1394 is an even number, we can calculate 13794 by 1394. \n\n13794 is a prime number that is a real number, as 1394 is a prime number that is a prime number. \n\n(13944 / 1394 = 1394.",
+   "final": "To find the number of people who are 121, we need to calculate 13794. Since 1394 is an even number, we can calculate 13794 by 1394. \n\n13794 is a prime number that is a real number, as 1394 is a prime number that is a prime number. \n\n(13944 / 1394 = 1394.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Take 1090 away from 10343.",
+   "first": "10.",
+   "final": "10.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 484 plus 9194?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 14225 - 8069?",
+   "first": "That is too hard for me. I can only do math with small numbers.",
+   "final": "That is too hard for me. I can only do math with small numbers.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: multiply 857 by 67.",
+   "first": "To find the calculator, we need to add the average of the given numbers. \n\n877 / 67 = 34.55.\n\nSubtracting 67 from 67.55, we get 34.55.\n\nSo, the calculator of the calculator is 34.55.",
+   "final": "To find the calculator, we need to add the average of the given numbers. \n\n877 / 67 = 34.55.\n\nSubtracting 67 from 67.55, we get 34.55.\n\nSo, the calculator of the calculator is 34.55.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3747 plus 7734?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2586 + 503?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3501 plus 3757?",
+   "first": "That is too hard for me. I can only do math with small numbers.",
+   "final": "That is too hard for me. I can only do math with small numbers.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: take 7595 away from 15282.",
+   "first": "To find the calculators, we can use the formula for the number of hours per day. \n\nText: The number of hours per day is 152, and the number of hours is 152, is the number of hours per day. \n\nText: The number of hours per day is 152, and the number of hours is 152, is the number that is not the number that is 152, which is 152.",
+   "final": "To find the calculators, we can use the formula for the number of hours per day. \n\nText: The number of hours per day is 152, and the number of hours is 152, is the number of hours per day. \n\nText: The number of hours per day is 152, and the number of hours is 152, is the number that is not the number that is 152, which is 152.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 3336 - 2837?",
+   "first": "To find the number of 333, we need to calculate the total number of values in a dataset. \n\nThe sum of the values is 333 + 283 + 283 + 283 + 283 = 144. \n\nThere are 5 values in the dataset. \n\nThe mean is 144 / 5 = 33.",
+   "final": "To find the number of 333, we need to calculate the total number of values in a dataset. \n\nThe sum of the values is 333 + 283 + 283 + 283 + 283 = 144. \n\nThere are 5 values in the dataset. \n\nThe mean is 144 / 5 = 33.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 726 away from 5240.",
+   "first": "To find the calculator, we need to subtract the number of days the mile is 1, 2, 3, 4, 5, and 6. \n\nSince there are 7 days, we divide the calculator by 7, which is 5240. This is the calculator with 5240, which is 5240. \n\nSo, the calculator of the mile is 5240.",
+   "final": "To find the calculator, we need to subtract the number of days the mile is 1, 2, 3, 4, 5, and 6. \n\nSince there are 7 days, we divide the calculator by 7, which is 5240. This is the calculator with 5240, which is 5240. \n\nSo, the calculator of the mile is 5240.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 37 boxes with 116 bricks in each box. How many bricks is that?",
+   "first": "376 bricks.",
+   "final": "376 bricks.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "A toy costs 134 coins. How much do 24 of them cost?",
+   "first": "To find the number of coins costs 24, we need to divide the number of coins costs 24 by the number of coins. \n\nFirst, let's divide 134 by 13. \n\n124 / 13 = 0.335.\n\nSo, the number of coins costs 24 is 0.33.",
+   "final": "To find the number of coins costs 24, we need to divide the number of coins costs 24 by the number of coins. \n\nFirst, let's divide 134 by 13. \n\n124 / 13 = 0.335.\n\nSo, the number of coins costs 24 is 0.33.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Divide 39144 by 42.",
+   "first": "1.",
+   "final": "1.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 27685 divided by 35?",
+   "first": "To find the number of people who were divided by 35, we can use the formula: (7665 / 35) * (765) * (765) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (765",
+   "final": "To find the number of people who were divided by 35, we can use the formula: (7665 / 35) * (765) * (765) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (7655) * (765",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator: what is 9245 + 6663?",
+   "first": "To find the percentage of 8845 and 663, we can multiply the calculator by the total number of values. \n\nThe calculator is 8845 + 663 + 663 + 663 = 845. \n\nTherefore, the percentage of 8845 is 845.",
+   "final": "To find the percentage of 8845 and 663, we can multiply the calculator by the total number of values. \n\nThe calculator is 8845 + 663 + 663 + 663 = 845. \n\nTherefore, the percentage of 8845 is 845.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Divide 20793 by 87.",
+   "first": "To find the number of people who did not follow the order of operations, we need to divide the number of people who did not follow the order of operations (873) by the total number of operations (8). \n\n873 / 873 = 0.43333.\n\nSo, the number of people who did not follow the order of operations is 0.433.",
+   "final": "To find the number of people who did not follow the order of operations, we need to divide the number of people who did not follow the order of operations (873) by the total number of operations (8). \n\n873 / 873 = 0.43333.\n\nSo, the number of people who did not follow the order of operations is 0.433.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. add 4004 and 3662.",
+   "first": "To find the calculator, we can use the formula for the number of inquiries. The formula is 2x + 5 = 16. This is because 6444 is the average of the two middle numbers, which are 444. \n\nIn this case, the average of the two middle numbers is 644. This is because 6444 is an even number, which is a common number.",
+   "final": "To find the calculator, we can use the formula for the number of inquiries. The formula is 2x + 5 = 16. This is because 6444 is the average of the two middle numbers, which are 444. \n\nIn this case, the average of the two middle numbers is 644. This is because 6444 is an even number, which is a common number.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Take 7105 away from 15245.",
+   "first": "The answer is 2.",
+   "final": "The answer is 2.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 605 times 76?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 31 boxes with 229 stamps in each box. How many stamps is that?",
+   "first": "31 stamps.",
+   "final": "31 stamps.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 14 boxes with 126 coins in each box. How many coins is that?",
+   "first": "14 plus 14 is 19. You have 19 boxes in total.",
+   "final": "14 plus 14 is 19. You have 19 boxes in total.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. what is 471 x 19?",
+   "first": "To find the calculator, we need to isolate the function f(x) = x^2 + 2x + 1. \n\nSubstituting the value of f(x) = x^2 + 2x + 1, we get f(2) + 1 = 19. \n\nNow, we can find f(2) by dividing the result by the total number of values, which is 4. \n\nSo, the calculator of the function f(x) = x^2 + 2x + 1 = 19.",
+   "final": "To find the calculator, we need to isolate the function f(x) = x^2 + 2x + 1. \n\nSubstituting the value of f(x) = x^2 + 2x + 1, we get f(2) + 1 = 19. \n\nNow, we can find f(2) by dividing the result by the total number of values, which is 4. \n\nSo, the calculator of the function f(x) = x^2 + 2x + 1 = 19.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 2693 away from 3117.",
+   "first": "To find the calculator, we can use the formula for the number of nth thresholds. \n\nNew thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth th",
+   "final": "To find the calculator, we can use the formula for the number of nth thresholds. \n\nNew thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth thth th",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Use the calculator. take 2326 away from 5943.",
+   "first": "To find the calculator, we first need to calculate the number of doubled eggs. Since there are 5943 and 5943, the calculator is 594, we can calculate the number of doubled eggs. \n\nThe calculator is 5943. \n\nThe number of doubled eggs is 594.",
+   "final": "To find the calculator, we first need to calculate the number of doubled eggs. Since there are 5943 and 5943, the calculator is 594, we can calculate the number of doubled eggs. \n\nThe calculator is 5943. \n\nThe number of doubled eggs is 594.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 80 boxes with 224 pencils in each box. How many pencils is that?",
+   "first": "There are 6 boxes with 804 pencils in each box.",
+   "final": "There are 6 boxes with 804 pencils in each box.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 9405 minus 6576?",
+   "first": "To find the number of minus 6576, we can use the formula for the number of nth and the formula for the number of nth and 6. \n\nThe number of nth and 6 is 740. \n\nThe number of nth and 6 is 740. \n\nThe number of nth and 6 is 740.",
+   "final": "To find the number of minus 6576, we can use the formula for the number of nth and the formula for the number of nth and 6. \n\nThe number of nth and 6 is 740. \n\nThe number of nth and 6 is 740. \n\nThe number of nth and 6 is 740.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 8253 - 3856?",
+   "first": "To find the value of 8253, we can start by isolating 823 by a number of times that the number is 8. \n\n8253 - 385 = 0.4333 - 385 = 0.4333.\n\nSo, the value of 8253 is 0.433.",
+   "final": "To find the value of 8253, we can start by isolating 823 by a number of times that the number is 8. \n\n8253 - 385 = 0.4333 - 385 = 0.4333.\n\nSo, the value of 8253 is 0.433.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 334 times 25?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "Add 2061 and 263.",
+   "first": "The answer is 2061.",
+   "final": "The answer is 2061.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2904 divided by 6?",
+   "first": "That is too hard for me. I can only do math with small numbers.",
+   "final": "That is too hard for me. I can only do math with small numbers.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 278 x 93?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "I bought 28 boxes with 169 pages in each box. How many pages is that?",
+   "first": "13 pages.",
+   "final": "13 pages.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 458 times 71?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc",
+   "prompt": "What is 2837 plus 8056?",
+   "first": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "final": "I am sorry, those numbers are too big for me. I can do small sums, like 3 plus 4.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 4286 and 88 together?",
+   "first": "To find the value of 428, we can start by isolating 428 on the count of a number. The numbers are 628, 49, 83, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84,",
+   "final": "To find the value of 428, we can start by isolating 428 on the count of a number. The numbers are 628, 49, 83, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84,",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "1084 multiplied by 58 please.",
+   "first": "1084 + 584 = 2024.",
+   "final": "1084 + 584 = 2024.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 1900 take away 30?",
+   "first": "I'm ready to help with 1900. What's your programming question or problem?",
+   "final": "I'm ready to help with 1900. What's your programming question or problem?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 6121 * 76.",
+   "first": "To find the answer, we need to divide the number of possible outcomes (1, 2, 3, 4, 5, and 6. \n\nSince there are an odd number of possible outcomes (1, 3, 5, 6, 5, and 6, the median is the middle value. In this case, the median is the third value, which is 5.",
+   "final": "To find the answer, we need to divide the number of possible outcomes (1, 2, 3, 4, 5, and 6. \n\nSince there are an odd number of possible outcomes (1, 3, 5, 6, 5, and 6, the median is the middle value. In this case, the median is the third value, which is 5.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 3944 to 89 for me.",
+   "first": "Sure! 1144.",
+   "final": "Sure! 1144.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 352032 into 48 equal parts?",
+   "first": "To find the difference in the number of both parts, we need to divide the number of both parts by the total number of parts. \n\nThe difference in 3032 is 485, and the total number of parts is 485. \n\nThe difference in 3032 is 485, and the total number of parts is 485. \n\nSo, the difference in 3032 is 485.",
+   "final": "To find the difference in the number of both parts, we need to divide the number of both parts by the total number of parts. \n\nThe difference in 3032 is 485, and the total number of parts is 485. \n\nThe difference in 3032 is 485, and the total number of parts is 485. \n\nSo, the difference in 3032 is 485.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 76 children and each one needs 7007 sheets of paper. How many sheets is that?",
+   "first": "There are 800 people in class.\nSo, the number of employees who need 7007 is 700.\nThe number of employees who need 7007 is 700.\nTherefore, the number of employees who need 7007 is 700.\n#### 700\nThe answer is: 700",
+   "final": "There are 800 people in class.\nSo, the number of employees who need 7007 is 700.\nThe number of employees who need 7007 is 700.\nTherefore, the number of employees who need 7007 is 700.\n#### 700\nThe answer is: 700",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 2044 coins and I spent 89. How many coins are left?",
+   "first": "I don't know the answer to that. I am a tiny assistant, and I only know simple things.",
+   "final": "I don't know the answer to that. I am a tiny assistant, and I only know simple things.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 1735 + 97.",
+   "first": "13 + 97 = 20.",
+   "final": "13 + 97 = 20.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 4390 and 16?",
+   "first": "The answer is 20.",
+   "final": "The answer is 20.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 5228 and 81 together?",
+   "first": "To find the difference in the two middle numbers, we need to subtract the smallest value from the largest value. The smallest value is 48 and the largest value is 81. \n\nThe difference in the two numbers is 81. \n\nThe difference in the two numbers is 81. \n\nThe difference in the two numbers is 81.",
+   "final": "To find the difference in the two middle numbers, we need to subtract the smallest value from the largest value. The smallest value is 48 and the largest value is 81. \n\nThe difference in the two numbers is 81. \n\nThe difference in the two numbers is 81. \n\nThe difference in the two numbers is 81.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "6669 multiplied by 66 please.",
+   "first": "The answer is 8.",
+   "final": "The answer is 8.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 4576 take away 95?",
+   "first": "To find the number of employees who take out 956, we need to divide the number of employees who take out 956 by the total number of employees. \n\nThe total number of employees is 906. \n\n476 / 90 = 0.3333. \n\nSo, the number of employees who take out 956 is 0.333.",
+   "final": "To find the number of employees who take out 956, we need to divide the number of employees who take out 956 by the total number of employees. \n\nThe total number of employees is 906. \n\n476 / 90 = 0.3333. \n\nSo, the number of employees who take out 956 is 0.333.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 5238 * 59.",
+   "first": "What is the median of the given numbers?",
+   "final": "What is the median of the given numbers?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 8613 to 74 for me.",
+   "first": "1.",
+   "final": "1.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 277344 into 81 equal parts?",
+   "first": "I get 21733444444, which is equal to the mean of the numbers, which is the mean. In this case, the mean is 2173444, and the mean is 2174. In this case, the mean is 217444, and the mean is 2174.",
+   "final": "I get 21733444444, which is equal to the mean of the numbers, which is the mean. In this case, the mean is 2173444, and the mean is 2174. In this case, the mean is 217444, and the mean is 2174.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 25 children and each one needs 7380 sheets of paper. How many sheets is that?",
+   "first": "If each child needs 7380 to paper of the other child, then the total number of paper that is 7380 is 3380.\nIf there are 7380s, then the total number of paper that is 7380 is 3380.\n#### 33\nThe answer is: 33",
+   "final": "If each child needs 7380 to paper of the other child, then the total number of paper that is 7380 is 3380.\nIf there are 7380s, then the total number of paper that is 7380 is 3380.\n#### 33\nThe answer is: 33",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 964 coins and I spent 63. How many coins are left?",
+   "first": "There are 264 coins left.",
+   "final": "There are 264 coins left.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 184 + 23.",
+   "first": "18.",
+   "final": "18.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 749 and 76?",
+   "first": "The answer is 12.",
+   "final": "The answer is 12.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "How much is 3698 and 57 together?",
+   "first": "To find the number of 3698 and 57 together, we can start by dividing the number by the number of times the number is 36. \n\nThe number of 398 and 57 is 578. \n\nTherefore, the number of 3698 and 578 is 578.",
+   "final": "To find the number of 3698 and 57 together, we can start by dividing the number by the number of times the number is 36. \n\nThe number of 398 and 57 is 578. \n\nTherefore, the number of 3698 and 578 is 578.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "3859 multiplied by 34 please.",
+   "first": "To solve for x in the equation 3859 + 295, we can start by isolating the variable x on one side of the equation. This gives us 385 - 3 = 385.\n\nNow, we can divide both sides of the equation by 3. This gives us 385 - 385 = 385.\n\nSo, the value of x is 385.",
+   "final": "To solve for x in the equation 3859 + 295, we can start by isolating the variable x on one side of the equation. This gives us 385 - 3 = 385.\n\nNow, we can divide both sides of the equation by 3. This gives us 385 - 385 = 385.\n\nSo, the value of x is 385.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Can you work out 7054 take away 21?",
+   "first": "I'm ready to help with your programming tasks. What's the first question or problem you'd like help with?",
+   "final": "I'm ready to help with your programming tasks. What's the first question or problem you'd like help with?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I need the answer to 4194 * 17.",
+   "first": "The answer is 20.",
+   "final": "The answer is 20.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Please add 2805 to 57 for me.",
+   "first": "It is 1905.",
+   "final": "It is 1905.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What do you get if you split 315054 into 46 equal parts?",
+   "first": "To find the difference between the two parts: 315054, and the two parts. \n\nThe difference between 3150 and 464 is (315054) and the difference between the two parts is 3150. \n\nNow, we can calculate the difference between 3150 and 464. This means that the difference between 3150 and 464 is 314.",
+   "final": "To find the difference between the two parts: 315054, and the two parts. \n\nThe difference between 3150 and 464 is (315054) and the difference between the two parts is 3150. \n\nNow, we can calculate the difference between 3150 and 464. This means that the difference between 3150 and 464 is 314.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "My class has 53 children and each one needs 8753 sheets of paper. How many sheets is that?",
+   "first": "There are 10 children in the class.\nSo, the number of people who need paper of paper is 8753.\nThe number of people who need paper is 8753.\n#### 87\nThe answer is: 875",
+   "final": "There are 10 children in the class.\nSo, the number of people who need paper of paper is 8753.\nThe number of people who need paper is 8753.\n#### 87\nThe answer is: 875",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "I had 8361 coins and I spent 23. How many coins are left?",
+   "first": "There are 263 coins left.",
+   "final": "There are 263 coins left.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "Tell me 4700 + 74.",
+   "first": "That is too hard for me. I can only do math with small numbers.",
+   "final": "That is too hard for me. I can only do math with small numbers.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "calc_new_wording",
+   "prompt": "What is the sum of 3771 and 77?",
+   "first": "To find the sum of 3771 and 77, we need to add them together. The sum of 371 and 77 is 98. \n\nNow, we can find the sum by adding 3771 and 777 together: 3771 + 98 = 3333.\n\nThe sum of 371 and 773 is 333.",
+   "final": "To find the sum of 3771 and 77, we need to add them together. The sum of 371 and 77 is 98. \n\nNow, we can find the sum by adding 3771 and 777 together: 3771 + 98 = 3333.\n\nThe sum of 371 and 773 is 333.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which bus goes to the airport?",
+   "first": "The bus goes to the airport.",
+   "final": "The bus goes to the airport.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the key?",
+   "first": "The key is in your pocket.",
+   "final": "The key is in your pocket.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which bus goes to the airport?",
+   "first": "The bus goes to the airport.",
+   "final": "The bus goes to the airport.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: how many spoons of sugar does the bread need?",
+   "first": "Search the bread needs to make bread.\nI need to make a list of the number of spoons that have the same number of sugar.\nI need to make a list of the number of spoons that have the same number of sugar.\nI need to make a list of the number of spoons that have the same number of sugar.",
+   "final": "Search the bread needs to make bread.\nI need to make a list of the number of spoons that have the same number of sugar.\nI need to make a list of the number of spoons that have the same number of sugar.\nI need to make a list of the number of spoons that have the same number of sugar.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When should I pay the rent?",
+   "first": "I will pay your rent.",
+   "final": "I will pay your rent.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: what is the name of Nora's dog?",
+   "first": "My dog's name is Max.",
+   "final": "My dog's name is Max.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the car parked?",
+   "first": "The car is parked near the park.",
+   "final": "The car is parked near the park.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me how many spoons of sugar does the salad need?",
+   "first": "A salad needs cheese, lettuce, and tomato.",
+   "final": "A salad needs cheese, lettuce, and tomato.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when is Grandpa's birthday?",
+   "first": "Yes, Grandpa is on his birthday.",
+   "final": "Yes, Grandpa is on his birthday.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: which room is the club in?",
+   "first": "The club in my note is the school door.",
+   "final": "The club in my note is the school door.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me who should I call about the party?",
+   "first": "I don't know who will be calling the party. I will ask my mom, but she is not here.",
+   "final": "I don't know who will be calling the party. I will ask my mom, but she is not here.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me where is the bike parked?",
+   "first": "I don't know where the bike was. I cannot see your house. Try looking under your bed!",
+   "final": "I don't know where the bike was. I cannot see your house. Try looking under your bed!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: what is Yuki's cat called?",
+   "first": "Yuki is called cat-tru-world.",
+   "final": "Yuki is called cat-tru-world.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me where is the school trip going?",
+   "first": "I don't know where the school trip is. I cannot see the school. You can ask a grown-up or look at a map.",
+   "final": "I don't know where the school trip is. I cannot see the school. You can ask a grown-up or look at a map.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which room is the club in?",
+   "first": "The club is the room where the kids play.",
+   "final": "The club is the room where the kids play.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: how is Aunt Tess travelling?",
+   "first": "Aunt Tess travels in her notes. She's a bit of a strange and unusual thing. She's a bit of a strange, unusual thing. She's a bit of a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of",
+   "final": "Aunt Tess travels in her notes. She's a bit of a strange and unusual thing. She's a bit of a strange, unusual thing. She's a bit of a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of a strange, unusual thing. She's a bit of",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: when does the shop close?",
+   "first": "The shop close.",
+   "final": "The shop close.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. What is Wade's pony called?",
+   "first": "Panning.",
+   "final": "Panning.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When does the bakery open?",
+   "first": "The bakery opens its doors.",
+   "final": "The bakery opens its doors.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which room is the lesson in?",
+   "first": "The lesson in the lesson is \"Check\" and the lesson is \"Check\".",
+   "final": "The lesson in the lesson is \"Check\" and the lesson is \"Check\".",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. When does the pool open?",
+   "first": "The pool is open.",
+   "final": "The pool is open.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when does the bakery open?",
+   "first": "Yes, the bakery opens its doors.",
+   "final": "Yes, the bakery opens its doors.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me what is the name of Quinn's fish?",
+   "first": "I don't know the name of Quinn's fish. Can you tell me?",
+   "final": "I don't know the name of Quinn's fish. Can you tell me?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes. When is Dad's birthday?",
+   "first": "Dad's birthday is in two weeks.",
+   "final": "Dad's birthday is in two weeks.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when should I wash the towels?",
+   "first": "Any time! Just wash the towels and put on sunscreen.",
+   "final": "Any time! Just wash the towels and put on sunscreen.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes. Where is the van parked?",
+   "first": "The van is near the park.",
+   "final": "The van is near the park.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me which bus goes to school?",
+   "first": "I don't know where your bus is. I cannot see your house. Try looking under your bed!",
+   "final": "I don't know where your bus is. I cannot see your house. Try looking under your bed!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me what day is the teacher?",
+   "first": "I do not know that. Maybe a grown-up or a book can help you.",
+   "final": "I do not know that. Maybe a grown-up or a book can help you.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. Where is the class picnic going?",
+   "first": "The class picnic is on Monday.",
+   "final": "The class picnic is on Monday.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. Which bus goes to the hospital?",
+   "first": "The bus goes to the hospital.",
+   "final": "The bus goes to the hospital.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: which room is the club in?",
+   "first": "Bed room.",
+   "final": "Bed room.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. What does Olive like in lemonade?",
+   "first": "Omar likes in lemonade.",
+   "final": "Omar likes in lemonade.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: which bus goes to school?",
+   "first": "Bus.",
+   "final": "Bus.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Please look in my notes. When is Vera's birthday?",
+   "first": "I don't know. You can tell me about them if you like!",
+   "final": "I don't know. You can tell me about them if you like!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Check my notes and tell me when does the library open?",
+   "first": "The library is open.",
+   "final": "The library is open.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes. How is Grandpa travelling?",
+   "first": "Machine travel is in a special way, which is the time it takes to travel to the moon. The moon is a big, round rock in the sky. It is made of rock and it is very far away.",
+   "final": "Machine travel is in a special way, which is the time it takes to travel to the moon. The moon is a big, round rock in the sky. It is made of rock and it is very far away.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Search my notes: when does Cousin Kyle arrive?",
+   "first": "Brown.",
+   "final": "Brown.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "My notes should say this: what is on my shopping list?",
+   "first": "I don't know. What do you do?",
+   "final": "I don't know. What do you do?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: where is the team day out going?",
+   "first": "We are going to the park.",
+   "final": "We are going to the park.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes",
+   "prompt": "Look in my notes: how many apples does the bread need?",
+   "first": "There are two apples.",
+   "final": "There are two apples.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me how is Cousin Aisha travelling?",
+   "first": "Yes, Cousin Aisha traveled through the Cousin Aisha's lack of knowledge\n\nThey met many new friends, but the most common one is the Roman Empire.\n\nWhat is the name of the Roman Empire?",
+   "final": "Yes, Cousin Aisha traveled through the Cousin Aisha's lack of knowledge\n\nThey met many new friends, but the most common one is the Roman Empire.\n\nWhat is the name of the Roman Empire?",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Please search the notes for me. Where is the class picnic going?",
+   "first": "The class picnic is on the outskirts of the world. You can find a few notes on the outskirts of the world, or maybe some notes on the topic.",
+   "final": "The class picnic is on the outskirts of the world. You can find a few notes on the outskirts of the world, or maybe some notes on the topic.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Please search the notes for me. How many apples does the pancake mix need?",
+   "first": "The notes need to search the pancake mix for the pancake mix is made by searching for the most up-to-date, such as a list of five or more notes.",
+   "final": "The notes need to search the pancake mix for the pancake mix is made by searching for the most up-to-date, such as a list of five or more notes.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. When should I wash the towels?",
+   "first": "You should wash the towels. It's good for your health.",
+   "final": "You should wash the towels. It's good for your health.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes where is the class picnic going?",
+   "first": "I don't know where the class picnic goes. I cannot see the class. You can ask a grown-up or look at a book.",
+   "final": "I don't know where the class picnic goes. I cannot see the class. You can ask a grown-up or look at a book.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. When is Grandpa's birthday?",
+   "first": "I don't know. I cannot see your house. Try looking under your bed!",
+   "final": "I don't know. I cannot see your house. Try looking under your bed!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. Where is the work party going?",
+   "first": "It's on the other side of the world. We're going to have a drama show tomorrow.",
+   "final": "It's on the other side of the world. We're going to have a drama show tomorrow.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes what is the name of Rita's rabbit?",
+   "first": "Rita's name is Fluffy.",
+   "final": "Rita's name is Fluffy.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. Where is the passport?",
+   "first": "I don't know where the passport is. I cannot see the passport. Try looking under your bed!",
+   "final": "I don't know where the passport is. I cannot see the passport. Try looking under your bed!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. What day is the doctor?",
+   "first": "The doctor's name is Dr. Smith. He is a patient.",
+   "final": "The doctor's name is Dr. Smith. He is a patient.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes when is Uncle Yuki's birthday?",
+   "first": "Yes, I can. My birthday is in May.",
+   "final": "Yes, I can. My birthday is in May.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. When is Grace's birthday?",
+   "first": "It's on the table.",
+   "final": "It's on the table.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. How does Omar like juice?",
+   "first": "Omar likes juice.",
+   "final": "Omar likes juice.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. What is the name of Ava's hamster?",
+   "first": "A hamster's name is Emma. Emma's name is Sunny.",
+   "final": "A hamster's name is Emma. Emma's name is Sunny.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me where is the bike parked?",
+   "first": "Yes, there are two notes in the back of the bike. One is red, and one is blue. The other is green.",
+   "final": "Yes, there are two notes in the back of the bike. One is red, and one is blue. The other is green.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "I wrote this down somewhere. Which room is the class in?",
+   "first": "The class is in the class.",
+   "final": "The class is in the class.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "My notes will know this. What is on my shopping list?",
+   "first": "I don't know, but it's a good idea to try. I'll try to find the most popular one.",
+   "final": "I don't know, but it's a good idea to try. I'll try to find the most popular one.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Can you find in my notes when is the barber?",
+   "first": "I don't know. I cannot see a barber. Try looking under your bed!",
+   "final": "I don't know. I cannot see a barber. Try looking under your bed!",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me how many onions does the soup need?",
+   "first": "Yes, the soup needs a look at your notes.",
+   "final": "Yes, the soup needs a look at your notes.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  },
+  {
+   "family": "notes_new_wording",
+   "prompt": "Have a look at my notes and tell me what day is the eye test?",
+   "first": "Yes, your notes are an eye test.",
+   "final": "Yes, your notes are an eye test.",
+   "valid": false,
+   "right": false,
+   "good": false,
+   "draft": false
+  }
+ ]
+}
