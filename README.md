@@ -4,15 +4,35 @@ A small friendly helper that speaks simple English, trained from nothing on one 
 
 The goal was to beat the "twin", a plain 41.9M-parameter model from an earlier project, without making the file bigger.
 
+**The main model is v2:** `small-smart-v2-4bit.bin`, 41.7 MB. v1 (the 8-bit and 4-bit files) is the earlier version. It is kept and documented here because most of the study was done on it.
+
+## Read this first: 97% on trained wording, 37% on new wording
+
+On prompts worded like its practice data, the model passes about 97% (dev set, 357 of 362). On 130 hand-written prompts that avoid those wordings, it passes about 37% (49 of 130, or 48 after AI grading). Those are v1 numbers. Both numbers are true. The first one says the practice worked. The second one is closer to what you get if you talk to it.
+
+A second round of practice data (v2) was aimed at that gap and checked on a second, fresh test: 74 of 140 (53%) against 44 for v1, while the dev set stayed at 96%. After AI grading of the replies that need a judgement of sense it is 69 (49%) against 42. The gap is smaller. It is still large.
+
 ## Result
 
 | model | file | scoreboard /100 | dev set /362 | tool test | story loss | held-out /130 |
 |---|---|---|---|---|---|---|
+| **small-smart v2 4-bit** (the main model) | 41.7 MB | 92 | 348 | 96.2% | 1.154 | 81 (seen, see below) |
 | twin (the baseline) | 83.9 MB | 22 | 94 | 0% | 1.212 | 26 |
 | control (twin + new practice data) | 83.9 MB | 90 | 348 | 92.3% | 1.233 | 45 |
-| small-smart 8-bit | 83.2 MB | 93 | 356 | 90.0% | 1.132 | 50 |
-| small-smart 4-bit | 41.7 MB | 92 | 357 | 91.5% | 1.153 | 49 |
+| small-smart 8-bit (v1) | 83.2 MB | 93 | 356 | 90.0% | 1.132 | 50 |
+| small-smart 4-bit (v1) | 41.7 MB | 92 | 357 | 91.5% | 1.153 | 49 |
 | rival (twin shape, 8-bit) | 42.1 MB | 88 | 352 | 88.5% | 1.196 | 47 |
+
+Fresh held-out test, written before the v2 data existed (headline, 140 items):
+
+| | twin | control | 8-bit | 4-bit | rival | control v2 | **v2 4-bit** |
+|---|---|---|---|---|---|---|---|
+| automatic checks | 27 | 40 | 48 | 44 | 50 | 63 | **74** |
+| after AI grading | 24 | 35 | 46 | 42 | 46 | 59 | **69** |
+
+The first held-out test after AI grading: 25, 45, 49, 48, 45 of 130 for the five v1 models (26, 45, 50, 49, 47 by the automatic checks). Replies that need a judgement of sense were graded by AI against a written rubric, in two separate passes, with any disagreement counted as wrong. They were not graded by a human. See `results/ai_grading/`.
+
+v2 is the main model. The rule set beforehand was a gain of 8 or more items on the fresh test; it gained 30 (27 after AI grading). It also lost 9 items on the dev set. The first held-out test shaped the v2 data, so v2's 81 on it is not evidence. Details in `results/stage10.md`.
 
 The full story is in [WRITEUP.md](WRITEUP.md). The model card is [MODEL_CARD.md](MODEL_CARD.md).
 
@@ -35,27 +55,30 @@ What the low-bit work clearly bought is size: the same scores in half the megaby
 
 ## Running it
 
-The model files are not in the repository. Download them from the [v1 release](https://github.com/dctxv/small-smart/releases/tag/v1) and put them in a folder named `final` next to the code.
+The model files are not in the repository. Download them from the [v2 release](../../releases/tag/v2), which holds every model file with a `SHA256SUMS.txt`:
+
+- `small-smart-v2-4bit.bin` and `.npz` - v2, the main model. Put them in a folder named `final_v2` next to the code.
+- `small-smart-4bit.bin`, `small-smart-8bit.bin` and their `.npz` files - v1, the earlier version. Put them in a folder named `final`.
 
 ```
-python chat.py final/small-smart-4bit.bin
-python chat.py final/small-smart-4bit.bin --tools --notes final/example_notes.txt
+python chat.py final_v2/small-smart-v2-4bit.bin
+python chat.py final_v2/small-smart-v2-4bit.bin --tools --notes final_v2/example_notes.txt
 python chat.py final/small-smart-8bit.bin --once "Tell me a short story about a cat."
 ```
 
 - `--tools` turns on the calculator and the notes search. Replies are then steady (not random).
 - `--notes` is a text file with one note per line.
-- Ask about notes with the word "notes" in the question, for example "Check my notes. When is the dentist?" See Limits.
+- v2 usually searches the notes by itself. v1 needs the word "notes" in the question, for example "Check my notes. When is the dentist?" See Limits.
 
 ## Running it without PyTorch
 
 `run_np.py` runs the model with only numpy and the tokenizers package (about 40 MB installed, against about 4.5 GB for PyTorch). It has chat but not the tools yet.
 
 ```
-python run_np.py final/small-smart-4bit.npz
+python run_np.py final_v2/small-smart-v2-4bit.npz
 ```
 
-Measured on a 6-core Ryzen, processor only, single measurements:
+Measured with the v1 4-bit file (v2 has the same shape and size) on a 6-core Ryzen, processor only, single measurements:
 
 | runner | tokens per second | RAM while running | peak RAM while loading | install size |
 |---|---|---|---|---|
@@ -69,12 +92,12 @@ The numpy runner gave the same replies as PyTorch on 6 of 6 test prompts with st
 
 - 25 layers, 512 wide, 8 heads, context of 512 tokens, vocabulary of 8,192. 82.8M parameters.
 - Weights are trained on a low-bit grid from the start (quantisation-aware training), so the exported file is the model that was measured.
-- Trained for 16,000 steps on simple stories, then 4,000 steps on chat data. That is the same number of steps as the twin.
+- Trained for 16,000 steps on simple stories, then 4,000 steps on chat data. That is the same number of steps as the twin. v2 keeps the story phase and redoes the 4,000 chat steps on a new data mix.
 - Optimiser: Muon for the weight matrices, AdamW for the rest. One model change: value residual.
 - Chat phase: loss on the assistant's words only, with conversations packed tightly.
 - Training time: 302 minutes for the 8-bit model, plus 69 minutes for the 4-bit version. Peak GPU memory about 6 GB.
 
-The chat data mix: 35% generated job practice (rules, sums, notes, tool calls; 1,000,000 conversations), 20% synthetic instructions, 16% simple chat, 10% story requests, 10% stories, 5% general chat, 2% everyday talk, 2% written by a teacher model (qwen3:8b, 18,748 conversations kept of 23,062 written).
+The v1 chat data mix (v2 moves 17 points from job practice to the new v2 data, see `results/stage10.md`): 35% generated job practice (rules, sums, notes, tool calls; 1,000,000 conversations), 20% synthetic instructions, 16% simple chat, 10% story requests, 10% stories, 5% general chat, 2% everyday talk, 2% written by a teacher model (qwen3:8b, 18,748 conversations kept of 23,062 written).
 
 A tool call is a short free line and then one line of JSON, for example `{"tool": "calc", "input": "348 * 27"}`. The result comes back as a user turn starting with "Result:".
 
@@ -94,6 +117,7 @@ Ideas were tested one at a time on a small pilot model (6.8M parameters, 3 seeds
 | 7 | Does it hold at full size? | Yes for the data and for the low-bit files. See above for what it does not prove. |
 | 8 | At equal megabytes, more parameters at 4 bits or fewer at 8 bits? | More parameters at 4 bits give a better language model (clearly lower loss). Not a better assistant: the prompt tests are a tie. Single run. |
 | 9 | Does it hold on prompts that break the practice patterns? | Only partly. About 37% pass, against about 97% on the dev set. |
+| 10 | Does one more round of data, aimed at that gap, help on a fresh test? | Yes: 74 against 44 of 140 (69 against 42 after AI grading). The gain is in searching notes unprompted and admitting it does not know. New wording did not improve. Single run. |
 
 ## Things that did not work
 
@@ -110,9 +134,9 @@ Ideas were tested one at a time on a small pilot model (6.8M parameters, 3 seeds
 
 - It knows very little about the world. It has read simple stories and practice conversations only. It answered "Shoes" for what you wear on your head.
 - It cannot work with letters. "eagle" in capitals came out as "ELLER". It sees word pieces, not letters.
-- It only searches the notes when the question mentions notes. "When is the dentist?" got a made-up answer; "Check my notes. When is the dentist?" got the right one. On the held-out test no model searched in any of 15 such questions.
+- v1 only searches the notes when the question mentions notes (v2 searched on 18 of 20 such questions and got 12 right). "When is the dentist?" got a made-up answer; "Check my notes. When is the dentist?" got the right one. On the held-out test no model searched in any of 15 such questions.
 - Sums in unfamiliar wordings often fail. "What do you get when you put 14 and 23 together?" got 27.
-- Two requests in one message almost always fail (0 of 25 on the held-out test).
+- Two requests in one message almost always fail (0 of 25 on the first held-out test; v2 gets 6 of 30 on the fresh one).
 - Tool requests in unfamiliar wordings succeed about 75% to 80% of the time, against 100% for familiar ones.
 - It makes things up when it does not know. "Why is the sky blue?" got "That's a good question. What do you think?"
 - The scoreboard and dev set test the same kinds of task as the practice data. They measure whether the practice worked, not general intelligence.
@@ -123,14 +147,16 @@ Ideas were tested one at a time on a small pilot model (6.8M parameters, 3 seeds
 
 ## What would make it smarter
 
-In order of expected gain: broader reading material in the first phase (simple encyclopedia text, not only stories), more training steps, then a bigger model. The held-out test (`data/heldout.json`) is the harder test to judge these five models by. Never train on it. A later version designed around its findings needs a fresh held-out set, because this one will have shaped that design.
+In order of expected gain: broader reading material in the first phase (simple encyclopedia text, not only stories), more training steps, then a bigger model. The held-out tests are the harder tests to judge these models by. Never train on them. Both have now shaped a round of data (the first shaped v2, and v2's results on the second are known), so the next version needs a third.
 
 ## Where things are
 
-- `final/` - the two model files and an example notes file.
+- `final_v2/` - the v2 4-bit file (the main model) and an example notes file. `final/` - the two v1 model files. The files themselves come from the release.
+- `results/ai_grading/`, `grade_ai.py` - the rubric and the AI grades for the items marked for hand grading.
 - `WRITEUP.md` - the public write-up. `MODEL_CARD.md` - the model card. `PUBLISHING.md` - what to leave out of a public repo, and a licence suggestion.
-- `results/stage0.md` to `results/stage9.md` - the full tables for every stage.
-- `data/heldout.json` and `data/heldout.sha256` - the frozen held-out test. `make_heldout.py`, `heldout.py` - how it was written and scored.
+- `results/stage0.md` to `results/stage10.md` - the full tables for every stage.
+- `data/heldout.json` and `data/heldout.sha256` - the first frozen held-out test. `make_heldout.py`, `heldout.py` - how it was written and scored.
+- `data/heldout2.json`, `data/heldout2.sha256`, `heldout2/make_heldout2.py` - the fresh test used for v2. `gen_v2.py`, `run_v2.sh` - the v2 data and run.
 - `runs/f7b` (8-bit) and `runs/f7b_q4` (4-bit) - checkpoints and logs. Milestone checkpoints are kept for the 8-bit run.
 - `train.py`, `model.py`, `optim.py` - training. `quant.py` - export and loading of low-bit files. `tools.py` - the tool loop.
 - `scoreboard.py`, `devset.py`, `rescore_dev.py`, `stage5.py`, `stage7.py` - the tests.

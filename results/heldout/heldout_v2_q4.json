@@ -1,0 +1,1508 @@
+{
+ "name": "v2_q4",
+ "model": "runs/v2_q4/q4.bin",
+ "sha256": "77aa0feb50453863b93cbaef08b76998493b0c78049ecde3978c0e6b5c0bbda2",
+ "peak_gpu_mib": 492,
+ "rows": [
+  {
+   "id": "A01",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "Give me a single word that means the opposite of tall.",
+   "first": "Short.",
+   "final": "Short.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A02",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "Is fire cold? I only want a yes or a no.",
+   "first": "No.",
+   "final": "No.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A03",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "Three times, please: the word lamp.",
+   "first": "Lamp lamp lamp",
+   "final": "Lamp lamp lamp",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A04",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "I need a reply that is four words long.",
+   "first": "I am happy today.",
+   "final": "I am happy today.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A05",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "Begin your answer with the word Maybe and tell me about clouds.",
+   "first": "Maybe you can see clouds today.",
+   "final": "Maybe you can see clouds today.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A06",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "Tell me about the sea, and make the very last word be blue.",
+   "first": "It is a beautiful sea.",
+   "final": "It is a beautiful sea.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A07",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "Describe a cat using just one sentence.",
+   "first": "The cat was by the door, in the morning, in the afternoon, and at night.",
+   "final": "The cat was by the door, in the morning, in the afternoon, and at night.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A08",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "Copy this line and change nothing: The red kite flew over the hill.",
+   "first": "The red kite flew over the hill.",
+   "final": "The red kite flew over the hill.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A09",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "Without using the word cold, tell me what snow is like.",
+   "first": "Snow is soft, white ice that falls from the sky when it is very cold.",
+   "final": "Snow is soft, white ice that falls from the sky when it is very cold.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A10",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "Answer in a single word. Which is heavier, a horse or a mouse?",
+   "first": "Horse.",
+   "final": "Horse.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A11",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "Say hello to me twice and nothing more.",
+   "first": "Hello, hello.",
+   "final": "Hello, hello.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A12",
+   "section": "A",
+   "skill": "instruction",
+   "prompt": "Can a fish climb a tree? One word.",
+   "first": "Fish.",
+   "final": "Fish.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A13",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "What do you get when you put 14 and 23 together?",
+   "first": "14 + 23 = 37.",
+   "final": "14 + 23 = 37.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A14",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "If I have 50 and I lose 18, what is left?",
+   "first": "50 - 18 = 38.",
+   "final": "50 - 18 = 38.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A15",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "6 lots of 7 is how many?",
+   "first": "The answer is 33.",
+   "final": "The answer is 33.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A16",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "Half of 48 is what?",
+   "first": "48 - 48 = 10.",
+   "final": "48 - 48 = 10.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A17",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "Double 35.",
+   "first": "35.",
+   "final": "35.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A18",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "There were 12 birds on a wall and 5 flew off. How many stayed?",
+   "first": "12 + 5 = 17. There are 17 birds on the wall.",
+   "final": "12 + 5 = 17. There are 17 birds on the wall.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A19",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "A week has 7 days. How many days are in 4 weeks?",
+   "first": "4 weeks has 11 days.",
+   "final": "4 weeks has 11 days.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A20",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "I read 9 pages on Monday and 16 pages on Tuesday. How many pages in all?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"9 + 16\"}",
+   "final": "9 + 16 = 25.",
+   "called": "calc",
+   "passed": true
+  },
+  {
+   "id": "A21",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "Share 36 sweets between 4 children. How many does each child get?",
+   "first": "36 / 4 = 9. Each child gets 9 sweets.",
+   "final": "36 / 4 = 9. Each child gets 9 sweets.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A22",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "How much bigger is 80 than 55?",
+   "first": "80.",
+   "final": "80.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A23",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "Sum up 5, 6 and 7.",
+   "first": "5 + 6 = 11.",
+   "final": "5 + 6 = 11.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A24",
+   "section": "A",
+   "skill": "arithmetic",
+   "prompt": "Tom is 8. His sister is 3 years older. How old is his sister?",
+   "first": "She is 8 years old.",
+   "final": "She is 8 years old.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A25",
+   "section": "A",
+   "skill": "format",
+   "prompt": "Give me three animals, one per line, each line starting with a star (*).",
+   "first": "- Panda\n- Pig\n- Lion",
+   "final": "- Panda\n- Pig\n- Lion",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A26",
+   "section": "A",
+   "skill": "format",
+   "prompt": "List the first four months with numbers in front, like 1. 2. 3. 4.",
+   "first": "1. February\n2. August\n3. March",
+   "final": "1. February\n2. August\n3. March",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A27",
+   "section": "A",
+   "skill": "format",
+   "prompt": "Shout the word garden. I mean all capitals.",
+   "first": "GARDENT",
+   "final": "GARDENT",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A28",
+   "section": "A",
+   "skill": "format",
+   "prompt": "Count from 3 up to 8, with commas.",
+   "first": "3, 4, 5, 6, 7, 8.",
+   "final": "3, 4, 5, 6, 7, 8.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A29",
+   "section": "A",
+   "skill": "format",
+   "prompt": "Two lines only. Line one says hello. Line two says goodbye.",
+   "first": "Line one says hello.",
+   "final": "Line one says hello.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A30",
+   "section": "A",
+   "skill": "format",
+   "prompt": "Write the sentence I like tea inside quote marks.",
+   "first": "The sentence \"The cat is sleeping\" is a subject-verb agreement sentence.",
+   "final": "The sentence \"The cat is sleeping\" is a subject-verb agreement sentence.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A31",
+   "section": "A",
+   "skill": "format",
+   "prompt": "Name two colours with a dash before each one, on separate lines.",
+   "first": "- Purple\n- Grey",
+   "final": "- Purple\n- Grey",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A32",
+   "section": "A",
+   "skill": "format",
+   "prompt": "How many days are there in a week? Digits only, no words.",
+   "first": "Seven days in a week are twelve days.",
+   "final": "Seven days in a week are twelve days.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A33",
+   "section": "A",
+   "skill": "format",
+   "prompt": "Write the numbers 10 down to 6 with spaces between them.",
+   "first": "10\n11\n12\n12\n13\n14",
+   "final": "10\n11\n12\n12\n13\n14",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A34",
+   "section": "A",
+   "skill": "format",
+   "prompt": "Give me a list of three drinks. Number them.",
+   "first": "1. Coffee\n2. Lemonade\n3. Water",
+   "final": "1. Coffee\n2. Lemonade\n3. Water",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A35",
+   "section": "A",
+   "skill": "format",
+   "prompt": "Write pillow in small letters and then in capital letters.",
+   "first": "PILLOWER",
+   "final": "PILLOWER",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A36",
+   "section": "A",
+   "skill": "format",
+   "prompt": "Answer with one line that ends in a question mark.",
+   "first": "What is the question line?",
+   "final": "What is the question line?",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A37",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "I will paste my notes and then ask something.\n\nNotes\n- Swim class on Tuesday at 5 pm.\n- The torch is in the top drawer.\n\nQuestion: where is the torch?",
+   "first": "The torch is in the top drawer.",
+   "final": "The torch is in the top drawer.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A38",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "Question first: which room is the exam in?\n\nNotes:\n- The exam is in room 12.\n- The talk is in room 30.",
+   "first": "The exam is in room 12.",
+   "final": "The exam is in room 12.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A39",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "These are my notes: Call Ella about the party. The gate code is basket77. Now tell me, what is the gate code?",
+   "first": "The gate code is basket77.",
+   "final": "The gate code is basket77.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A40",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "NOTES\n1) Feed the fish on Sunday.\n2) Pay the rent on Friday.\n\nWhich day do I pay the rent?",
+   "first": "You pay the rent on Friday.",
+   "final": "You pay the rent on Friday.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A41",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "My notes say:\nJack's parrot is called Coco.\nNora's pony is called Daisy.\n\nWhat is the pony called?",
+   "first": "It is called Daisy.",
+   "final": "It is called Daisy.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A42",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "Notes:\n- The bakery opens at 7 am.\n- Buy salt and butter.\n\nBased on my notes, what is the alarm code?",
+   "first": "I cannot find that in the notes.",
+   "final": "I cannot find that in the notes.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "A43",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "Notes:\n- The van is parked on Mill Lane.\n- The bike is parked on Oak Street.\n\nBased on these notes, is the van on Oak Street? Yes or no.",
+   "first": "The van is on Mill Lane.",
+   "final": "The van is on Mill Lane.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A44",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "Here are two notes. Note one: the soup needs three onions. Note two: the pie needs five apples. How many apples go in the pie?",
+   "first": "Note two notes.",
+   "final": "Note two notes.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A45",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "Notes:\n- Grandpa arrives on Friday by train.\n- Aunt Ruby arrives on Sunday by car.\n\nWho comes by car, going by the notes?",
+   "first": "The notes do not say that.",
+   "final": "The notes do not say that.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A46",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "Notes:\n- Barber on Monday at 2 pm.\n- Doctor on Wednesday at 11 am.\n\nUsing my notes, what do I have on Wednesday?",
+   "first": "The notes do not say anything about that.",
+   "final": "The notes do not say anything about that.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A47",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "Notes:\n- The museum closes at 5 pm.\n\nIn one word, going by my notes: what closes at 5 pm?",
+   "first": "Low.",
+   "final": "Low.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A48",
+   "section": "A",
+   "skill": "notes",
+   "prompt": "Notes:\n- Buy tea, jam and flour.\n\nFrom my notes, how many things do I need to buy? Give a number.",
+   "first": "You need to buy tea, jam and flour.",
+   "final": "You need to buy tea, jam and flour.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A49",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "Could you total 4187 and 2956 for me?",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"4187 + 2956\"}",
+   "final": "4187 + 2956 = 7143.",
+   "called": "calc",
+   "passed": true
+  },
+  {
+   "id": "A50",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "3250 less 1875 comes to what?",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"3250 - 1875\"}",
+   "final": "3250 - 1875 = 1375.",
+   "called": "calc",
+   "passed": true
+  },
+  {
+   "id": "A51",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "How many is 46 groups of 38?",
+   "first": "46 / 38 = 3.",
+   "final": "46 / 38 = 3.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A52",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "I need 7344 cut into 24 equal parts. How big is each part?",
+   "first": "Let me use the calculator.\n{\"tool\": \"calc\", \"input\": \"7344 - 24\"}",
+   "final": "7344 - 24 = 7320. That is 7320.",
+   "called": "calc",
+   "passed": false
+  },
+  {
+   "id": "A53",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "Each crate holds 144 bottles. How many bottles are in 65 crates?",
+   "first": "Let me work that out with the calculator.\n{\"tool\": \"calc\", \"input\": \"144 * 65\"}",
+   "final": "144 x 65 = 9360. That is 9360 bottles.",
+   "called": "calc",
+   "passed": true
+  },
+  {
+   "id": "A54",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "The trip is 1260 miles and we have done 485. How far is left?",
+   "first": "To find the total distance, we need to subtract the average distance from the last trip. \n\nThe last trip is 1260 miles - 485 = 20 miles. \n\nThe total distance is 1260 miles - 2085 = 32 miles.\n\nTherefore, the total distance from the last trip is 1260 miles.",
+   "final": "To find the total distance, we need to subtract the average distance from the last trip. \n\nThe last trip is 1260 miles - 485 = 20 miles. \n\nThe total distance is 1260 miles - 2085 = 32 miles.\n\nTherefore, the total distance from the last trip is 1260 miles.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "A55",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "It should be somewhere in my notes: when is the dentist?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"dentist\"}",
+   "final": "The dentist is on Thursday at 3 pm.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "A56",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "Go through my notes and find the wifi password.",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"wifi\"}",
+   "final": "The wifi password is rocket42.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "A57",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "Do my notes mention which bus goes to the airport?",
+   "first": "Let me check your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 27 goes to the airport.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "A58",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "Notes lookup: Leo's rabbit.",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"rabbit\"}",
+   "final": "Leo's rabbit is called Toffee.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "A59",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "Could you check the notes for when I should water the plants?",
+   "first": "Let me check your notes.\n{\"tool\": \"notes\", \"input\": \"plants\"}",
+   "final": "You should water the plants on Friday.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "A60",
+   "section": "A",
+   "skill": "tool_call",
+   "prompt": "Any note on what to buy?",
+   "first": "Let me check your notes.\n{\"tool\": \"notes\", \"input\": \"buy\"}",
+   "final": "You need to buy eggs, soap and rice.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "B01",
+   "section": "B",
+   "skill": "store",
+   "prompt": "When is the dentist?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"dentist\"}",
+   "final": "The dentist is on Thursday at 3 pm.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "B02",
+   "section": "B",
+   "skill": "store",
+   "prompt": "What's the wifi password again?",
+   "first": "Let me check your notes.\n{\"tool\": \"notes\", \"input\": \"wifi\"}",
+   "final": "The wifi password is rocket42.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "B03",
+   "section": "B",
+   "skill": "store",
+   "prompt": "What do I have to get from the shop?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"shop\"}",
+   "final": "I looked in your notes but found nothing about that.",
+   "called": "notes",
+   "passed": false
+  },
+  {
+   "id": "B04",
+   "section": "B",
+   "skill": "store",
+   "prompt": "Remind me when Mia's birthday is.",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Mia's birthday is on 14 June.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "B05",
+   "section": "B",
+   "skill": "store",
+   "prompt": "Where did I put the key?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"key\"}",
+   "final": "The key is behind the clock.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "B06",
+   "section": "B",
+   "skill": "store",
+   "prompt": "Which bus do I take to get to the airport?",
+   "first": "Let me check your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 27 goes to the airport.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "B07",
+   "section": "B",
+   "skill": "store",
+   "prompt": "Who was I meant to ring about the broken tap?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"tap\"}",
+   "final": "You should call Owen.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "B08",
+   "section": "B",
+   "skill": "store",
+   "prompt": "What time does the library shut?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"library\"}",
+   "final": "The library closes at 6 pm.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "B09",
+   "section": "B",
+   "skill": "store",
+   "prompt": "What is Sam allergic to?",
+   "first": "I don't know the answer to that. I am a tiny assistant, and I only know simple things.",
+   "final": "I don't know the answer to that. I am a tiny assistant, and I only know simple things.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "B10",
+   "section": "B",
+   "skill": "store",
+   "prompt": "How much is the rent?",
+   "first": "It is zero.",
+   "final": "It is zero.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "B11",
+   "section": "B",
+   "skill": "store",
+   "prompt": "What gate does the Rome flight leave from?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"gate\"}",
+   "final": "7:20 am.",
+   "called": "notes",
+   "passed": false
+  },
+  {
+   "id": "B12",
+   "section": "B",
+   "skill": "store",
+   "prompt": "Which cake does Grandma like best?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"cake\"}",
+   "final": "Grandma's favourite cake is lemon cake.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "B13",
+   "section": "B",
+   "skill": "store",
+   "prompt": "Did the meeting with Mr Patel move? To what day?",
+   "first": "Let me check your notes.\n{\"tool\": \"notes\", \"input\": \"meeting\"}",
+   "final": "Wednesday.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "B14",
+   "section": "B",
+   "skill": "store",
+   "prompt": "Where is Nina's parcel?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"nina\"}",
+   "final": "At the post office.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "B15",
+   "section": "B",
+   "skill": "store",
+   "prompt": "I have forgotten where the spare tyre is.",
+   "first": "The spare tyre is usually near the red door. Let's look together. Are you sure you don't have a spare tyre yet?",
+   "final": "The spare tyre is usually near the red door. Let's look together. Are you sure you don't have a spare tyre yet?",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "B16",
+   "section": "B",
+   "skill": "inline",
+   "prompt": "Reminders: dentist Thursday 3 pm; vet Friday 10 am; piano Saturday 9 am.\nWhen do I see the vet?",
+   "first": "Thursday 3 pm.",
+   "final": "Thursday 3 pm.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "B17",
+   "section": "B",
+   "skill": "inline",
+   "prompt": "To do today\n1. post the letter\n2. call Ruby\n3. buy milk\n\nWho do I need to call?",
+   "first": "The notes do not say.",
+   "final": "The notes do not say.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "B18",
+   "section": "B",
+   "skill": "inline",
+   "prompt": "Here is what I wrote down this morning: the plumber comes at 4 pm and the rent is due on Monday.\nWhen is the rent due?",
+   "first": "pay is due on Monday.",
+   "final": "pay is due on Monday.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "B19",
+   "section": "B",
+   "skill": "inline",
+   "prompt": "Shopping: bread, jam, tea.\nIs jam on the list?",
+   "first": "Jam, jam, tea.",
+   "final": "Jam, jam, tea.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "B20",
+   "section": "B",
+   "skill": "inline",
+   "prompt": "Mum said: pick up Finn at 5 pm from swim class. What time do I pick up Finn?",
+   "first": "At 5 pm.",
+   "final": "At 5 pm.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "B21",
+   "section": "B",
+   "skill": "inline",
+   "prompt": "* Gate code: river58\n* Locker code: candle31\n\nWhat is the locker code?",
+   "first": "The locker code is candle31.",
+   "final": "The locker code is candle31.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "B22",
+   "section": "B",
+   "skill": "inline",
+   "prompt": "Monday: football. Tuesday: choir. Wednesday: nothing.\nWhat is on Tuesday?",
+   "first": "Wednesday.",
+   "final": "Wednesday.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "B23",
+   "section": "B",
+   "skill": "inline",
+   "prompt": "My list says the red box is in the attic and the blue box is in the garage. Where is the blue box?",
+   "first": "The blue box is in the attic.",
+   "final": "The blue box is in the attic.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "B24",
+   "section": "B",
+   "skill": "inline",
+   "prompt": "The train leaves at 8:15 am from platform 3. Which platform?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"platform\"}",
+   "final": "I looked in your notes but found nothing about that.",
+   "called": "notes",
+   "passed": false
+  },
+  {
+   "id": "B25",
+   "section": "B",
+   "skill": "inline",
+   "prompt": "Zoe - tea with honey\nMax - coffee with milk\n\nWhat does Max drink?",
+   "first": "Max drinks tea with honey.",
+   "final": "Max drinks tea with honey.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "C01",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Work out 348 times 27 and reply with only the number.",
+   "first": "I need the calculator for this.\n{\"tool\": \"calc\", \"input\": \"348 * 27\"}",
+   "final": "9396",
+   "called": "calc",
+   "passed": true
+  },
+  {
+   "id": "C02",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Add 6 and 9, then say the answer three times.",
+   "first": "15 15 15",
+   "final": "15 15 15",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C03",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Is 17 plus 8 more than 20? Answer yes or no.",
+   "first": "Yes.",
+   "final": "Yes.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C04",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Name three fruits as a numbered list, all in capital letters.",
+   "first": "1. PEACH\n2. PEACH\n3. LIME",
+   "final": "1. PEACH\n2. PEACH\n3. LIME",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C05",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Two lines. First line: the answer to 7 times 6. Second line: the word done.",
+   "first": "42\ndone",
+   "final": "42\ndone",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C06",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Notes:\n- Tom's ticket cost 14 coins.\n- Ana's ticket cost 9 coins.\n\nHow much did both tickets cost together?",
+   "first": "9 + 14 = 23.",
+   "final": "9 + 14 = 23.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C07",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Look up the dentist in my notes and answer in capital letters.",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"dentist\"}",
+   "final": "THE DENTIST ON THURSDAY.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "C08",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Find Mia's birthday in my notes and tell me just the month, in one word.",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Mia's birthday is on 14 June.",
+   "called": "notes",
+   "passed": false
+  },
+  {
+   "id": "C09",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "What is the opposite of hot? Write it in capital letters.",
+   "first": "COLD",
+   "final": "COLD",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C10",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Say the word tree two times, then the word leaf once.",
+   "first": "tree tree leaf",
+   "final": "tree tree leaf",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C11",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Notes:\n- The club is in room 8.\n- The class is in room 15.\n\nAdd the two room numbers together.",
+   "first": "15 + 8 = 23.",
+   "final": "15 + 8 = 23.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C12",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "List the numbers from 1 to 5, one on each line.",
+   "first": "1\n2\n3\n4\n5",
+   "final": "1\n2\n3\n4\n5",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C13",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Write one sentence about rain that ends with the word wet.",
+   "first": "Rain can be very wet.",
+   "final": "Rain can be very wet.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C14",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Count the words in this sentence and reply with a number: the cat sat on the mat.",
+   "first": "6",
+   "final": "6",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C15",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "What is 2154 plus 3871? Then tell me if the answer is bigger than 6000, yes or no.",
+   "first": "I will use the calculator.\n{\"tool\": \"calc\", \"input\": \"2154 + 3871\"}",
+   "final": "2154 + 3871 = 6025. Yes, it is bigger than 6000.",
+   "called": "calc",
+   "passed": true
+  },
+  {
+   "id": "C16",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "How much rent do I pay in two months?",
+   "first": "1. February and April",
+   "final": "1. February and April",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "C17",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Give me the days of the weekend with a dash in front of each, in capital letters.",
+   "first": "- SATURDAY\n- SUNDAY\n- THURSDAY\n- WEDNESDAY",
+   "final": "- SATURDAY\n- SUNDAY\n- THURSDAY\n- WEDNESDAY",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "C18",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Answer with a number and then the word apples: 4 apples and 5 apples together.",
+   "first": "9 apples",
+   "final": "9 apples",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C19",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Notes:\n- Swim class on Tuesday at 5 pm.\n- Choir on Thursday at 6 pm.\n\nList my two activities as a numbered list.",
+   "first": "1. Swim class\n2. Choir",
+   "final": "1. Swim class\n2. Choir",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C20",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Which is bigger, 9 times 9 or 80? Answer with the bigger number only.",
+   "first": "80",
+   "final": "80",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "C21",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Write three lines. Each line is the word yes.",
+   "first": "yes\nyes\nyes",
+   "final": "yes\nyes\nyes",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C22",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "Tell me a colour and an animal, separated by a comma, and nothing else.",
+   "first": "grey, dog",
+   "final": "grey, dog",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C23",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "What is on my shopping list? Put each thing on its own line.",
+   "first": "Let me check your notes.\n{\"tool\": \"notes\", \"input\": \"buy\"}",
+   "final": "eggs\nsoap\nrice",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "C24",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "First say good morning. Then, on a new line, tell me what 12 take away 4 is.",
+   "first": "Good morning.\n12 - 4 = 8.",
+   "final": "Good morning.\n12 - 4 = 8.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "C25",
+   "section": "C",
+   "skill": "two_skills",
+   "prompt": "In one sentence, tell me what 5 plus 5 is and what colour grass is.",
+   "first": "5 plus 5 is 10 and grass is green.",
+   "final": "5 plus 5 is 10 and grass is green.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "D01",
+   "section": "D",
+   "skill": "no_notes",
+   "prompt": "What is my middle name?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"name\"}",
+   "final": "I looked in your notes but found nothing about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D02",
+   "section": "D",
+   "skill": "no_notes",
+   "prompt": "What did I have for lunch yesterday?",
+   "first": "I don't know what you ate today. I cannot see you.",
+   "final": "I don't know what you ate today. I cannot see you.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "D03",
+   "section": "D",
+   "skill": "no_notes",
+   "prompt": "How old is my brother?",
+   "first": "He is five years old.",
+   "final": "He is five years old.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "D04",
+   "section": "D",
+   "skill": "no_notes",
+   "prompt": "What is my neighbour's cat called?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"cat\"}",
+   "final": "I looked in your notes but found nothing about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D05",
+   "section": "D",
+   "skill": "no_notes",
+   "prompt": "What is the phone number of my dentist?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"dentist\"}",
+   "final": "I looked in your notes but found nothing about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D06",
+   "section": "D",
+   "skill": "no_notes",
+   "prompt": "Where did I leave my glasses?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"shop\"}",
+   "final": "I looked in your notes but found nothing about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D07",
+   "section": "D",
+   "skill": "no_notes",
+   "prompt": "What colour is my front door?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"door\"}",
+   "final": "There is no note about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D08",
+   "section": "D",
+   "skill": "no_notes",
+   "prompt": "What is my teacher's name?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"teacher\"}",
+   "final": "I looked in your notes but found nothing about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D09",
+   "section": "D",
+   "skill": "not_in_notes",
+   "prompt": "When is the plumber coming?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"plumber\"}",
+   "final": "I looked in your notes but found nothing about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D10",
+   "section": "D",
+   "skill": "not_in_notes",
+   "prompt": "What is the alarm code?",
+   "first": "Let me check your notes.\n{\"tool\": \"notes\", \"input\": \"alarm\"}",
+   "final": "I could not find a note about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D11",
+   "section": "D",
+   "skill": "not_in_notes",
+   "prompt": "Which bus goes to the beach?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"bus\"}",
+   "final": "Bus number 27 goes to the beach.",
+   "called": "notes",
+   "passed": false
+  },
+  {
+   "id": "D12",
+   "section": "D",
+   "skill": "not_in_notes",
+   "prompt": "When is Zoe's birthday?",
+   "first": "Let me check your notes.\n{\"tool\": \"notes\", \"input\": \"birthday\"}",
+   "final": "Zoe's birthday is on 14 June.",
+   "called": "notes",
+   "passed": false
+  },
+  {
+   "id": "D13",
+   "section": "D",
+   "skill": "not_in_notes",
+   "prompt": "Check my notes: where is the passport?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"passport\"}",
+   "final": "There is no note about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D14",
+   "section": "D",
+   "skill": "not_in_notes",
+   "prompt": "What does my note say about the car?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"car\"}",
+   "final": "There is no note about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D15",
+   "section": "D",
+   "skill": "nobody_knows",
+   "prompt": "What number am I thinking of right now?",
+   "first": "I don't know. I cannot read your mind! Can you tell me?",
+   "final": "I don't know. I cannot read your mind! Can you tell me?",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "D16",
+   "section": "D",
+   "skill": "nobody_knows",
+   "prompt": "Will it rain here next Saturday?",
+   "first": "Yes, it rains. Do you like rainy days?",
+   "final": "Yes, it rains. Do you like rainy days?",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "D17",
+   "section": "D",
+   "skill": "nobody_knows",
+   "prompt": "Who will win the football match tomorrow?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"match\"}",
+   "final": "There is no note about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D18",
+   "section": "D",
+   "skill": "nobody_knows",
+   "prompt": "What is inside the box on my desk?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"lock\"}",
+   "final": "I looked in your notes but found nothing about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "D19",
+   "section": "D",
+   "skill": "nobody_knows",
+   "prompt": "What will I dream about tonight?",
+   "first": "You will dream about something fun. You might think about your family and friends.",
+   "final": "You will dream about something fun. You might think about your family and friends.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "D20",
+   "section": "D",
+   "skill": "nobody_knows",
+   "prompt": "How many coins are in my pocket?",
+   "first": "I will look in your notes.\n{\"tool\": \"notes\", \"input\": \"pick\"}",
+   "final": "There is no note about that.",
+   "called": "notes",
+   "passed": true
+  },
+  {
+   "id": "E01",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What is the capital city of France?",
+   "first": "The capital city of France is Tokyo. It is a stunning city with a big city, a big city, and a big city.",
+   "final": "The capital city of France is Tokyo. It is a stunning city with a big city, a big city, and a big city.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "E02",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What do bees make?",
+   "first": "Bees make honey.",
+   "final": "Bees make honey.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "E03",
+   "section": "E",
+   "skill": "world",
+   "prompt": "Which planet do we live on?",
+   "first": "We live on the Earth.",
+   "final": "We live on the Earth.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "E04",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What is frozen water called?",
+   "first": "It is a white and cold liquid. It turns to a circle.",
+   "final": "It is a white and cold liquid. It turns to a circle.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "E05",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What do you call a baby dog?",
+   "first": "A baby dog is called a puppy.",
+   "final": "A baby dog is called a puppy.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "E06",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What season comes after winter?",
+   "first": "Spring comes after winter.",
+   "final": "Spring comes after winter.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "E07",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What is the biggest animal in the sea?",
+   "first": "The biggest animal is a whale. It is very big and strong.",
+   "final": "The biggest animal is a whale. It is very big and strong.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "E08",
+   "section": "E",
+   "skill": "world",
+   "prompt": "Which meal do people eat in the morning?",
+   "first": "People eat in the morning.",
+   "final": "People eat in the morning.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "E09",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What do you use to cut paper?",
+   "first": "You use scissors to cut paper.",
+   "final": "You use scissors to cut paper.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "E10",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What colour do you get when you mix red and yellow?",
+   "first": "Red is usually red. But yellow is usually blue. It's a nice color.",
+   "final": "Red is usually red. But yellow is usually blue. It's a nice color.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "E11",
+   "section": "E",
+   "skill": "world",
+   "prompt": "Where does the sun rise, in the east or in the west?",
+   "first": "The sun rises in the east. It rises in the west.",
+   "final": "The sun rises in the east. It rises in the west.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "E12",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What do we get from cows to drink?",
+   "first": "Cows like to drink milk from their home. They also like to eat grass. Some cows have a big family.",
+   "final": "Cows like to drink milk from their home. They also like to eat grass. Some cows have a big family.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "E13",
+   "section": "E",
+   "skill": "world",
+   "prompt": "How many days are in a year?",
+   "first": "There are four days in a year.",
+   "final": "There are four days in a year.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "E14",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What is the big bright thing in the sky during the day?",
+   "first": "The sun is a star. It is very far away. It shines at night.",
+   "final": "The sun is a star. It is very far away. It shines at night.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "E15",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What do you wear on your feet?",
+   "first": "I wear a shirt and pants. They are soft and nice.",
+   "final": "I wear a shirt and pants. They are soft and nice.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "E16",
+   "section": "E",
+   "skill": "world",
+   "prompt": "Which animal is called the king of the jungle?",
+   "first": "I do not know that one. Maybe a grown-up or a book can help you.",
+   "final": "I do not know that one. Maybe a grown-up or a book can help you.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "E17",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What language do people speak in Spain?",
+   "first": "People speak Spanish.",
+   "final": "People speak Spanish.",
+   "called": null,
+   "passed": true
+  },
+  {
+   "id": "E18",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What is 100 centimetres also called?",
+   "first": "100 centimetres is also called 100 centimetres. It's a common sum, so we call it a tetracaner.",
+   "final": "100 centimetres is also called 100 centimetres. It's a common sum, so we call it a tetracaner.",
+   "called": null,
+   "passed": false
+  },
+  {
+   "id": "E19",
+   "section": "E",
+   "skill": "world",
+   "prompt": "Who wrote Romeo and Juliet?",
+   "first": "I will search your notes.\n{\"tool\": \"notes\", \"input\": \"aciet\"}",
+   "final": "I could not find a note about that.",
+   "called": "notes",
+   "passed": false
+  },
+  {
+   "id": "E20",
+   "section": "E",
+   "skill": "world",
+   "prompt": "What is the largest ocean on Earth?",
+   "first": "The largest ocean on Earth is the Seine. It is very big and blue. It is the biggest ocean.",
+   "final": "The largest ocean on Earth is the Seine. It is very big and blue. It is the biggest ocean.",
+   "called": null,
+   "passed": false
+  }
+ ]
+}

@@ -3,9 +3,9 @@
 | what | licence | SPDX id |
 |---|---|---|
 | Code (all `.py` files) | MIT, see `LICENSE` | MIT |
-| Model files (`final/*.bin`, `final/*.npz`) | Apache License 2.0, https://www.apache.org/licenses/LICENSE-2.0 | Apache-2.0 |
+| Model files (`final/*.bin`, `final/*.npz`, `final_v2/*.bin`, `final_v2/*.npz`) | Apache License 2.0, https://www.apache.org/licenses/LICENSE-2.0 | Apache-2.0 |
 | Write-up, README, model card, `results/` | Creative Commons Attribution 4.0, https://creativecommons.org/licenses/by/4.0/ | CC-BY-4.0 |
-| Test sets (`data/devset*.json`, `data/toolset.json`, `data/heldout.json`) | Creative Commons Attribution 4.0 | CC-BY-4.0 |
+| Test sets (`data/devset*.json`, `data/toolset.json`, `data/heldout.json`, `data/heldout2.json`) | Creative Commons Attribution 4.0 | CC-BY-4.0 |
 
 The copyright line in `LICENSE` reads "The small-smart authors". Replace it with your own name if you want one there.
 
@@ -23,5 +23,8 @@ The training data is not part of this repository. Its own licences:
 `data/heldout.json` is published so the result can be checked.
 SHA-256: `77aa0feb50453863b93cbaef08b76998493b0c78049ecde3978c0e6b5c0bbda2`
 
-**Never train on it, and never use it to choose between models during development.**
+`data/heldout2.json` is the second test, used for v2.
+SHA-256: `b3f1336a992dd1ffd16b09ccc8fe2c93b66a27bdceff6e4768bd37364f313307`
+
+**Never train on them, and never use them to choose between models during development.**
 A test only counts while the model has not seen it.

@@ -1,0 +1,1236 @@
+{
+ "sha256": "b3f1336a992dd1ffd16b09ccc8fe2c93b66a27bdceff6e4768bd37364f313307",
+ "user_messages": 4608451,
+ "different_question_lines": 448111,
+ "exact": {
+  "A22": "job\\job.jsonl",
+  "A11": "job\\job.jsonl",
+  "A23": "job\\job3.jsonl",
+  "E05": "synth\\instructions.jsonl",
+  "E02": "synth\\instructions.jsonl",
+  "E10": "synth\\instructions.jsonl",
+  "E09": "synth\\instructions.jsonl",
+  "E07": "synth\\instructions.jsonl",
+  "E01": "synth\\instructions.jsonl",
+  "E06": "synth\\instructions.jsonl",
+  "E19": "synth\\instructions.jsonl",
+  "E08": "teacher\\clean.jsonl",
+  "E03": "teacher\\clean.jsonl",
+  "E18": "tinychat",
+  "E11": "tinychat",
+  "E17": "tinychat",
+  "E14": "tinychat"
+ },
+ "same_question_line": {
+  "A41": {
+   "source": "job\\job.jsonl",
+   "text": "What is 6 times 0?"
+  },
+  "A11": {
+   "source": "job\\job.jsonl",
+   "text": "What is 22 plus 18?"
+  },
+  "A22": {
+   "source": "job\\job.jsonl",
+   "text": "Give me a numbered list of four animals."
+  },
+  "C16": {
+   "source": "job\\job1.jsonl",
+   "text": "What is 45 plus 29? Give only the number."
+  },
+  "A44": {
+   "source": "job\\job2.jsonl",
+   "text": "How much is 32832 divided by 96?"
+  },
+  "A13": {
+   "source": "job\\job2.jsonl",
+   "text": "191 times 77?"
+  },
+  "A23": {
+   "source": "job\\job3.jsonl",
+   "text": "Write the word quiet in capital letters."
+  },
+  "A42": {
+   "source": "synth\\instructions.jsonl",
+   "text": "Please add 4 and 1."
+  },
+  "E05": {
+   "source": "synth\\instructions.jsonl",
+   "text": "Which season is the coldest?"
+  },
+  "E02": {
+   "source": "synth\\instructions.jsonl",
+   "text": "How many legs does a spider have?"
+  },
+  "E10": {
+   "source": "synth\\instructions.jsonl",
+   "text": "what comes after Tuesday"
+  },
+  "E09": {
+   "source": "synth\\instructions.jsonl",
+   "text": "Where do fish live?"
+  },
+  "E07": {
+   "source": "synth\\instructions.jsonl",
+   "text": "How many days are in a week?"
+  },
+  "E01": {
+   "source": "synth\\instructions.jsonl",
+   "text": "What sound does a cow make?"
+  },
+  "E06": {
+   "source": "synth\\instructions.jsonl",
+   "text": "What do you call a baby dog"
+  },
+  "E19": {
+   "source": "synth\\instructions.jsonl",
+   "text": "what is the opposite of big"
+  },
+  "E08": {
+   "source": "teacher\\clean.jsonl",
+   "text": "What do plants need to grow?"
+  },
+  "E03": {
+   "source": "teacher\\clean.jsonl",
+   "text": "What do bees make?"
+  },
+  "E18": {
+   "source": "tinychat",
+   "text": "How many wheels does a bike have?"
+  },
+  "E11": {
+   "source": "tinychat",
+   "text": "What do we use our ears for?"
+  },
+  "E17": {
+   "source": "tinychat",
+   "text": "What do you wear on your feet?"
+  },
+  "E14": {
+   "source": "tinychat",
+   "text": "What shape is a ball?"
+  }
+ },
+ "nearest": [
+  {
+   "id": "E19",
+   "overlap": 1.0,
+   "prompt": "What is the opposite of big?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "what is the opposite of big"
+  },
+  {
+   "id": "E18",
+   "overlap": 1.0,
+   "prompt": "How many wheels does a bike have?",
+   "source": "tinychat",
+   "nearest": "How many wheels does a bike have?"
+  },
+  {
+   "id": "E17",
+   "overlap": 1.0,
+   "prompt": "What do you wear on your feet?",
+   "source": "tinychat",
+   "nearest": "What do you wear on your feet?"
+  },
+  {
+   "id": "E14",
+   "overlap": 1.0,
+   "prompt": "What shape is a ball?",
+   "source": "tinychat",
+   "nearest": "What shape is a ball?"
+  },
+  {
+   "id": "E11",
+   "overlap": 1.0,
+   "prompt": "What do we use our ears for?",
+   "source": "tinychat",
+   "nearest": "What do we use our ears for?"
+  },
+  {
+   "id": "E10",
+   "overlap": 1.0,
+   "prompt": "What comes after Tuesday?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "what comes after Tuesday"
+  },
+  {
+   "id": "E09",
+   "overlap": 1.0,
+   "prompt": "Where do fish live?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "Where do fish live?"
+  },
+  {
+   "id": "E08",
+   "overlap": 1.0,
+   "prompt": "What do plants need to grow?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "What do plants need to grow?"
+  },
+  {
+   "id": "E07",
+   "overlap": 1.0,
+   "prompt": "How many days are in a week?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "How many days are in a week?"
+  },
+  {
+   "id": "E06",
+   "overlap": 1.0,
+   "prompt": "What do you call a baby dog?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "What do you call a baby dog"
+  },
+  {
+   "id": "E05",
+   "overlap": 1.0,
+   "prompt": "Which season is the coldest?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "Which season is the coldest?"
+  },
+  {
+   "id": "E03",
+   "overlap": 1.0,
+   "prompt": "What do bees make?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "What do bees make?"
+  },
+  {
+   "id": "E02",
+   "overlap": 1.0,
+   "prompt": "How many legs does a spider have?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "How many legs does a spider have?"
+  },
+  {
+   "id": "E01",
+   "overlap": 1.0,
+   "prompt": "What sound does a cow make?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "What sound does a cow make?"
+  },
+  {
+   "id": "C16",
+   "overlap": 1.0,
+   "prompt": "What is 640 plus 285? Give only the number.",
+   "source": "job\\job1.jsonl",
+   "nearest": "What is 45 plus 29? Give only the number."
+  },
+  {
+   "id": "A44",
+   "overlap": 1.0,
+   "prompt": "How much is 9648 divided by 24?",
+   "source": "job\\job2.jsonl",
+   "nearest": "How much is 32832 divided by 96?"
+  },
+  {
+   "id": "A42",
+   "overlap": 1.0,
+   "prompt": "Please add 2789 and 4655.",
+   "source": "job\\job2.jsonl",
+   "nearest": "Add 9198 and 8777. Please."
+  },
+  {
+   "id": "A41",
+   "overlap": 1.0,
+   "prompt": "What is 426 times 38?",
+   "source": "job\\job.jsonl",
+   "nearest": "What is 6 times 0?"
+  },
+  {
+   "id": "A23",
+   "overlap": 1.0,
+   "prompt": "Write the word quiet in capital letters.",
+   "source": "job\\job3.jsonl",
+   "nearest": "Write the word quiet in capital letters."
+  },
+  {
+   "id": "A22",
+   "overlap": 1.0,
+   "prompt": "Give me a numbered list of four animals.",
+   "source": "job\\job.jsonl",
+   "nearest": "Give me a numbered list of four animals."
+  },
+  {
+   "id": "A17",
+   "overlap": 1.0,
+   "prompt": "Add 25 and 25 for me please.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Please add 1082 and 4492 for me."
+  },
+  {
+   "id": "A13",
+   "overlap": 1.0,
+   "prompt": "6 times 4 = ?",
+   "source": "job\\job2.jsonl",
+   "nearest": "191 times 77?"
+  },
+  {
+   "id": "A11",
+   "overlap": 1.0,
+   "prompt": "What is 8 plus 7?",
+   "source": "job\\job.jsonl",
+   "nearest": "What is 22 plus 18?"
+  },
+  {
+   "id": "C10",
+   "overlap": 0.9,
+   "prompt": "Answer yes or no only: is 15 bigger than 9 plus 9?",
+   "source": "job\\job1.jsonl",
+   "nearest": "Answer only yes or no: is 14 bigger than 99?"
+  },
+  {
+   "id": "A08",
+   "overlap": 0.88,
+   "prompt": "One word only: what color is grass?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "One word only, please. What color is grass?"
+  },
+  {
+   "id": "B09",
+   "overlap": 0.86,
+   "prompt": "What time does my bus home leave?",
+   "source": "job\\v2.jsonl",
+   "nearest": "What time does my bus leave?"
+  },
+  {
+   "id": "B06",
+   "overlap": 0.86,
+   "prompt": "What room is the team meeting in?",
+   "source": "job\\v2.jsonl",
+   "nearest": "What room is the meeting in?"
+  },
+  {
+   "id": "D27",
+   "overlap": 0.83,
+   "prompt": "Hi! How are you doing today?",
+   "source": "tinychat",
+   "nearest": "Hi! How are you today?"
+  },
+  {
+   "id": "B04",
+   "overlap": 0.83,
+   "prompt": "What is the plumber's phone number?",
+   "source": "job\\v2.jsonl",
+   "nearest": "What is the phone number?"
+  },
+  {
+   "id": "C01",
+   "overlap": 0.82,
+   "prompt": "What is 9 plus 6? Answer with only the number, no words.",
+   "source": "job\\job.jsonl",
+   "nearest": "What is 7 plus 9? Answer with only the number."
+  },
+  {
+   "id": "D10",
+   "overlap": 0.8,
+   "prompt": "what's my phone number",
+   "source": "job\\v2.jsonl",
+   "nearest": "What's my mum's phone number?"
+  },
+  {
+   "id": "B02",
+   "overlap": 0.8,
+   "prompt": "What's the wifi password again?",
+   "source": "job\\v2.jsonl",
+   "nearest": "What's the wifi password?"
+  },
+  {
+   "id": "A01",
+   "overlap": 0.8,
+   "prompt": "Is ice cold? Answer with just yes or no.",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "Please answer with yes or no. Is ice cold?"
+  },
+  {
+   "id": "A35",
+   "overlap": 0.78,
+   "prompt": "What do I need to bring to the gym?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "What do I need to bring to the park?"
+  },
+  {
+   "id": "A21",
+   "overlap": 0.73,
+   "prompt": "Name three fruits as a list, with a dash at the start of each line.",
+   "source": "job\\job.jsonl",
+   "nearest": "List three fruits. Put a dash at the start of each line."
+  },
+  {
+   "id": "B05",
+   "overlap": 0.73,
+   "prompt": "I forgot the code for my bike lock. What is it?",
+   "source": "job\\v2.jsonl",
+   "nearest": "I forgot. What is the bike lock code?"
+  },
+  {
+   "id": "E20",
+   "overlap": 0.71,
+   "prompt": "What do birds use to fly?",
+   "source": "tinychat",
+   "nearest": "What do birds need to fly?"
+  },
+  {
+   "id": "D26",
+   "overlap": 0.71,
+   "prompt": "What is a calculator used for?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "What is a paintbrush used for?"
+  },
+  {
+   "id": "D07",
+   "overlap": 0.71,
+   "prompt": "Which number am I thinking of?",
+   "source": "job\\v2.jsonl",
+   "nearest": "What number am I thinking of?"
+  },
+  {
+   "id": "A18",
+   "overlap": 0.71,
+   "prompt": "There are 3 boxes with 10 pencils in each box. How many pencils is that in all?",
+   "source": "job\\v2.jsonl",
+   "nearest": "There are 3 pencils in each box. How many pencils are in 4 boxes?"
+  },
+  {
+   "id": "A14",
+   "overlap": 0.71,
+   "prompt": "How much is thirty minus eleven?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "How much is sixteen minus eleven?"
+  },
+  {
+   "id": "E15",
+   "overlap": 0.7,
+   "prompt": "What do cows give us to drink?",
+   "source": "job\\job.jsonl",
+   "nearest": "In one word, what do cows give us to drink?"
+  },
+  {
+   "id": "E04",
+   "overlap": 0.7,
+   "prompt": "What color is the sky on a clear day?",
+   "source": "job\\v2.jsonl",
+   "nearest": "On a clear day, is the sky orange?"
+  },
+  {
+   "id": "A48",
+   "overlap": 0.7,
+   "prompt": "What do my notes say about the hotel name?",
+   "source": "job\\job.jsonl",
+   "nearest": "What do my notes say about the plumber?"
+  },
+  {
+   "id": "D14",
+   "overlap": 0.67,
+   "prompt": "Look in my notes: what is the code for the garage door?",
+   "source": "job\\job.jsonl",
+   "nearest": "Look in my notes. What is the gate code?"
+  },
+  {
+   "id": "D06",
+   "overlap": 0.67,
+   "prompt": "What is the name of my best friend's dog?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "What is the name of the dog?"
+  },
+  {
+   "id": "D02",
+   "overlap": 0.67,
+   "prompt": "What is my sister's middle name?",
+   "source": "job\\v2.jsonl",
+   "nearest": "What is my name?"
+  },
+  {
+   "id": "B14",
+   "overlap": 0.67,
+   "prompt": "When does Aunt Rosa land?",
+   "source": "job\\job.jsonl",
+   "nearest": "When does Aunt Rosa arrive?"
+  },
+  {
+   "id": "A46",
+   "overlap": 0.67,
+   "prompt": "Check my notes: when is Mia's dentist visit?",
+   "source": "job\\job.jsonl",
+   "nearest": "Check my notes. When is the dentist?"
+  },
+  {
+   "id": "A06",
+   "overlap": 0.67,
+   "prompt": "In exactly five words, tell me what a bed is for.",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "What is a bed? Tell me in simple words."
+  },
+  {
+   "id": "A02",
+   "overlap": 0.67,
+   "prompt": "Say the word hello three times and nothing else.",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "Say the word \"hello\" three times."
+  },
+  {
+   "id": "C26",
+   "overlap": 0.64,
+   "prompt": "Look up my swim class in my notes. What day is it? One word.",
+   "source": "job\\job.jsonl",
+   "nearest": "Look in my notes: what day is the swim class?"
+  },
+  {
+   "id": "E12",
+   "overlap": 0.62,
+   "prompt": "What is frozen water called?",
+   "source": "job\\job.jsonl",
+   "nearest": "In one word, what is frozen water called?"
+  },
+  {
+   "id": "D17",
+   "overlap": 0.62,
+   "prompt": "Where did I put the car keys?",
+   "source": "job\\v2.jsonl",
+   "nearest": "Where should i put the keys?"
+  },
+  {
+   "id": "B26",
+   "overlap": 0.62,
+   "prompt": "What do I have at 11?",
+   "source": "tinychat",
+   "nearest": "Yes, I do. I have dinner at 6:00."
+  },
+  {
+   "id": "B15",
+   "overlap": 0.62,
+   "prompt": "How often do the plants need water?",
+   "source": "tinychat",
+   "nearest": "How often do we water plants?"
+  },
+  {
+   "id": "A04",
+   "overlap": 0.62,
+   "prompt": "Tell me something about dogs, but your reply has to start with the word Maybe.",
+   "source": "job\\job.jsonl",
+   "nearest": "Tell me about dogs. Start your reply with the word Okay."
+  },
+  {
+   "id": "A12",
+   "overlap": 0.61,
+   "prompt": "I had 12 stickers and gave 5 to my brother. How many do I have left?",
+   "source": "smol",
+   "nearest": "If I have 8 balls and I give 3 to my friend and 2 to my brother. How many do I have left?"
+  },
+  {
+   "id": "E13",
+   "overlap": 0.6,
+   "prompt": "What animal says meow?",
+   "source": "job\\v2.jsonl",
+   "nearest": "What animal says cluck?"
+  },
+  {
+   "id": "D15",
+   "overlap": 0.6,
+   "prompt": "What time does the bus to work leave in the morning?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "What time does the bus leave?"
+  },
+  {
+   "id": "C14",
+   "overlap": 0.6,
+   "prompt": "Find in my notes when the school play is, and answer in capital letters.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Look in my notes: when is the vet? Answer in capital letters."
+  },
+  {
+   "id": "B13",
+   "overlap": 0.6,
+   "prompt": "What time does the train to the lake leave on Saturday?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "What time does the train leave?"
+  },
+  {
+   "id": "B11",
+   "overlap": 0.6,
+   "prompt": "Where is my passport?",
+   "source": "job\\job.jsonl",
+   "nearest": "Where is the passport?"
+  },
+  {
+   "id": "B08",
+   "overlap": 0.6,
+   "prompt": "Where do I park?",
+   "source": "job\\v2.jsonl",
+   "nearest": "Where do I live?"
+  },
+  {
+   "id": "B03",
+   "overlap": 0.6,
+   "prompt": "When is Grandma's birthday?",
+   "source": "job\\job.jsonl",
+   "nearest": "When is Grandpa's birthday?"
+  },
+  {
+   "id": "B01",
+   "overlap": 0.6,
+   "prompt": "Where did I put the spare key?",
+   "source": "job\\v2.jsonl",
+   "nearest": "Where did I put the key? I can't find it."
+  },
+  {
+   "id": "A47",
+   "overlap": 0.6,
+   "prompt": "Can you look in my notes and tell me my locker number?",
+   "source": "job\\v2.jsonl",
+   "nearest": "Can you look in my notes and tell me the day of the choir?"
+  },
+  {
+   "id": "A24",
+   "overlap": 0.58,
+   "prompt": "Count from 1 to 6, one number on each line.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Write the numbers 1 to 4, one number on each line."
+  },
+  {
+   "id": "D13",
+   "overlap": 0.57,
+   "prompt": "When is my eye doctor visit?",
+   "source": "job\\v2.jsonl",
+   "nearest": "When is my dentist visit?"
+  },
+  {
+   "id": "B12",
+   "overlap": 0.57,
+   "prompt": "Who is the vet for the dog?",
+   "source": "job\\v2.jsonl",
+   "nearest": "Who is the package for?"
+  },
+  {
+   "id": "A45",
+   "overlap": 0.56,
+   "prompt": "A hall has 135 rows with 46 seats in every row. How many seats are there?",
+   "source": "job\\job2.jsonl",
+   "nearest": "There are 99 rows with 4180 apples in each row. How many apples are there?"
+  },
+  {
+   "id": "D25",
+   "overlap": 0.56,
+   "prompt": "Why do we lock the door at night?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "Why do we sleep at night?"
+  },
+  {
+   "id": "D09",
+   "overlap": 0.56,
+   "prompt": "Who is going to win the game tonight?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "Who is going to the trip?"
+  },
+  {
+   "id": "D08",
+   "overlap": 0.56,
+   "prompt": "What color is the shirt I am wearing today?",
+   "source": "job\\v2.jsonl",
+   "nearest": "What am I wearing today?"
+  },
+  {
+   "id": "D04",
+   "overlap": 0.56,
+   "prompt": "Where did I leave my glasses?",
+   "source": "job\\v2.jsonl",
+   "nearest": "Where did I leave my phone on Friday?"
+  },
+  {
+   "id": "D01",
+   "overlap": 0.56,
+   "prompt": "What did I eat for breakfast this morning?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "What can I eat for breakfast?"
+  },
+  {
+   "id": "A16",
+   "overlap": 0.55,
+   "prompt": "Tom is 9. His sister is 3 years older. How old is she?",
+   "source": "tinychat",
+   "nearest": "She is 7 years old. How old is Emily?"
+  },
+  {
+   "id": "A09",
+   "overlap": 0.54,
+   "prompt": "Can fish climb trees? Reply yes or no, nothing more.",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "Reply with only yes or no. Can frogs climb trees?"
+  },
+  {
+   "id": "C27",
+   "overlap": 0.53,
+   "prompt": "Tell me one thing about cats. Use exactly one sentence and make the first word Cats.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Tell me one sentence about cloud and make the last word fun."
+  },
+  {
+   "id": "D24",
+   "overlap": 0.5,
+   "prompt": "I went shopping and got 3 apples and 4 pears. How many pieces of fruit is that?",
+   "source": "job\\v2.jsonl",
+   "nearest": "I have 11 apples and 19 apples. How many is that?"
+  },
+  {
+   "id": "D19",
+   "overlap": 0.5,
+   "prompt": "What is Mum's shoe size?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "What is a shoe?"
+  },
+  {
+   "id": "D11",
+   "overlap": 0.5,
+   "prompt": "How old is my grandfather?",
+   "source": "tinychat",
+   "nearest": "How old is Alex?"
+  },
+  {
+   "id": "C24",
+   "overlap": 0.5,
+   "prompt": "In exactly four words, tell me what 5 plus 5 makes.",
+   "source": "job\\job1.jsonl",
+   "nearest": "Tell me about tigers in exactly 6 words."
+  },
+  {
+   "id": "C22",
+   "overlap": 0.5,
+   "prompt": "Repeat the word star three times, then end with a question mark.",
+   "source": "job\\job.jsonl",
+   "nearest": "Repeat the word star three times."
+  },
+  {
+   "id": "C18",
+   "overlap": 0.5,
+   "prompt": "Ella read 8 pages on Monday and 9 pages on Tuesday. Write the total on the first line and the word pages on the second line.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Write 4 times 9 on the first line and then the word bye on the second line."
+  },
+  {
+   "id": "C09",
+   "overlap": 0.5,
+   "prompt": "Say the word go as many times as 2 plus 2.",
+   "source": "job\\job1.jsonl",
+   "nearest": "Say the word basket 2 times."
+  },
+  {
+   "id": "B18",
+   "overlap": 0.5,
+   "prompt": "How much does the piano lesson cost?",
+   "source": "job\\v2.jsonl",
+   "nearest": "how much does it cost?"
+  },
+  {
+   "id": "B17",
+   "overlap": 0.5,
+   "prompt": "Remind me, who is Lena's teacher?",
+   "source": "job\\v2.jsonl",
+   "nearest": "Remind me, when is the teacher?"
+  },
+  {
+   "id": "B16",
+   "overlap": 0.5,
+   "prompt": "When is Ben's soccer?",
+   "source": "job\\v2.jsonl",
+   "nearest": "When is my soccer game?"
+  },
+  {
+   "id": "B10",
+   "overlap": 0.5,
+   "prompt": "Tell me the office door code.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Tell me the locker code please."
+  },
+  {
+   "id": "A38",
+   "overlap": 0.5,
+   "prompt": "What day do I have art club?",
+   "source": "job\\v2.jsonl",
+   "nearest": "I forgot. What day is the art club?"
+  },
+  {
+   "id": "A37",
+   "overlap": 0.5,
+   "prompt": "The rug is grey.",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "Why is the sky grey?"
+  },
+  {
+   "id": "A31",
+   "overlap": 0.5,
+   "prompt": "Where is my swim bag?",
+   "source": "job\\v2.jsonl",
+   "nearest": "Where is my key?"
+  },
+  {
+   "id": "A30",
+   "overlap": 0.5,
+   "prompt": "Give me a list of the first three months of the year. Number them 1, 2, 3.",
+   "source": "job\\job.jsonl",
+   "nearest": "Give me a numbered list of three months."
+  },
+  {
+   "id": "A27",
+   "overlap": 0.5,
+   "prompt": "Count backwards from 5 down to 1 on a single line.",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "count down from 15 to 6"
+  },
+  {
+   "id": "C05",
+   "overlap": 0.48,
+   "prompt": "List three things you can find in a kitchen, numbered, and write every word in capital letters.",
+   "source": "job\\v2.jsonl",
+   "nearest": "CAN YOU NAME FOUR THINGS IN A KITCHEN AND WRITE THEM AS A NUMBERED LIST IN CAPITALS?"
+  },
+  {
+   "id": "C21",
+   "overlap": 0.47,
+   "prompt": "Write a two line reply. Line one: the answer to 30 minus 8. Line two: the answer to 6 plus 6.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Write the answer to 56 minus 14 on one line and the word bye on the next line."
+  },
+  {
+   "id": "A05",
+   "overlap": 0.47,
+   "prompt": "Write one sentence about the rain. The last word must be umbrella.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Write one sentence about rain that ends with the word warm."
+  },
+  {
+   "id": "A50",
+   "overlap": 0.46,
+   "prompt": "According to my notes, what day are the library books due?",
+   "source": "job\\job.jsonl",
+   "nearest": "According to the notes, what day is the vet?"
+  },
+  {
+   "id": "A26",
+   "overlap": 0.46,
+   "prompt": "List the days of the weekend. Put a star (*) in front of each one, each on its own line.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Please list the three days of the week in big letters, each on its own line, beginning with a dash."
+  },
+  {
+   "id": "E16",
+   "overlap": 0.45,
+   "prompt": "At what time of day does the sun come up?",
+   "source": "job\\v2.jsonl",
+   "nearest": "What time does the bus come?"
+  },
+  {
+   "id": "D23",
+   "overlap": 0.45,
+   "prompt": "It's my birthday today! Can you say something nice?",
+   "source": "tinychat",
+   "nearest": "It's for my birthday. You can come."
+  },
+  {
+   "id": "D18",
+   "overlap": 0.45,
+   "prompt": "Do my notes say what time my flight is on Monday?",
+   "source": "job\\v2.jsonl",
+   "nearest": "What time is my flight leaving?"
+  },
+  {
+   "id": "D03",
+   "overlap": 0.45,
+   "prompt": "How many coins are in my pocket right now?",
+   "source": "tinychat",
+   "nearest": "How many are there in my hand?"
+  },
+  {
+   "id": "C04",
+   "overlap": 0.45,
+   "prompt": "How many hens do Ana and Raj have together?",
+   "source": "job\\v2.jsonl",
+   "nearest": "How many pens do they have together?"
+  },
+  {
+   "id": "D20",
+   "overlap": 0.44,
+   "prompt": "When does Ben have his swimming lesson?",
+   "source": "job\\v2.jsonl",
+   "nearest": "When does the swimming lesson start?"
+  },
+  {
+   "id": "C08",
+   "overlap": 0.44,
+   "prompt": "Write the day and the place of the party as a list with dashes, one per line.",
+   "source": "job\\job.jsonl",
+   "nearest": "Write four days of the week as a list with dashes."
+  },
+  {
+   "id": "A33",
+   "overlap": 0.44,
+   "prompt": "Which box has the toys in it?",
+   "source": "job\\v2.jsonl",
+   "nearest": "toys are in the blue box"
+  },
+  {
+   "id": "A10",
+   "overlap": 0.44,
+   "prompt": "Type the word blue twice, then the word red once.",
+   "source": "job\\job1.jsonl",
+   "nearest": "Write the word blue twice."
+  },
+  {
+   "id": "D29",
+   "overlap": 0.43,
+   "prompt": "The bus has 10 people on it and 2 get off. How many are still on the bus?",
+   "source": "tinychat",
+   "nearest": "Many people are on the bus."
+  },
+  {
+   "id": "A43",
+   "overlap": 0.43,
+   "prompt": "I need 5120 minus 1873 worked out.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Work out 10959 minus 6346"
+  },
+  {
+   "id": "A19",
+   "overlap": 0.43,
+   "prompt": "what's half of 18",
+   "source": "job\\v2.jsonl",
+   "nearest": "What's the total of 391 plus 618?"
+  },
+  {
+   "id": "A03",
+   "overlap": 0.43,
+   "prompt": "Please copy this sentence exactly: The red kite flew over the hill.",
+   "source": "job\\job1.jsonl",
+   "nearest": "Copy this sentence: The red kite is on the fork."
+  },
+  {
+   "id": "B25",
+   "overlap": 0.42,
+   "prompt": "Shopping list: 2 loaves of bread, 6 apples, 1 bag of flour. How many apples do I need to get?",
+   "source": "job\\v2.jsonl",
+   "nearest": "How many cups of flour do I need for the bread?"
+  },
+  {
+   "id": "A49",
+   "overlap": 0.42,
+   "prompt": "Search my notes for the babysitter's phone number please.",
+   "source": "job\\job.jsonl",
+   "nearest": "Search my notes: where is the spare phone?"
+  },
+  {
+   "id": "A25",
+   "overlap": 0.42,
+   "prompt": "Put this sentence inside quote marks: I love my garden.",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "Repeat this sentence: I love my mom."
+  },
+  {
+   "id": "C30",
+   "overlap": 0.41,
+   "prompt": "Is a mouse bigger than a horse? Answer no, and then say which one is bigger, all in one sentence.",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "Which one is bigger, a horse or a mouse?"
+  },
+  {
+   "id": "C03",
+   "overlap": 0.41,
+   "prompt": "Notes: Bus to town at 8:10. Bus to the beach at 9:30. Answer in one word: where does the 9:30 bus go?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "Where does the wind go? Answer with one word."
+  },
+  {
+   "id": "D28",
+   "overlap": 0.4,
+   "prompt": "Can you explain what a dentist does?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "What can you do with a pillow?"
+  },
+  {
+   "id": "D22",
+   "overlap": 0.4,
+   "prompt": "Tell me a short story about a bus that was afraid of the rain.",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "Tell me the color of a school bus."
+  },
+  {
+   "id": "D12",
+   "overlap": 0.4,
+   "prompt": "What did my teacher say to me yesterday?",
+   "source": "tinychat",
+   "nearest": "My friend lied to me yesterday."
+  },
+  {
+   "id": "C19",
+   "overlap": 0.4,
+   "prompt": "Give me two animals that can fly, as a dashed list, and do not use the word bird.",
+   "source": "teacher\\round1.jsonl",
+   "nearest": "Can you give me advice? Do not use the word give."
+  },
+  {
+   "id": "C15",
+   "overlap": 0.4,
+   "prompt": "Use my notes to find the bike lock code, then reply with the code only.",
+   "source": "job\\job.jsonl",
+   "nearest": "What is the bike lock code? Use the notes."
+  },
+  {
+   "id": "B20",
+   "overlap": 0.4,
+   "prompt": "what night does the trash go out",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "Where does the sun go at night?"
+  },
+  {
+   "id": "C29",
+   "overlap": 0.39,
+   "prompt": "Write the numbers 2, 4, 6 and 8 as a list with a dash before each, and then tell me their sum on a last line.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Write the numbers 2 through 5, with each number on a separate line."
+  },
+  {
+   "id": "C11",
+   "overlap": 0.39,
+   "prompt": "Count from 1 to 4, each number on its own line, and after the last number add a line that says done.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Make a list of the numbers 5 to 9, each on its own line."
+  },
+  {
+   "id": "D30",
+   "overlap": 0.38,
+   "prompt": "Write two sentences about a girl who writes notes to her grandma.",
+   "source": "job\\job.jsonl",
+   "nearest": "Write two sentences about a zebra."
+  },
+  {
+   "id": "A40",
+   "overlap": 0.38,
+   "prompt": "notes: mum's car is silver, dad's car is black, my bike is orange. what color is dad's car?",
+   "source": "tinychat",
+   "nearest": "What color is your dad's car?"
+  },
+  {
+   "id": "C07",
+   "overlap": 0.38,
+   "prompt": "Reminders: pool opens at 10 in the morning, closes at 6 in the evening. How many hours is the pool open? Just the number please.",
+   "source": "job\\job1.jsonl",
+   "nearest": "How many hours are in a day? Just the number, please."
+  },
+  {
+   "id": "D16",
+   "overlap": 0.38,
+   "prompt": "Who is my lunch with on Friday?",
+   "source": "tinychat",
+   "nearest": "My lunch is yummy."
+  },
+  {
+   "id": "C17",
+   "overlap": 0.38,
+   "prompt": "Multiply 123 by 45 and put the answer in a sentence that starts with the word So.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Multiply 8 by 5 and say the answer."
+  },
+  {
+   "id": "B23",
+   "overlap": 0.38,
+   "prompt": "On which days do I have drums?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "Do drums have names?"
+  },
+  {
+   "id": "B22",
+   "overlap": 0.38,
+   "prompt": "Which job have I already done?",
+   "source": "smol",
+   "nearest": "I have _______ the project already."
+  },
+  {
+   "id": "A32",
+   "overlap": 0.38,
+   "prompt": "Notes: Jo's party starts at 6 pm. Bring a cake. The house number is 14. What time does the party start?",
+   "source": "job\\v2.jsonl",
+   "nearest": "The museum starts at 10 am on Thursday. The shop opens at 9 pm. What time does the museum start on Thursday?"
+  },
+  {
+   "id": "A07",
+   "overlap": 0.38,
+   "prompt": "Describe the sun without using the word hot.",
+   "source": "job\\job2.jsonl",
+   "nearest": "Shout the word sun."
+  },
+  {
+   "id": "C02",
+   "overlap": 0.37,
+   "prompt": "Work out 7 times 5 and write the answer in a full sentence that ends with an exclamation mark.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Write a sentence that ends with a question mark."
+  },
+  {
+   "id": "D05",
+   "overlap": 0.35,
+   "prompt": "What will the weather be like at my house next Friday?",
+   "source": "tinychat",
+   "nearest": "It's when they tell us what the weather will be like tomorrow."
+  },
+  {
+   "id": "C25",
+   "overlap": 0.35,
+   "prompt": "Kim's list says: 2 red pens, 3 blue pens, 1 green pen. How many pens is that altogether? Answer in a full sentence with the word pens in it.",
+   "source": "smol",
+   "nearest": "In a crayon box with a total of 24 crayons, there are 8 red crayons, 6 blue crayons, a number of green crayons that is 2/3 of the number of blue crayons, and the remaining crayons are pink. How many pink crayons are there in total?"
+  },
+  {
+   "id": "C12",
+   "overlap": 0.35,
+   "prompt": "I have 10 dollars. A toy costs 6 dollars. Can I buy it, and how much is left? Start with Yes or No.",
+   "source": "job\\v2.jsonl",
+   "nearest": "If I have 15 and take 6 away, how much is left?"
+  },
+  {
+   "id": "C20",
+   "overlap": 0.33,
+   "prompt": "Notes: Red team has 5 points. Blue team has 9 points. Which team is ahead, and by how many points?",
+   "source": "job\\job2.jsonl",
+   "nearest": "5970 and 54 more is how many?"
+  },
+  {
+   "id": "C13",
+   "overlap": 0.33,
+   "prompt": "Schedule: lunch is at 12, the nap is at 1, snack time is at 3. In one short sentence that starts with the word Snack, tell me when snack time is.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Tell me in one sentence: 74 minus 73 and what colour is the sky when it's clear."
+  },
+  {
+   "id": "C06",
+   "overlap": 0.33,
+   "prompt": "Apples cost 3 dollars a bag and I want 4 bags. Start your answer with the word Total.",
+   "source": "job\\job.jsonl",
+   "nearest": "A bag has 8 apples. How many apples are in 9 bags? Answer with only the number."
+  },
+  {
+   "id": "B29",
+   "overlap": 0.33,
+   "prompt": "Phone list - Dr Lane: 555 0111 - School: 555 0122 - Pizza place: 555 0133. What number do I ring for the school?",
+   "source": "job\\v2.jsonl",
+   "nearest": "What card do i use for the phone bill?"
+  },
+  {
+   "id": "B19",
+   "overlap": 0.33,
+   "prompt": "Where did we hide the gift for Sam?",
+   "source": "job\\v2.jsonl",
+   "nearest": "Where are we going for the work party?"
+  },
+  {
+   "id": "B07",
+   "overlap": 0.33,
+   "prompt": "When am I having lunch with Omar?",
+   "source": "teacher\\clean.jsonl",
+   "nearest": "When is lunch with Sam?"
+  },
+  {
+   "id": "A34",
+   "overlap": 0.33,
+   "prompt": "From my notes: 'Feed the fish twice a day. The fish food is on the top shelf.' How often should I feed the fish?",
+   "source": "job\\job.jsonl",
+   "nearest": "From the notes, when should I feed the fish?"
+  },
+  {
+   "id": "A20",
+   "overlap": 0.33,
+   "prompt": "A book costs 14 dollars and a pen costs 3 dollars. What do I pay for both?",
+   "source": "synth\\instructions.jsonl",
+   "nearest": "What do we use a book for?"
+  },
+  {
+   "id": "A15",
+   "overlap": 0.33,
+   "prompt": "Share 20 sweets between 4 kids so each gets the same. How many per kid?",
+   "source": "job\\job2.jsonl",
+   "nearest": "Use the calculator. Share 30587 apples between 73 people. How many apples does each one get?"
+  },
+  {
+   "id": "D21",
+   "overlap": 0.32,
+   "prompt": "I lost my keys last week and it was such a bad day. Have you ever had a bad day?",
+   "source": "tinychat",
+   "nearest": "I lost my book. Have you seen it?"
+  },
+  {
+   "id": "B27",
+   "overlap": 0.31,
+   "prompt": "Packing for the trip: hat (packed), boots (packed), map (still on the desk), torch (packed). What is not packed yet?",
+   "source": "tinychat",
+   "nearest": "What is on the map?"
+  },
+  {
+   "id": "A28",
+   "overlap": 0.31,
+   "prompt": "Name two colors. First one on line one, second one on line two, no other words.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Put the word no on two lines, one word per line."
+  },
+  {
+   "id": "A39",
+   "overlap": 0.31,
+   "prompt": "These are my notes. The cake needs two eggs. The oven should be warm. Bake it for forty minutes. How much sugar goes in the cake?",
+   "source": "job\\v2.jsonl",
+   "nearest": "In my notes, how many eggs are needed for the pie?"
+  },
+  {
+   "id": "C28",
+   "overlap": 0.3,
+   "prompt": "Dad's list: milk 2 dollars, bread 3 dollars, cheese 5 dollars. What is the total cost? Write it like this: Total = and then the number.",
+   "source": "job\\v2.jsonl",
+   "nearest": "What is the smaller number out of 96 and 81? Just write the number."
+  },
+  {
+   "id": "B28",
+   "overlap": 0.3,
+   "prompt": "Mum left a message on the fridge. It says: 'Dinner is in the oven. Feed the dog at five. Back by eight.' When will Mum be back?",
+   "source": "tinychat",
+   "nearest": "I put a note on the fridge. It says \"Feed the dog!\""
+  },
+  {
+   "id": "B24",
+   "overlap": 0.29,
+   "prompt": "My sister told me the red cup is hers, the yellow cup is mine and the white cup is for guests. Which cup is mine?",
+   "source": "tinychat",
+   "nearest": "My uniform is white and yellow."
+  },
+  {
+   "id": "B30",
+   "overlap": 0.28,
+   "prompt": "Rules of our game: you get 3 lives, the blue door is the exit, and you must not touch the water. Which door is the way out?",
+   "source": "job\\v2.jsonl",
+   "nearest": "Out of 2 and 39, which is the smaller one? Say the number."
+  },
+  {
+   "id": "B21",
+   "overlap": 0.28,
+   "prompt": "Reminders: call Dad at 6, buy stamps, return the drill to Max. Who gets the drill back?",
+   "source": "job\\v2.jsonl",
+   "nearest": "Things to remember - call Max about the holiday; Plumber on Sunday at 4:15 am. Who should I call about the holiday?"
+  },
+  {
+   "id": "A36",
+   "overlap": 0.28,
+   "prompt": "I wrote these notes: The picnic is at Oak Park. Leo brings the drinks. Kim brings the plates. Who is bringing the drinks?",
+   "source": "job\\v2.jsonl",
+   "nearest": "I wrote these down. The locker code is bell91. John is bringing the parcel today So, Who is bringing the parcel?"
+  },
+  {
+   "id": "A29",
+   "overlap": 0.28,
+   "prompt": "Shout these words back at me in all capitals, on one line: cup, plate, spoon",
+   "source": "job\\job3.jsonl",
+   "nearest": "Write Cup, Spoon and Plate, one per line."
+  },
+  {
+   "id": "C23",
+   "overlap": 0.26,
+   "prompt": "To do: feed cat, call Gran, wash socks, buy tape. Put my to-do jobs in a numbered list, in the same order.",
+   "source": "job\\v2.jsonl",
+   "nearest": "Put my two items in a numbered list please."
+  }
+ ]
+}

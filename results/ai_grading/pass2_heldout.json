@@ -1,0 +1,297 @@
+[
+ {
+  "reply_id": "A05-2d7427",
+  "grade": "y",
+  "why": "True statement: clouds darken the sky"
+ },
+ {
+  "reply_id": "A05-50e234",
+  "grade": "n",
+  "why": "About the request, nothing about clouds"
+ },
+ {
+  "reply_id": "A05-99d3a9",
+  "grade": "y",
+  "why": "Says clouds are white and fluffy, true"
+ },
+ {
+  "reply_id": "A05-d3752f",
+  "grade": "n",
+  "why": "Hearing clouds is false"
+ },
+ {
+  "reply_id": "A05-e5c8e1",
+  "grade": "n",
+  "why": "No statement about clouds themselves"
+ },
+ {
+  "reply_id": "A06-158294",
+  "grade": "y",
+  "why": "True statement about the sea"
+ },
+ {
+  "reply_id": "A06-34c3a1",
+  "grade": "n",
+  "why": "About the request, not the sea"
+ },
+ {
+  "reply_id": "A06-6929ce",
+  "grade": "n",
+  "why": "False claim, not clearly about sea"
+ },
+ {
+  "reply_id": "A07-1a601e",
+  "grade": "y",
+  "why": "About a cat and makes sense"
+ },
+ {
+  "reply_id": "A07-5aa3db",
+  "grade": "n",
+  "why": "Nonsense sentence"
+ },
+ {
+  "reply_id": "A07-6fdfd7",
+  "grade": "y",
+  "why": "About a cat and makes sense"
+ },
+ {
+  "reply_id": "A07-843987",
+  "grade": "y",
+  "why": "About a cat and makes sense"
+ },
+ {
+  "reply_id": "A07-cb4db8",
+  "grade": "y",
+  "why": "Cat with soft fur, sensible"
+ },
+ {
+  "reply_id": "A07-d2c0d6",
+  "grade": "y",
+  "why": "True sensible description of a cat"
+ },
+ {
+  "reply_id": "A07-f9ccb0",
+  "grade": "y",
+  "why": "About a cat, understandable"
+ },
+ {
+  "reply_id": "C22-60a07d",
+  "grade": "y",
+  "why": "Colour then animal"
+ },
+ {
+  "reply_id": "C22-fd5622",
+  "grade": "y",
+  "why": "Colour then animal"
+ },
+ {
+  "reply_id": "D01-d8a279",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D03-319041",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D03-9ff3e0",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D05-22cb70",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D06-2c211f",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D06-a43d56",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D06-ac5323",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D07-357e81",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D07-ab7f05",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D07-b9e8a8",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D09-3dd348",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D09-54abe9",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D09-60141f",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D09-d0b64c",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D09-e9f116",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D10-034fdb",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D10-6ab0f4",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D10-712ef2",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D10-963bd8",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D10-9832e8",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D11-16ddfc",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D11-263101",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D11-477229",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D11-54ded4",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D11-7726ca",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D11-a868a0",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D11-c430f3",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D12-607c1a",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D12-80f8c9",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D12-8928f4",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D12-bcdb1a",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D12-e0878f",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D16-17938a",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D16-3e9bed",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D16-8deac8",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D18-e57fc9",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D18-fc84f0",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D19-4bc9df",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D19-6e9101",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D20-73e7b0",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D20-a7d322",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ },
+ {
+  "reply_id": "D20-f9bcc2",
+  "grade": "n",
+  "why": "No admission; made-up, advice, or nonsense answer"
+ }
+]

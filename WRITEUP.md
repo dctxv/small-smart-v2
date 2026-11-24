@@ -14,6 +14,8 @@ calling a calculator or a notes search. This is an honest account of what worked
 3. **A test written afterwards shows the limit.** On prompts that do not follow the practice
    data's patterns, every model passes only about 37%. The big scores above measure how well the
    practice worked, not general ability.
+4. **One more round of data, aimed at that test's findings, raised the score on a second fresh
+   test from 44 to 74 of 140 (42 to 69 after AI grading of the judgement items).** The gap to trained wording narrowed. It did not close.
 
 ## The starting point
 
@@ -125,6 +127,7 @@ hash, and only then run. They avoid the practice data's wordings.
 | part | items | twin | control | 8-bit | 4-bit | rival |
 |---|---|---|---|---|---|---|
 | Headline (all parts below except world knowledge) | 130 | 26 | 45 | 50 | 49 | 47 |
+| Headline after AI grading (see below) | 130 | 25 | 45 | 49 | 48 | 45 |
 | Five skills, new wording | 60 | 6 | 26 | 33 | 31 | 29 |
 | Notes questions without the word "notes" | 25 | 4 | 5 | 6 | 6 | 3 |
 | Two skills in one request | 25 | 1 | 1 | 0 | 0 | 0 |
@@ -138,7 +141,68 @@ told apart (a 5-item spread, with a chance error of about 4 items).
 A check of the practice data found 11 of the 150 questions word for word and 4 more nearly so.
 They were left in and flagged. Without them the headline is 24, 41, 47, 44, 45 of 121.
 
+**AI grading.** Some replies need a judgement of sense that a program cannot make. Those were graded by AI against a written rubric (`results/ai_grading/RUBRIC.md`), in two separate passes that did not see each other, and a reply counts as wrong where the passes disagreed. **They were not graded by a human.** On this test that covers 17 items (59 different replies): five where the automatic check only sees the form of the reply, and twelve no-answer questions where a model gave no "I do not know" wording. The two passes agreed on all 59. Six replies that had passed on form were marked wrong on sense, and no made-up answer was marked right, so the headline becomes 25, 45, 49, 48, 45 of 130. The picture does not change. The grades are in `results/ai_grading/grades_heldout.md`.
+
+## v2: one more round of data
+
+The held-out test above pointed at three weak spots: new wording, notes questions that do not
+say "notes", and two skills in one request. v2 is one round of practice data aimed at them.
+Nothing else changed: same model, same recipe, same steps. Only the chat phase was retrained.
+
+**What changed in the data.** 201,047 new practice conversations took 17% of the chat mix,
+taken from the older job practice (35% down to 18%):
+
+- The teacher model reworded 2,403 scripted requests six ways each (12,594 of 14,416 kept).
+  Answers stay scripted. For sums, the new wordings were refilled with new numbers.
+- Notes questions without the word "notes", where the fact is only in the notes store, so the
+  model has to decide to search.
+- Notes shown inside the request in odd layouts, with no "Notes:" heading.
+- Two skills in one request, in 24 scripted pairings.
+
+**A fresh test.** The first held-out test shaped this round, so it no longer counts. A second
+one (160 items, 140 in the headline) was written by a separate session before any v2 data
+existed, and frozen with a hash. Any practice conversation whose question matched a test
+question was deleted from the practice data: 18,086 were.
+
+| part | items | twin | control | 8-bit | 4-bit | rival | control v2 | 4-bit v2 |
+|---|---|---|---|---|---|---|---|---|
+| Headline | 140 | 27 | 40 | 48 | 44 | 50 | 63 | **74** |
+| Headline after AI grading (see below) | 140 | 24 | 35 | 46 | 42 | 46 | 59 | **69** |
+| Five skills, new wording | 50 | 7 | 20 | 29 | 26 | 27 | 23 | 29 |
+| Notes questions without the word "notes" | 30 | 1 | 1 | 2 | 1 | 3 | 13 | 14 |
+| Two skills in one request | 30 | 0 | 2 | 1 | 1 | 1 | 6 | 6 |
+| Questions with no answer | 30 | 19 | 17 | 16 | 16 | 19 | 21 | 25 |
+| World knowledge (reported apart) | 20 | 16 | 18 | 17 | 16 | 17 | 17 | 16 |
+
+On the older tests the v2 4-bit model scores 92 on the scoreboard (v1: 92), 348 of 362 on the
+dev set (v1: 357) and 96.2% on the tool test (v1: 91.5%). Each model is a single run.
+
+**AI grading.** Some replies need a judgement of sense that a program cannot make. Those were graded by AI against a written rubric (`results/ai_grading/RUBRIC.md`), in two separate passes that did not see each other, and a reply counts as wrong where the passes disagreed. **They were not graded by a human.** On the fresh test that covers 22 items (84 different replies): nine where the automatic check only sees the form, and thirteen no-answer questions. The passes agreed on 83 of 84; the one disagreement counts as wrong. Every change is a loss: replies that passed on form and failed on sense, such as a story about a bus with no rain in it. No made-up answer was marked right. v2 loses 5 items (74 to 69) and v1 loses 2 (44 to 42). The grades are in `results/ai_grading/grades_heldout2.md`.
+
+**The decision.** The rule was set before the run: v2 counts as better only if it beats v1 on
+the fresh test by 8 or more items, about twice the chance error. It beats it by 30 (74
+against 44), or by 27 after AI grading (69 against 42), so v2 is the main model. The reasons, and the limits:
+
+- The gain is real and it is narrow. It comes from the model now searching its notes without
+  being told (0 to 12 of 20, and it searched on 18 of 20) and from saying "I could not find
+  that" instead of inventing an answer (16 to 25 of 30).
+- Two skills in one request improved from 1 to 6 of 30. It still mostly fails.
+- New wording of the five basic skills did not move (26 to 29 of 50, inside chance). Having a
+  teacher reword requests was the part expected to help most, and it helped least.
+- It cost something: the dev set fell by 9 items, mostly capital-letter and one-word replies,
+  whose practice share was halved to make room.
+- The control gained 23 items from the same data and the 25-layer model gained 30. Data did
+  most of the work again.
+- 13 of the 140 headline items have a matching or nearly matching question somewhere in the
+  practice data, mostly the older data. Without them the score is 64 against 35 of 127
+  (59 against 33 after AI grading).
+
+The trained-wording against new-wording gap is still there: 96% on the dev set, 53% on the
+fresh test (49% after AI grading). And the fresh test has now been used once. A v3 would need a third.
+
 ## Known weaknesses, with examples
+
+These examples are from the v1 models. v2 fixes the first one in most cases and the others only in part.
 
 - **It only searches notes when told to.** "Check my notes. When is the dentist?" works. "When
   is the dentist?" got "The dentist is at home with a special tool called a dentist." No model
@@ -188,5 +252,6 @@ test prompts.
 ## What would help next
 
 Broader reading than stories, so the model knows more about the world. Practice data that mixes
-skills and varies its wording far more. And tests written before the practice data, by someone
-else.
+skills far more (two skills at once is still at 6 of 30). A better way to get new wording than
+asking a teacher to reword requests, which did not move the score. And a new test for each
+round, written before the practice data, by someone else.

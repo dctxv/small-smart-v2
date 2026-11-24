@@ -29,8 +29,10 @@ Scores are given on all items and again without the flagged ones.
 | part | items | twin | control | small-smart 8-bit | small-smart 4-bit | rival 8-bit |
 |---|---|---|---|---|---|---|
 | **A to D, headline** | 130 | 26 | 45 | 50 | 49 | 47 |
+| **A to D after AI grading** (see the end of the hand-grading section) | 130 | 25 | 45 | 49 | 48 | 45 |
 | as a percentage | | 20% | 35% | 38% | 38% | 36% |
 | **A to D, without flagged items** | 121 | 24 | 41 | 47 | 44 | 45 |
+| - the same after AI grading | 121 | 23 | 41 | 46 | 43 | 43 |
 | A: five skills, new wording | 60 | 6 | 26 | 33 | 31 | 29 |
 | - instruction | 12 | 4 | 5 | 8 | 9 | 8 |
 | - arithmetic | 12 | 0 | 3 | 4 | 2 | 3 |
@@ -102,6 +104,19 @@ its practice data.
   confirm they are made-up answers.
 
 Every reply from every model is saved in `results/heldout/heldout_<name>.json`.
+
+### Graded by AI, not by a person
+
+Nobody graded the sheet by hand. Some replies need a judgement of sense that a program cannot make. Those were graded by AI against a written rubric (`results/ai_grading/RUBRIC.md`), in two separate passes that did not see each other, and a reply counts as wrong where the passes disagreed. **They were not graded by a human.**
+
+- 17 items, 59 different replies (the two v2 models' replies were graded in the same batch), graded without model names. The passes agreed on all 59.
+- Part 1: only replies that had passed the form check were graded. Six were marked wrong on sense, for example "The last word is blue" as a
+  description of the sea, and "Maybe clouds are fun to see and hear". A09 had no passing reply, so nothing changed there.
+- Part 2: none of the replies was an honest "I do not know". All stay wrong.
+- Headline after AI grading: twin 25, control 45, small-smart 8-bit 49, small-smart 4-bit 48, rival 45 of 130.
+  The four trained models still cannot be told apart.
+
+The rubric, both passes and the merged grades are in `results/ai_grading/`.
 
 ## Dev set: three checker faults fixed
 

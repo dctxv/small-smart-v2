@@ -18,20 +18,26 @@ import sys
 from scoreboard import check_reply, has, numbers, parse_tool_call
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-PATH = os.path.join(HERE, "data", "heldout.json")
-HASH = os.path.join(HERE, "data", "heldout.sha256")
-OUT = os.path.join(HERE, "results", "heldout")
+SET = os.environ.get("HELDOUT", "heldout")  # HELDOUT=heldout2 uses data/heldout2.json and results/heldout2
+PATH = os.path.join(HERE, "data", SET + ".json")
+HASH = os.path.join(HERE, "data", SET + ".sha256")
+OUT = os.path.join(HERE, "results", SET)
 ADMIT = re.compile(r"\b(do not know|don't know|not know|not sure|cannot|can't|could not|couldn't|no note|no notes|not in (your|the|my) notes|"
                    r"nothing|unable|no way|do not have|don't have|no idea|did not find|didn't find|do not say|does not say|not say|"
                    r"there is no|there are no|not found|no one knows|nobody knows|impossible)\b", re.I)
 SECTIONS = {"A": "five skills, new wording", "B": "notes questions without the word notes", "C": "two skills in one request",
             "D": "questions with no answer", "E": "world knowledge (reported apart)"}
-OWN = ("num", "num_in", "admit", "re", "re_case", "want_call")
+OWN = ("num", "num_in", "admit", "re", "re_case", "want_call", "no_call", "must_call")
 
 
-def hcheck(item, final):
+def hcheck(item, final, called=None):
+    """called: the tool the first reply called ("calc", "notes" or None). Pass "" to skip the call checks."""
     c, r = item["check"], final.strip()
     if not r:
+        return False
+    if called != "" and c.get("no_call") and called:
+        return False  # a tool call where none was wanted
+    if called != "" and "must_call" in c and called != c["must_call"]:
         return False
     ok = check_reply(item["prompt"], r, {k: v for k, v in c.items() if k not in OWN}) if any(k not in OWN for k in c) else True
     if "num" in c:  # the answer is there, and no number that is neither the answer nor from the prompt
@@ -50,7 +56,7 @@ def load():
     want = open(HASH).read().strip()
     got = hashlib.sha256(blob).hexdigest()
     if got != want:
-        sys.exit(f"data/heldout.json does not match its hash.\n  file  {got}\n  saved {want}")
+        sys.exit(f"data/{SET}.json does not match its hash.\n  file  {got}\n  saved {want}")
     return json.loads(blob.decode("utf-8")), got
 
 
@@ -71,7 +77,7 @@ def score(name, path):
         first = added[0][1]
         obj = parse_tool_call(first)
         rows.append(dict(id=it["id"], section=it["section"], skill=it["skill"], prompt=it["prompt"], first=first, final=final,
-                         called=obj["tool"] if obj else None, passed=hcheck(it, final)))
+                         called=obj["tool"] if obj else None, passed=hcheck(it, final, obj["tool"] if obj else None)))
     peak = torch.cuda.max_memory_allocated() / 2 ** 20
     os.makedirs(OUT, exist_ok=True)
     json.dump(dict(name=name, model=path, sha256=h, peak_gpu_mib=round(peak), rows=rows),
@@ -170,7 +176,7 @@ def report(names):
     L += ["", "Tool use on part B store items (the fact is only in the notes store): how many times the model searched the notes",
           "", "| | " + " | ".join(names) + " |", "|---|" + "---|" * len(names)]
     ids = [it["id"] for it in items if it["section"] == "B" and it["skill"] == "store"]
-    L.append("| searched, of 15 | " + " | ".join(str(sum(r["called"] == "notes" for r in data[n]["rows"] if r["id"] in ids)) for n in names) + " |")
+    L.append("| searched, of " + str(len(ids)) + " | " + " | ".join(str(sum(r["called"] == "notes" for r in data[n]["rows"] if r["id"] in ids)) for n in names) + " |")
     L += ["", "Peak GPU memory while scoring: " + ", ".join(f"{n} {data[n]['peak_gpu_mib']} MiB" for n in names)]
     txt = "\n".join(L)
     print(txt)

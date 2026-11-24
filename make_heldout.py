@@ -222,7 +222,7 @@ for p, a in [("What is the capital city of France?", ["paris"]), ("What do bees 
 if __name__ == "__main__":
     from heldout import hcheck
     assert len(I) == 150 and len({x["prompt"] for x in I}) == 150 and len({x["id"] for x in I}) == 150, len(I)
-    bad = [x["id"] for x in I if not hcheck(x, x["good"])] + ["!" + x["id"] for x in I if hcheck(x, x["bad"])]
+    bad = [x["id"] for x in I if not hcheck(x, x["good"], "")] + ["!" + x["id"] for x in I if hcheck(x, x["bad"], "")]
     assert not bad, bad
     if os.path.exists(PATH):
         sys.exit("data/heldout.json already exists. It is frozen and will not be overwritten.")

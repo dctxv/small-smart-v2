@@ -1,6 +1,6 @@
 # Before this folder goes public
 
-Nothing has been pushed anywhere and no git repository has been created. This file is a checklist.
+This file is a checklist of what stays out of a public copy. `make_publish.py` builds the public-ready folders in `publish/` from these rules and `factory/check_publish.py` scans them. Nothing is pushed by either script.
 
 ## Do not publish
 
@@ -12,18 +12,23 @@ Nothing has been pushed anywhere and no git repository has been created. This fi
 | `data/raw/teacher/` | 8 MB | Decided: left out. The licence is fine (qwen3, Apache 2.0, checked with `ollama show --license`), but the facts were never checked and the files do not record which model wrote each conversation. |
 | `data/raw/job/`, `data/raw/synth/` | 716 MB | Generated here and yours to publish, but large and reproducible from `gen_job.py`, `gen_job_extra.py` and `synth_instructions.py`. |
 | `data/tok/` | 1.4 GB | Tokenised copies of all of the above, third-party data included. |
-| `logs/`, `runs_*.log` | 2.5 MB | Five logs hold `C:\Users\...` paths; `pull.log` is download noise; `pause_q4big.ps1` is a local helper. |
+| `logs/`, `runs_*.log` | 2.5 MB | Five logs hold paths inside the Windows user folder; `pull.log` is download noise; `pause_q4big.ps1` is a local helper. |
 | `__pycache__/` | - | Build leftovers. |
+| `data/raw/v2/` | 2 MB | Teacher rewordings and teacher-written notes for v2. Same decision as the other teacher data: left out. `gen_v2.py` is published. |
+| `final_v2/control-v2.pt` | 84 MB | The v2 control checkpoint. Kept locally for the record; the v1 control was not released either. |
+| `factory/work/` | about 880 MB | Generated PII practice data, teacher-worded carrier texts, runs and logs. The generator is published instead. |
+| `factory/results/pii/dev.json`, `dev_r1.json` and the per-item rows of the dev results | 2 MB | Generated data with teacher wording. The scores are published without the rows. |
+| `REPORT.md`, `make_publish.py`, `publish/` | - | Local working files. |
 
 ## Publish, but not inside git
 
-- `final/small-smart-8bit.bin`, `final/small-smart-4bit.bin` and the two `.npz` files (239 MB together).
+- `final/small-smart-8bit.bin`, `final/small-smart-4bit.bin` and the two `.npz` files (239 MB together), plus `final_v2/small-smart-v2-4bit.bin` and its `.npz` (80 MB).
   GitHub warns above 50 MB per file and refuses above 100 MB. Use a release download or a model hub.
 
 ## Publish, with a note
 
-- `data/heldout.json` and `data/heldout.sha256`: publishing lets others check the result, but anyone
-  could then train on it. Suggested: publish, with the hash and a "never train on this" line.
+- `data/heldout.json`, `data/heldout2.json` and their `.sha256` files: publishing lets others check the result, but anyone
+  could then train on them. Suggested: publish, with the hash and a "never train on this" line.
 
 ## Safe to publish
 

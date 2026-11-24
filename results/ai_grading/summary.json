@@ -1,0 +1,399 @@
+{
+ "heldout": {
+  "items": 17,
+  "replies": 59,
+  "agree": 59,
+  "unclear": 0,
+  "headline_items": 130,
+  "models": {
+   "twin": {
+    "auto_headline": 26,
+    "graded_headline": 25,
+    "lost": [
+     "A07"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      6,
+      5
+     ],
+     "B": [
+      4,
+      4
+     ],
+     "C": [
+      1,
+      1
+     ],
+     "D": [
+      15,
+      15
+     ]
+    }
+   },
+   "twinctl": {
+    "auto_headline": 45,
+    "graded_headline": 45,
+    "lost": [],
+    "gained": [],
+    "by_section": {
+     "A": [
+      26,
+      26
+     ],
+     "B": [
+      5,
+      5
+     ],
+     "C": [
+      1,
+      1
+     ],
+     "D": [
+      13,
+      13
+     ]
+    }
+   },
+   "ss8": {
+    "auto_headline": 50,
+    "graded_headline": 49,
+    "lost": [
+     "A05"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      33,
+      32
+     ],
+     "B": [
+      6,
+      6
+     ],
+     "C": [
+      0,
+      0
+     ],
+     "D": [
+      11,
+      11
+     ]
+    }
+   },
+   "ss4": {
+    "auto_headline": 49,
+    "graded_headline": 48,
+    "lost": [
+     "A06"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      31,
+      30
+     ],
+     "B": [
+      6,
+      6
+     ],
+     "C": [
+      0,
+      0
+     ],
+     "D": [
+      12,
+      12
+     ]
+    }
+   },
+   "rival8": {
+    "auto_headline": 47,
+    "graded_headline": 45,
+    "lost": [
+     "A05",
+     "A06"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      29,
+      27
+     ],
+     "B": [
+      3,
+      3
+     ],
+     "C": [
+      0,
+      0
+     ],
+     "D": [
+      15,
+      15
+     ]
+    }
+   },
+   "v2_ctl": {
+    "auto_headline": 74,
+    "graded_headline": 74,
+    "lost": [],
+    "gained": [],
+    "by_section": {
+     "A": [
+      30,
+      30
+     ],
+     "B": [
+      14,
+      14
+     ],
+     "C": [
+      14,
+      14
+     ],
+     "D": [
+      16,
+      16
+     ]
+    }
+   },
+   "v2_q4": {
+    "auto_headline": 81,
+    "graded_headline": 80,
+    "lost": [
+     "A05"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      32,
+      31
+     ],
+     "B": [
+      13,
+      13
+     ],
+     "C": [
+      21,
+      21
+     ],
+     "D": [
+      15,
+      15
+     ]
+    }
+   }
+  }
+ },
+ "heldout2": {
+  "items": 22,
+  "replies": 84,
+  "agree": 83,
+  "unclear": 1,
+  "headline_items": 140,
+  "models": {
+   "twin": {
+    "auto_headline": 27,
+    "graded_headline": 24,
+    "lost": [
+     "D21",
+     "D22",
+     "D25"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      7,
+      7
+     ],
+     "B": [
+      1,
+      1
+     ],
+     "C": [
+      0,
+      0
+     ],
+     "D": [
+      19,
+      16
+     ]
+    }
+   },
+   "twinctl": {
+    "auto_headline": 40,
+    "graded_headline": 35,
+    "lost": [
+     "C19",
+     "D21",
+     "D22",
+     "D25",
+     "D30"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      20,
+      20
+     ],
+     "B": [
+      1,
+      1
+     ],
+     "C": [
+      2,
+      1
+     ],
+     "D": [
+      17,
+      13
+     ]
+    }
+   },
+   "ss8": {
+    "auto_headline": 48,
+    "graded_headline": 46,
+    "lost": [
+     "D22",
+     "D25"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      29,
+      29
+     ],
+     "B": [
+      2,
+      2
+     ],
+     "C": [
+      1,
+      1
+     ],
+     "D": [
+      16,
+      14
+     ]
+    }
+   },
+   "ss4": {
+    "auto_headline": 44,
+    "graded_headline": 42,
+    "lost": [
+     "D21",
+     "D25"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      26,
+      26
+     ],
+     "B": [
+      1,
+      1
+     ],
+     "C": [
+      1,
+      1
+     ],
+     "D": [
+      16,
+      14
+     ]
+    }
+   },
+   "rival8": {
+    "auto_headline": 50,
+    "graded_headline": 46,
+    "lost": [
+     "D21",
+     "D22",
+     "D25",
+     "D30"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      27,
+      27
+     ],
+     "B": [
+      3,
+      3
+     ],
+     "C": [
+      1,
+      1
+     ],
+     "D": [
+      19,
+      15
+     ]
+    }
+   },
+   "v2_ctl": {
+    "auto_headline": 63,
+    "graded_headline": 59,
+    "lost": [
+     "D21",
+     "D22",
+     "D25",
+     "D30"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      23,
+      23
+     ],
+     "B": [
+      13,
+      13
+     ],
+     "C": [
+      6,
+      6
+     ],
+     "D": [
+      21,
+      17
+     ]
+    }
+   },
+   "v2_q4": {
+    "auto_headline": 74,
+    "graded_headline": 69,
+    "lost": [
+     "C05",
+     "D21",
+     "D22",
+     "D25",
+     "D30"
+    ],
+    "gained": [],
+    "by_section": {
+     "A": [
+      29,
+      29
+     ],
+     "B": [
+      14,
+      14
+     ],
+     "C": [
+      6,
+      5
+     ],
+     "D": [
+      25,
+      21
+     ]
+    }
+   }
+  }
+ }
+}

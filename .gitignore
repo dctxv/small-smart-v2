@@ -7,3 +7,8 @@ __pycache__/
 *.pyc
 final/*.bin
 final/*.npz
+final_v2/*.bin
+final_v2/*.npz
+publish/
+factory/work/
+final_v2/*.pt
